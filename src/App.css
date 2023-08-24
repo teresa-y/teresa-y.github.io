@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+/* global styling */
+h1{
+  font-family: 'Roboto Mono', monospace;
+  padding-left: 70px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* navbar styling */
+.navbar {
   display: flex;
-  flex-direction: column;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 30px 50px;
+  font-size: 20px;
+  background-color: white;
+  border-bottom: 2px solid black;
+  font-family: 'Roboto Mono', monospace;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar a {
+  text-decoration: none;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navlink-left {
+  margin-right: 40px;
+}
+
+.navlink-right {
+  margin-left: 40px;
+}
+
+/* intro styling */
+
+.intro{
+  padding: 70px 150px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.intro .top {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.intro .bottom {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+/* projects styling */
+.projects-container {
+  padding: 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-column-gap: 1rem;
+  grid-row-gap: 3rem;
+  justify-items: center;
+}
+
+/* project card styling */
+.project-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.project-img img{
+  width: 600px;
+  height: auto;
+}
+
+/* about styling */
+.about-container{
+  padding: 0px 70px;
+}
+
+/* footer styling */
+
+.footer-container {
+  padding: 30px 50px;
 }
