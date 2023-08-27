@@ -1,13 +1,15 @@
+
+
 export default function ProjectOverview(props) {
     return (
         <div className = "project-overview-container">
 
             <div className = "project-overview-pic">
-                {props.pic}
+               <img src = {props.pic} alt = {props.alt}/>
             </div>
 
             <div className = "project-overview-title">
-                {props.title}
+                <h1>{props.title}</h1>
             </div>
 
             <div className = "project-summary">
@@ -16,8 +18,7 @@ export default function ProjectOverview(props) {
                     {props.description}
                 </div>
 
-                <div>
-                    {props.info}
+                <div dangerouslySetInnerHTML={{__html: props.info}}>
                 </div>
 
             </div>

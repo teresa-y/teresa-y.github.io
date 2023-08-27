@@ -9,42 +9,46 @@ const projectData = [
         "title": "Market2U",
         "pic": market2u,
         "alt": "thumbnail of market2u project",
-        "skills": "responsive web design, ui/ux design"
+        "skills": "responsive web design, ui/ux design",
+        "url" : "/market2u"
       },
 
       {
         "title": "Vagary",
         "pic": market2u,
         "alt": "thumbnail of vagary project",
-        "skills": "ux research, ux design"
+        "skills": "ux research, ux design",
+        "url" : "/vagary"
       },
 
       {
         "title": "Toby",
         "pic": market2u,
         "alt": "thumbnail of toby project",
-        "skills": "cui design, ux design, ux research"
+        "skills": "cui design, ux design, ux research",
+        "url" : "/toby"
       },
 
-      {
-        "title": "Redesigned Internet Cookies Banner",
-        "pic": market2u,
-        "alt": "thumbnail of cookies banner project",
-        "skills": "ui/ux design"
-      },
+      // {
+      //   "title": "Redesigned Internet Cookies Banner",
+      //   "pic": market2u,
+      //   "alt": "thumbnail of cookies banner project",
+      //   "skills": "ux design"
+      // },
 
       {
         "title": "Heuristicats",
         "pic": market2u,
         "alt": "thumbnail of heuristicats project",
-        "skills": "game art, ux design"
+        "skills": "game art, educational game design",
+        "url" : "/heuristicats"
       }
 ]
 
 
 
 const projects = projectData.map(proj => (
-    <ProjectCard key = {proj.title} pic={proj.pic} alt={proj.alt} title={proj.title} skills={proj.skills}/>
+    <ProjectCard key = {proj.title} pic={proj.pic} alt={proj.alt} title={proj.title} skills={proj.skills} url = {proj.url}/>
   ));
 
 
