@@ -1,6 +1,10 @@
 import ProjectCard from "./ProjectCard"
 
 import market2u from "../images/thumbnails/market2u.png"
+import vagary from "../images/thumbnails/vagary.png"
+import toby from "../images/thumbnails/toby.png"
+import heuristicats from "../images/thumbnails/heuristicats.png"
+
 
 const projectData = [
 
@@ -9,13 +13,13 @@ const projectData = [
         "title": "Market2U",
         "pic": market2u,
         "alt": "thumbnail of market2u project",
-        "skills": "responsive web design, ui/ux design",
+        "skills": "responsive web, ux/ui design",
         "url" : "/market2u"
       },
 
       {
         "title": "Vagary",
-        "pic": market2u,
+        "pic": vagary,
         "alt": "thumbnail of vagary project",
         "skills": "ux research, ux design",
         "url" : "/vagary"
@@ -23,7 +27,7 @@ const projectData = [
 
       {
         "title": "Toby",
-        "pic": market2u,
+        "pic": toby,
         "alt": "thumbnail of toby project",
         "skills": "cui design, ux design, ux research",
         "url" : "/toby"
@@ -38,7 +42,7 @@ const projectData = [
 
       {
         "title": "Heuristicats",
-        "pic": market2u,
+        "pic": heuristicats,
         "alt": "thumbnail of heuristicats project",
         "skills": "game art, educational game design",
         "url" : "/heuristicats"

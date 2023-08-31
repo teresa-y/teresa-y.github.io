@@ -14,7 +14,7 @@ export default function ProjectOverview(props) {
 
             <div className = "project-summary">
 
-                <div>
+                <div className = "project-desc">
                     {props.description}
                 </div>
 

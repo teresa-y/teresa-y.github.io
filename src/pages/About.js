@@ -1,5 +1,5 @@
 import resume from '../resume.pdf';
-
+import me from '../images/other/me.png'
 
 export default function About(){
     return(
@@ -7,6 +7,7 @@ export default function About(){
         <h1>about</h1>
         <div className = "about-container">
             <div className = "about-img">
+                <img src={me} alt="drawing of teresa yang"></img>
 
             </div>
 
