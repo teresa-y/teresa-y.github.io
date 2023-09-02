@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 const scrollToTop = () => {
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    window.scrollTo({top: 0});
 };
 
 
@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className = "navbar">
             
             <div className = "logo">
-                <NavLink to='/'>teresa yang</NavLink>
+                <NavLink to='/' onClick={scrollToTop}>teresa yang</NavLink>
             </div>
 
             <div className = "navlinks-container">

@@ -5,7 +5,7 @@ export default function Home() {
         <>
             <div className="intro">
                 <div className = "top">hi! i'm teresa </div><br/>
-                <div className = "bottom">information systems + hci @ cmu </div>
+                <div className = "bottom">ux designer and developer | information systems + hci @ cmu </div>
             
             </div>
 

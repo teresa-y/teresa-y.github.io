@@ -5,6 +5,10 @@ h1{
 
 }
 
+h2{
+  font-family:'Roboto Mono', monospace;
+  margin-top: 50px;
+}
 
 /* navbar styling */
 .navbar {
@@ -37,7 +41,7 @@ h1{
 /* intro styling */
 
 .intro{
-  padding: 20% 10%;
+  padding: 10% 10%;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -94,11 +98,6 @@ h1{
 }
 
 /* project overview styling */
-.project-overview-container{
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 20px;
-}
 
 .project-overview-container h1{
   margin-left: 0px;
@@ -114,6 +113,24 @@ h1{
   max-width: 600px;
 }
 
+.project-overview-pic img{
+  object-fit: contain;
+  width: 100%;
+}
+
+
+/* project page styling */
+.project-page{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+
+}
+
+/* play styling */
+.play-container{
+  margin-left: 70px;
+}
 
 /* about styling */
 .about-container{
@@ -140,5 +157,28 @@ h1{
 /* footer styling */
 
 .footer-container {
+  margin-top: 80px;
   padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+
+}
+
+/* .copyright{
+  width: 500px;
+}
+
+.socmed{
+  width: 200px;
+} */
+
+.socmed a{
+  color: black;
+  padding-left: 10px;
+}
+
+.socmed a:hover{
+  color: rgb(113, 113, 113);
+  padding-left: 10px;
 }
