@@ -10,6 +10,10 @@ h2{
   margin-top: 50px;
 }
 
+iframe{
+  aspect-ratio: 16 / 9;
+}
+
 /* navbar styling */
 .navbar {
   display: flex;
@@ -110,7 +114,8 @@ h2{
 }
 
 .project-desc{
-  max-width: 600px;
+  max-width: 60%;
+  padding-right: 10px;
 }
 
 .project-overview-pic img{
@@ -125,6 +130,25 @@ h2{
   margin-right: 15%;
   margin-top: 20px;
 
+}
+
+.project-page img{
+  width: 100%;
+  /* object-fit: contain; */
+}
+
+
+/* market2u specific */
+.personas{
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.personas img{
+  width: 50%;
 }
 
 /* play styling */

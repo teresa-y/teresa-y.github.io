@@ -29,7 +29,7 @@ const projectData = [
         "title": "Toby",
         "pic": toby,
         "alt": "thumbnail of toby project",
-        "skills": "cui design, ux design, ux research",
+        "skills": "cui design, ux design",
         "url" : "/toby"
       },
 

@@ -10,6 +10,7 @@ export default function Vagary() {
                 title="Vagary" 
                 description="A travel planning application to help travelers accommodate for unexpected situations as well as add some spontaneity in their trips.                " 
                 info = "<strong>Role:</strong> UX Design, UX Research<br/> <strong>Timeline:</strong> Fall 2022, 12 weeks<br/> <strong>Team:</strong> Yifei Chen, Jessica Lai, Stephen Tao<br/><strong>Tools:</strong> Figma, Miro"/>
+            
             <h2>Overview</h2>
             <p>Trip planning can be a stressful and arduous process, and even with the most experienced of planners, 
                 unforeseen circumstances may still arise. As risk-taking and spontaneity are a natural part of the travel process, 
@@ -25,16 +26,19 @@ export default function Vagary() {
                 <p>"Compromises come from <strong>companions, language barriers, safety issues, and luck</strong>, which adds more time and effort into the decision making process."</p>
                 <p>"Spontaneity is less stressful because <strong>planning can be too much</strong>, planning is just to not waste time and the unexpected is inevitable"</p>
                 <p>"I think a <strong>general structure and outline of a travel plan is still needed</strong> but could leave out space and time for free exploration."</p>
+            
+            
             <h2>Interpreting our Findings</h2>
             <p>Following these interview sessions, we built several models to analyze and synthesize our findings, which included an 
                 affinity diagram, an empathy map, and a customer journey map.</p>
-                <strong>Key Insights:</strong>
+            <h2>Insights</h2>
                 <ul>
                     <li>Small-scale spontaneity with a loose-structured plan is preferred by participants.</li>
                     <li>The main hesitancy against spontaneous travel is the perception of induced risks in safety, time, and budget.</li>
                     <li>The main drive for spontaneous travel is internal: freedom, relaxation, excitement and the unexpected reward afterwards.</li>
                     <li>Users decide to make a spontaneous decision by weighting the different factors involved to create a rough idea of the benefits and potential risks.</li>
                 </ul>
+
             <h2>Idea Generation and Validation</h2>
             <p>With the insights we gained from our data models, my team and I generated product ideas through the Crazy 8’s exercise– we 
                 each sketched out 8 ideas in 8 minutes total. </p>

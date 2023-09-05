@@ -7,9 +7,9 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export default function Footer(){
     return(
         <div className = "footer-container">
-            
+
             <div className = "copyright">
-                &copy; Coded with React by Teresa Yang. Last updated August 2023.
+                &copy; Coded with React by Teresa Yang.
             </div>
 
             <div className = "socmed">
