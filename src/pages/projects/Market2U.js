@@ -54,7 +54,7 @@ export default function Market2U(props) {
                 and we conducted a speed dating exercise with potential customers to validate that our ideas actually met user needs. </p>
 
             <img src = {storyboard} alt = "two of the storyboards created"></img>
-            
+
                <p> From the speed dating exercise, we noted that “bundles” didn’t necessarily have to just be food and their complements, but could also 
                 include recipes to build a more community-like aspect to our product.</p> 
 
@@ -74,6 +74,7 @@ export default function Market2U(props) {
 
             <h2>Iterations</h2>
             <h2>Solution</h2>
+            {/* put gifs here */}
             <h2>Reflection</h2>
             <p>Through this project, I learned a lot about thinking about when a user would use what kind of device as a means to pursue a specific action. 
                 For example, I initially thought maybe a recipe description would be best on a laptop, but as we iterated through our prototypes, 
