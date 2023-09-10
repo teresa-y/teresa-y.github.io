@@ -184,6 +184,28 @@ iframe{
   width: 50%;
 }
 
+/* vagary specific */
+.synthesis, .crazy8, .storyboards {
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.synthesis img{
+  width: 50%;
+}
+
+.crazy8 img{
+  width: 50%;
+}
+
+.storyboards img{
+  width: 50%;
+}
+
+
 /* play styling */
 .play-container{
   margin-left: 70px;

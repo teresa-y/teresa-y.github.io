@@ -1,6 +1,21 @@
 import ProjectOverview from "../../components/ProjectOverview"
 import vagary from "../../images/thumbnails/vagary.png"
 
+import affinitydiagram from "../../images/vagary/affinitydiagram.png"
+import empathymap from "../../images/vagary/empathymap.png"
+import journeymap from "../../images/vagary/journeymap.png"
+
+import crazy8teresa from "../../images/vagary/crazy8teresa.png"
+import crazy8yifei from "../../images/vagary/crazy8yifei.jpg"
+import crazy8jessica from "../../images/vagary/crazy8jessica.png"
+
+import storyboardteresa from "../../images/vagary/storyboardteresa.png"
+import storyboardstephen from "../../images/vagary/storyboardstephen.png"
+import storyboardyifei from "../../images/vagary/storyboardyifei.jpg"
+import storyboardjessica from "../../images/vagary/storyboardjessica.jpg"
+
+import prototype from "../../images/vagary/prototype.png"
+
 
 export default function Vagary() {
     return (
@@ -29,11 +44,20 @@ export default function Vagary() {
             
             
             <h2>Interpreting our Findings</h2>
-            <p>Following these interview sessions, we built several models to analyze and synthesize our findings, which included an 
-                affinity diagram, an empathy map, and a customer journey map.</p>
+                <p>Following these interview sessions, we built several models to analyze and synthesize our findings, which included an 
+                    affinity diagram, an empathy map, and a customer journey map.</p>
+
+                <div className = "synthesis">
+
+                    <img src={affinitydiagram} alt = "affinity diagram"/>
+                    <img src={journeymap} alt = "customer journey map"/>
+                    <img src={empathymap} alt = "empathy map"/>
+
+                 </div>
+
             <h2>Insights</h2>
                 <ul>
-                    <li>Small-scale spontaneity with a loose-structured plan is preferred by participants.</li>
+                    <li>Participants prefer small-scale spontaneity with a loose-structured plan when travelling.</li>
                     <li>The main hesitancy against spontaneous travel is the perception of induced risks in safety, time, and budget.</li>
                     <li>The main drive for spontaneous travel is internal: freedom, relaxation, excitement and the unexpected reward afterwards.</li>
                     <li>Users decide to make a spontaneous decision by weighting the different factors involved to create a rough idea of the benefits and potential risks.</li>
@@ -42,18 +66,36 @@ export default function Vagary() {
             <h2>Idea Generation and Validation</h2>
             <p>With the insights we gained from our data models, my team and I generated product ideas through the Crazy 8’s exercise– we 
                 each sketched out 8 ideas in 8 minutes total. </p>
+                <div className="crazy8">
+                <img src={crazy8yifei} alt = "crazy 8 exercise"/>
+                <img src={crazy8jessica} alt = "crazy 8 exercise"/>
+
+                    <img src={crazy8teresa} alt = "crazy 8 exercise"/>
+
+
+                </div>
             <p>We discussed our ideas and what kinds of user needs they met, and we narrowed them down to the following:
 </p>    
             <ul>
+                <li>Flexibility for change for unexpected circumstances</li>
                 <li>Having access to risk safety information and resources</li>
                 <li>Having activities that are compatible with traveling companions to minimize conflict</li>
-                <li>Flexibility for change for unexpected circumstances</li>
                 <li>Leaving space for unknown and unexpected encounters</li>
             </ul>
 
-            <p>We sketched out 3 user needs for each storyboard and conducted speed dating sessions with college students 
+            <p>We sketched out these user needs through storyboards and conducted speed dating sessions with college students 
                 to see which storyboards resonated with them the most and to validate our ideas. 
                 We wanted to discover what features would be most valuable for travel planning.</p>
+
+                <div className = "storyboards">
+
+                    <img src={storyboardteresa} alt = "storyboard of flexibility of change"/>
+                    <img src={storyboardstephen} alt = "storyboard of having access to risk safety information"/>
+                    <img src={storyboardyifei} alt = "storyboard of having compatible activites"/>
+                    <img src={storyboardjessica} alt = "storyboard of leaving space for the unknown"/>
+
+                </div>
+
             <p>Key findings from speed dating:</p>
             <ul>
                 <li>Participants preferred an idea of trust from real users as opposed to arbitrary/mechanical number</li>
@@ -66,6 +108,9 @@ export default function Vagary() {
             <p>From our insights, we designed a lo-fi prototype, focusing on creating an 
                 application that catered to the desire for flexibility for spontaneity and 
                 adaptation to unexpected circumstances.</p>
+            
+            <img src={prototype} alt = "key aspects of lofi prototype"/>
+
         </div>
 
     )
