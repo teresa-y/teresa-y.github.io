@@ -83,7 +83,7 @@ export default function Market2U(props) {
 
             
             <h2>Solution</h2>
-            <div>
+            {/* <div>
                 <p><strong>Customer Screens</strong></p>
                 <iframe title="customer screens desktop" width="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDKSuNSq0XgwUoTQBh6mOCB%2FResponsive-Web%3Ftype%3Ddesign%26node-id%3D493-1386%26t%3DCqgqLxmB5tMyLiRI-1%26scaling%3Dscale-down%26page-id%3D418%253A1079%26starting-point-node-id%3D493%253A1386%26mode%3Ddesign" allowfullscreen></iframe>
                 <iframe title="customer screens mobile" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDKSuNSq0XgwUoTQBh6mOCB%2FResponsive-Web%3Ftype%3Ddesign%26node-id%3D493-4004%26t%3DHA729Gbbu8Q9CdGZ-1%26scaling%3Dscale-down%26page-id%3D418%253A1078%26starting-point-node-id%3D493%253A4004%26mode%3Ddesign" allowfullscreen></iframe>           
@@ -95,7 +95,7 @@ export default function Market2U(props) {
             <div>
                 <p><strong>Business Owner Screens</strong></p>
                 <iframe title="business owner screens" width="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDKSuNSq0XgwUoTQBh6mOCB%2FResponsive-Web%3Ftype%3Ddesign%26node-id%3D493-3371%26t%3DcuGvKxKM4HAGxxFw-1%26scaling%3Dscale-down%26page-id%3D418%253A1079%26starting-point-node-id%3D493%253A3371%26mode%3Ddesign" allowfullscreen></iframe>
-            </div>
+            </div> */}
             {/* put gifs here */}
             <h2>Reflection</h2>
             <p>This being the first time I was learning to apply responsive web design, I learned a lot about thinking about when a user would use what kind of device as a means to pursue a specific action. 
