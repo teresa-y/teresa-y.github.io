@@ -11,6 +11,13 @@ import styleguide from "../../images/market2u/styleguide.png"
 import customeriterations from "../../images/market2u/customeriterations.png"
 import serviceprovideriterations from "../../images/market2u/serviceprovideriterations.png"
 import businessowneriterations from "../../images/market2u/businessowneriterations.png"
+import customerphone1 from "../../images/market2u/customerphone1.gif"
+import customerphone2 from "../../images/market2u/customerphone2.gif"
+import serviceprovidergif from "../../images/market2u/serviceprovider.gif"
+import ownerweb from "../../images/market2u/ownerweb.gif"
+import customerweb from "../../images/market2u/customerweb.gif"
+
+
 
 
 
@@ -82,21 +89,23 @@ export default function Market2U(props) {
             <img src = {businessowneriterations} alt = "iteration on business owner screens to focus on statistics"></img>
 
             
-            <h2>Solution</h2>
-            {/* <div>
+            <h2>Final Prototypes</h2>
+            <div className = "final-prototypes">
+            <div>
                 <p><strong>Customer Screens</strong></p>
-                <iframe title="customer screens desktop" width="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDKSuNSq0XgwUoTQBh6mOCB%2FResponsive-Web%3Ftype%3Ddesign%26node-id%3D493-1386%26t%3DCqgqLxmB5tMyLiRI-1%26scaling%3Dscale-down%26page-id%3D418%253A1079%26starting-point-node-id%3D493%253A1386%26mode%3Ddesign" allowfullscreen></iframe>
-                <iframe title="customer screens mobile" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDKSuNSq0XgwUoTQBh6mOCB%2FResponsive-Web%3Ftype%3Ddesign%26node-id%3D493-4004%26t%3DHA729Gbbu8Q9CdGZ-1%26scaling%3Dscale-down%26page-id%3D418%253A1078%26starting-point-node-id%3D493%253A4004%26mode%3Ddesign" allowfullscreen></iframe>           
+                <img className = "phone" src = {customerphone1} alt = "gif of customer owner phone screens"></img>
+                <img className = "phone" src = {customerphone2} alt = "gif of customer owner phone screens with recipe flow"/>
+                <img className = "desktop" src = {customerweb} alt = "gif of customer screen desktop view"></img>
             </div>
             <div>
                 <p><strong>Service Provider Screens</strong></p>
-                <iframe title="service provider screens" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDKSuNSq0XgwUoTQBh6mOCB%2FResponsive-Web%3Ftype%3Ddesign%26node-id%3D621-6995%26t%3DpbvpB38wVUuaWlx9-1%26scaling%3Dscale-down%26page-id%3D621%253A6720%26starting-point-node-id%3D621%253A7065%26mode%3Ddesign" allowfullscreen></iframe>
+                <img className = "phone" src = {serviceprovidergif} alt = "gif of service provider screens"></img>
             </div>
             <div>
                 <p><strong>Business Owner Screens</strong></p>
-                <iframe title="business owner screens" width="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDKSuNSq0XgwUoTQBh6mOCB%2FResponsive-Web%3Ftype%3Ddesign%26node-id%3D493-3371%26t%3DcuGvKxKM4HAGxxFw-1%26scaling%3Dscale-down%26page-id%3D418%253A1079%26starting-point-node-id%3D493%253A3371%26mode%3Ddesign" allowfullscreen></iframe>
-            </div> */}
-            {/* put gifs here */}
+                <img className = "desktop" src = {ownerweb} alt = "gif of business owner screens"></img>
+            </div>
+            </div>
             <h2>Reflection</h2>
             <p>This being the first time I was learning to apply responsive web design, I learned a lot about thinking about when a user would use what kind of device as a means to pursue a specific action. 
                 For example, I initially thought maybe a recipe description would be best on a laptop, but as we iterated through our prototypes, 

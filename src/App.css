@@ -127,6 +127,10 @@ iframe{
   .project-img img{
     max-width: 18em;
   }
+
+  .project-skills{
+    font-size: 13px;
+  }
 }
 
 
@@ -184,6 +188,29 @@ iframe{
   width: 50%;
 }
 
+.final-prototypes .desktop {
+  width: 50%;
+  padding: 0.5em;
+}
+
+.final-prototypes .phone {
+  width: 20%;
+  padding: 0.5em;
+}
+
+@media only screen and (max-width: 48em){
+  .final-prototypes .desktop {
+    width: 100%;
+    height: auto;
+  }
+
+  .final-prototypes .phone {
+    width: 100%;
+  }
+}
+
+
+
 /* vagary specific */
 .synthesis, .crazy8, .storyboards {
   display: flex;
@@ -231,6 +258,17 @@ iframe{
 .about-container img{
   height: 400px;
   width: auto;
+}
+
+@media only screen and (max-width: 48em){
+  .about-container img{
+    width: 100%;
+    height: auto;
+  }
+
+  .about-bio{
+    margin-left: 0px;
+  }
 }
 
 /* footer styling */
