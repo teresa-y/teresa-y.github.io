@@ -3,7 +3,7 @@ import market2u from "../../images/thumbnails/market2u.png"
 
 import businessowner from "../../images/market2u/businessowner.png"
 import customer from "../../images/market2u/customer.png"
-import scenarios from "../../images/market2u/scenarios.png"
+import userflow from "../../images/market2u/userflow.png"
 import screenmap from "../../images/market2u/screenmap.png"
 import serviceprovider from "../../images/market2u/serviceprovider.png"
 import storyboard from "../../images/market2u/storyboard.png"
@@ -28,14 +28,16 @@ export default function Market2U(props) {
             <ProjectOverview key = "Market2U" 
                             pic={market2u} 
                             title="Market2U" 
-                            description="Market2U is a grocery shopping and delivery application that provides small local business owners access to a greater number of customers and provides customers that can’t leave their homes access to fresh food from local stores. " 
+                            description="Market2U is a grocery shopping and delivery application that empowers local businesses by connecting them to a wider customer base while offering customers that can’t leave their homes access to fresh food directly from local stores. Designed for the Interaction Design Studio course with an emphasis on responsive web design. 
+                            " 
                             info = "<strong>Role:</strong> UX/UI Design, Research <br/> <strong>Timeline:</strong> Fall 2022, 4 weeks<br/> <strong>Team:</strong> Ankitha Vasudev, Alice Nie, Parvathy Anand<br/><strong>Tools:</strong> Figma"/>
 
-            <h2>Overview</h2>
-            <p>For Interaction Design Studio, we were tasked to create a responsive web design for a grocery store application for 
-                customers who cannot leave their homes. With the goal of providing a new grocery experience for shoppers as well as 
-                increasing business sales, my team and I designed a cross-platform grocery shopping application that allows customers to 
-                discover new recipes and buy their groceries in “bundles.”</p>
+            <h2>Problem</h2>
+            <p>The rise of global e-commerce giants has dominated the online marketplace, often sidelining local grocery businesses. 
+                These smaller local businesses offer unique products and fresher food alternatives, which fosters community growth. 
+                Moreover, many people, due to various reasons such as age, disabilities, or health concerns, cannot leave their homes 
+                but still require access to fresh food. While delivery apps exist, current grocery applications don’t take into account 
+                local markets, and thus homebound individuals are unable to access their products.</p>
             
             <h2>Research</h2>
             <p>We did a combination of primary and secondary research on three stakeholders– the customer, the service provider, and 
@@ -53,33 +55,37 @@ export default function Market2U(props) {
 
             </div>
 
-            <h2>Scenarios</h2>
-            <p>As we gained insights on user needs and pain points, each team member created hypothetical scenarios for each of the stakeholders. 
-                After we finished, we voted on which scenarios would add the most value to our designs. As we ideated scenarios and 
-                empathized with the users, we considered more deeply about what sort of screens would be most valuable to them.</p>
-            
-            <img src = {scenarios} alt = "screenshot of brainstormed scenarios"></img>
-
             <h2>Validating our Ideas</h2>
-            <p>To brainstorm ideas and how it could affect the customer’s end-to-end experience, we created storyboards and user flow sketches, 
-                and we conducted a speed dating exercise with potential customers to validate that our ideas actually met user needs. </p>
+            <p>We developed storyboards to brainstorm and visualize ideas. One idea was about "bundles," which would contain multiple items that, 
+                when combined, could create a complete dish. We used these storyboards in a 'speed dating' exercise with potential 
+                customers to help us gauge if any of our ideas resonated with our users. Our aim was to make shopping decisions easier for 
+                customers and also offer a platform for business owners to showcase their products.</p>
 
-            <img src = {storyboard} alt = "two of the storyboards created"></img>
+            <img src = {storyboard} alt = "one of the storyboards created with the concept of bundles"></img>
 
-               <p> From the speed dating exercise, we noted that “bundles” didn’t necessarily have to just be food and their complements, but could also 
-                include recipes to build a more community-like aspect to our product.</p> 
+               <p> Participants responded positively to the bundle concept. They particularly liked the idea of specialized bundles such as a 
+                "get well soon" pack for the sick and elderly. We also realized that our bundles could go beyond just food items. 
+                For example, including recipes would not only provide added value but also foster a sense of community among our users. </p> 
+
+                <p>With the idea of "bundles" in mind, we developed a user flow diagram to visualize how each stakeholder would interact with the app</p>
+
+                <img src = {userflow} alt = "user flow diagram for the customer, service provider, and business owner"></img>
 
             <h2>Screen Maps</h2>   
-            <p>Before jumping into the actual designs, we needed to think about what device each stakeholder would be using the most frequently. <br/><br/>
-                We ideated screens for all three stakeholders. For the customer, we created both mobile and desktop screens for as many customers 
-                use a combination of both devices when ordering groceries. The service provider (delivery man) is usually on the go, so we only 
-                created mobile screens for them. Because the business owner is mainly concerned with data and analytics of the store, we created 
-                desktop screens for them as there would be a large amount of information at once. </p>
+            <p>We ideated screens specific to each of the three key stakeholders.</p>
+            <p>For the <strong>customer</strong>, understanding that many often switch between devices when ordering groceries, we designed an integrated experience across both mobile and desktop platforms.</p>
+            <p>For the <strong>service provider</strong>, given their on-the-move nature, we used a mobile-first approach, crafting screens optimized for quick access and ease of use while on the go.</p>
+            <p>For the <strong>business owner</strong>, who primarily focuses on in-depth data and store analytics, we designed comprehensive desktop screens. These screens present large volumes of data in a cohesive and digestible manner.</p>
             
                 <img src = {screenmap} alt = "screenmap ideation"></img>
 
 
             <h2>Style Guide</h2>
+            <p>We chose a color palette of greens, pinks, and yellows—colors synonymous with health and positivity. 
+                We picked colors of varying values for contrast. We used the easily readable sans serif 'Inter' 
+                font for both headers and body text. To contrast this, our logo and brand name use a bold serif font. 
+                To highlight headers and price tags, we adjusted their color, size, and boldness for better user navigation 
+                and section differentiation.</p>
 
             <img src = {styleguide} alt = "style guide"></img>
 

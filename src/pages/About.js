@@ -16,9 +16,9 @@ export default function About(){
             Human-Computer Interaction. My goal is to deliver meaningful and immersive experiences, whether 
             that be through whether it be through designing interactions, building digital spaces, or illustration.<br/><br/>
             
-            In my free time, I love drawing and playing mobile games.<br/><br/>
+            In my free time, I love drawing, watching cat videos, and playing games.<br/><br/>
             
-            Let’s connect! Feel free to contact me at tyy@andrew.cmu.edu<br/><br/>
+            Let’s connect! Feel free to contact me at tyang218@gmail.com<br/><br/>
 
             <a href={resume} target = "_blank" rel="noreferrer">Resume</a>
             </div>
