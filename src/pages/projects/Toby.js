@@ -15,7 +15,7 @@ export default function Toby() {
             </p>
 
         <h2>Solution</h2>
-        <p>As a means to provide support during this stressful and busy process, my team and I designed TOBY, a CUI that can help record patient information and symptoms to free the hands of and allow the EMT to simultaneously performs patient examinations</p>
+        <p>To provide support during this stressful process, my team and I designed TOBY, a CUI that records patient details and symptoms, freeing EMTs to perform examinations simultaneously.</p>
         
         <h2>Pitch Presentation</h2>
         <p>Below is our team's pitch presentation for TOBY.</p>

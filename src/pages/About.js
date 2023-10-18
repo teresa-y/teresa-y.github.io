@@ -16,7 +16,7 @@ export default function About(){
             Human-Computer Interaction. My goal is to deliver meaningful and immersive experiences, whether 
             that be through whether it be through designing interactions, building digital spaces, or illustration.<br/><br/>
             
-            In my free time, I love drawing, watching cat videos, and playing games.<br/><br/>
+            In my free time, I love drawing, watching cat videos, and playing digital games. Currently playing AI: The Somnium Files!<br/><br/>
             
             Let’s connect! Feel free to contact me at tyang218@gmail.com<br/><br/>
 
