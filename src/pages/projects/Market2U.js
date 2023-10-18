@@ -130,12 +130,12 @@ export default function Market2U(props) {
 
                 </div>
                 <div className = "flow-images phone">
-                    <img src = {customerhomephone} alt = "customer home screen"></img>
-                    <img src = {customerbundlesphone} alt = "customer bundles screen"></img>
-                    <img src = {customerbundledetailsphone} alt = "customer bundle details screen"></img>
-                    <img src = {customercartphone} alt = "customer cart phone screen"></img>
-                    <img src = {customerrecipephone} alt = "customer recipe phone screen"></img>
-                    <img src = {customerrecipedetailsphone} alt = "customer recipe details phone"></img>
+                    <img className="phone" src = {customerhomephone} alt = "customer home screen"></img>
+                    <img className="phone" src = {customerbundlesphone} alt = "customer bundles screen"></img>
+                    <img className="phone" src = {customerbundledetailsphone} alt = "customer bundle details screen"></img>
+                    <img className="phone" src = {customercartphone} alt = "customer cart phone screen"></img>
+                    <img className="phone" src = {customerrecipephone} alt = "customer recipe phone screen"></img>
+                    <img className="phone" src = {customerrecipedetailsphone} alt = "customer recipe details phone"></img>
 
                 </div>
 
@@ -146,10 +146,10 @@ export default function Market2U(props) {
                 <p>The service provider receives alerts for new orders, see the route guide and destination, view the order status and details, and chat with the customer</p>
                 </div>
                 <div className = "flow-images">
-                    <img src = {sphome} alt = "service provider home screen"/>
-                    <img src = {sporderstatus} alt = "service provider order status screen"/>
-                    <img src = {sporderstatus2} alt = "service provider other order status screen"/>
-                    <img src = {splivechat} alt = "service provider live chat screen"/>
+                    <img className="phone" src = {sphome} alt = "service provider home screen"/>
+                    <img className="phone" src = {sporderstatus} alt = "service provider order status screen"/>
+                    <img className="phone" src = {sporderstatus2} alt = "service provider other order status screen"/>
+                    <img className="phone" src = {splivechat} alt = "service provider live chat screen"/>
 
 
                 </div>
@@ -162,14 +162,14 @@ export default function Market2U(props) {
 
                 </div>
                 <div className = "flow-images">
+
                     <img src = {bizhome} alt = "business owner home screen"></img>
                     <img src = {bizbundlecreator} alt = "business owner bundle creator screen"/>
                     <img src = {bizanalytics} alt = "business owner analytics screen"/>
                     <img src = {bizactiveorders} alt = "business owner active orders screen"/>
                     <img src = {bizactivebundles} alt = "business owner active bundles screen"/>
 
-                    
-                    </div>
+                </div>
     
                 
             </div>
