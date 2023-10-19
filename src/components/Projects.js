@@ -13,7 +13,7 @@ const projectData = [
         "title": "Market2U",
         "pic": market2u,
         "alt": "thumbnail of market2u project",
-        "skills": "responsive web, ux/ui design",
+        "skills": "responsive design, ux/ui design",
         "url" : "/market2u"
       },
 

@@ -183,8 +183,22 @@ export default function Market2U(props) {
             
             <h2>Final Prototypes</h2>
             <div className = "final-prototypes">
+            <div>
+                <p><strong>Customer Screens</strong></p>
+                <img className = "phone" src = {customerphone1} alt = "gif of customer owner phone screens"></img>
+                <img className = "phone" src = {customerphone2} alt = "gif of customer owner phone screens with recipe flow"/>
+                <img className = "desktop" src = {customerweb} alt = "gif of customer screen desktop view"></img>
             </div>
-            <h2>Reflection</h2>
+            <div>
+                <p><strong>Service Provider Screens</strong></p>
+                <img className = "phone" src = {serviceprovidergif} alt = "gif of service provider screens"></img>
+            </div>
+            <div>
+                <p><strong>Business Owner Screens</strong></p>
+                <img className = "desktop" src = {ownerweb} alt = "gif of business owner screens"></img>
+            </div>
+            </div>
+            <h2>Takeaways</h2>
             <h3>Stay Focused</h3>
             <p>As we iterated through our designs, we often had to remind ourselves to focus on our pain point, as it was 
                 tempting to try to address every user need out there. For future projects, I would create a hypothesis at the 
