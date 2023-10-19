@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.88338793.css",
-    "main.js": "/static/js/main.0692620d.js",
+    "main.js": "/static/js/main.db9d094e.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/customerweb.gif": "/static/media/customerweb.86604787acb8686b0164.gif",
     "static/media/customerphone2.gif": "/static/media/customerphone2.9987aa554fc342aa43a0.gif",
@@ -43,7 +43,7 @@
     "static/media/me.gif": "/static/media/me.b7dab08acb43abafd029.gif",
     "static/media/bizactiveorders.png": "/static/media/bizactiveorders.91ef7e2042903de18415.png",
     "static/media/customerbundlesphone.png": "/static/media/customerbundlesphone.cfff14bc81789ee811e5.png",
-    "static/media/resume.pdf": "/static/media/resume.fb0f7ba94cde88650b72.pdf",
+    "static/media/resume.pdf": "/static/media/resume.722828146b603ad80b08.pdf",
     "static/media/splivechat.png": "/static/media/splivechat.6566489497da099d69fe.png",
     "static/media/sporderstatus.png": "/static/media/sporderstatus.0388230d31dfd11418ef.png",
     "static/media/customerbundledetailsphone.png": "/static/media/customerbundledetailsphone.971892cd27338c6e28c6.png",
@@ -58,11 +58,11 @@
     "static/media/sphome.png": "/static/media/sphome.8132c3e917f3807b58af.png",
     "index.html": "/index.html",
     "main.88338793.css.map": "/static/css/main.88338793.css.map",
-    "main.0692620d.js.map": "/static/js/main.0692620d.js.map",
+    "main.db9d094e.js.map": "/static/js/main.db9d094e.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88338793.css",
-    "static/js/main.0692620d.js"
+    "static/js/main.db9d094e.js"
   ]
 }
