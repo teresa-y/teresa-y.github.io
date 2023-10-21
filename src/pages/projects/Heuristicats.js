@@ -11,7 +11,7 @@ export default function Heuristicats() {
             info = "<strong>Role:</strong> 2D Art & Animation<br/> <strong>Timeline:</strong> Spring 2023, 6 weeks<br/> <strong>Team:</strong> Jeremia Lo, Adrian Ma, Nellie Tonev<br/><strong>Tools:</strong> Procreate, Figma"/>
 
         <div>
-            <a href = "https://adrianma.itch.io/heuristicats">Link to Game</a>
+            <a href = "https://adrianma.itch.io/heuristicats" target = "_blank" rel="noreferrer">Link to Game</a>
         </div>
 
         </div>

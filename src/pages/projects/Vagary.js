@@ -16,6 +16,17 @@ import storyboardjessica from "../../images/vagary/storyboardjessica.jpg"
 
 import prototype from "../../images/vagary/prototype.png"
 
+import newplan from "../../images/vagary/newplan.png"
+import rankpriorities from "../../images/vagary/rankpriorities.png"
+import selectactivities from "../../images/vagary/selectactivities.png"
+import accomodation from "../../images/vagary/accomodation.png"
+import transportation from "../../images/vagary/transportation.png"
+import calview1 from "../../images/vagary/calview1.png"
+import calview2 from "../../images/vagary/calview2.png"
+import calview3 from "../../images/vagary/calview3.png"
+import listview from "../../images/vagary/listview.png"
+
+
 
 export default function Vagary() {
     return (
@@ -104,14 +115,36 @@ export default function Vagary() {
                 <li>A platform for suggested activities filtered by area and/or priorities of the user would be useful to help with exploring the area.</li>
             </ul>
 
-            <h2>Prototype</h2>
-            <p>From our insights, we designed a lo-fi prototype, focusing on creating an 
-                application that catered to the desire for flexibility for spontaneity and 
-                adaptation to unexpected circumstances.</p>
-            
-            <img src={prototype} alt = "key aspects of lofi prototype"/>
+            <div className = "vagary-final">
+                <h2>Prototype</h2>
+                <p>From our insights, we designed a lo-fi prototype, focusing on creating an 
+                    application that catered to the desire for flexibility for spontaneity and 
+                    adaptation to unexpected circumstances.</p>
+                <img src={prototype} alt = "key aspects of lofi prototype"/>
+                <div className = "flow-images">
+                        <img className="phone" src = {newplan} alt = "create new plan screen"/>
+                        <img className="phone" src = {transportation} alt = "transportation screen"/>
+                        <img className="phone" src = {accomodation} alt = "accomodation screen"/>
+                        <img className="phone" src = {rankpriorities} alt = "ranking priorities screen"/>
+                        <img className="phone" src = {selectactivities} alt = "selecting activities screen"/>
+                        <img className="phone" src = {calview1} alt = "calendar view screen - week view"/>
+                        <img className="phone" src = {calview2} alt = "calendar view screen - day view"/>
+                        <img className="phone" src = {calview3} alt = "calendar view screen - event details"/>
+                        <img className="phone" src = {listview} alt = "(home) list view screen"/>
+                </div>
+            </div>
 
-        </div>
+            <h2>Reflection</h2>
+            <p>In previous projects, I usually spent more time with design refinement over extensive research, 
+                using quick user feedback and intuition to inform my designs. However, in creating Vagary, I took a 
+                deeper dive into the research phase and employed an array of user research methods; as opposed to the past, 
+                I spent more time researching and conducting interviews than creating the visual design itself. 
+                This in-depth approach enabled me to discover specific user needs, directly shaping my design decisions 
+                and also emphasized the value in conducting thorough research to create meaningful design.
+</p>
+
+            </div>
+            
 
     )
 }

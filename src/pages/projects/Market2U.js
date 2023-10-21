@@ -40,6 +40,8 @@ import customerphone2 from "../../images/market2u/customerphone2.gif"
 import serviceprovidergif from "../../images/market2u/serviceprovider.gif"
 import ownerweb from "../../images/market2u/ownerweb.gif"
 import customerweb from "../../images/market2u/customerweb.gif"
+import customerweb2 from "../../images/market2u/customerweb2.gif"
+
 
 export default function Market2U(props) {
     return (
@@ -183,7 +185,53 @@ export default function Market2U(props) {
             
             <h2>Final Prototypes</h2>
             <div className = "final-prototypes">
-            <div>
+                <p>Market2U brings local stores right to your fingertips. The charm of your town’s farmer’s markets and mom-and-pop shops 
+                    is now accessible from the comfort of your home. Homebound customers can order specialty items or regular groceries and 
+                    know that every dollar spent supports the growth and sustainability of local businesses.</p>
+            <div className = "row">
+                <p>Food bundles provide a simplified shopping solution, eliminating the need to pick items individually and 
+                    encouraging exploration of new food combinations.</p>
+
+                <div className = "screens">
+                    <img className = "phone" src = {customerphone1} alt = "gif of customer owner phone screens"></img>
+                    <img className = "desktop" src = {customerweb} alt = "gif of customer screen desktop view"></img>
+                </div>
+
+            </div>
+
+            <div className = "row">
+                <p>Once the customer makes their order, the service provider is notified and is equipped with a detailed breakdown– 
+                    where they need to pick up groceries, which ones to pick up, and how to get there and where to drop it off. </p>
+
+                <div className = "screens">
+                    <img className = "phone" src = {serviceprovidergif} alt = "gif of service provider screens"></img>
+                </div>
+
+            </div>
+
+            <div className = "row">
+                <p>Before their next grocery purchase on Market2U, customers can explore a variety of recipes. Each recipe is paired with a 
+                    grocery bundle, allowing users to easily add all required ingredients to their cart with a single click.</p>
+
+                <div className = "screens">
+                    <img className = "phone" src = {customerphone2} alt = "gif of customer owner phone screens"></img>
+                    <img className = "desktop" src = {customerweb2} alt = "gif of customer screen desktop view"></img>
+                </div>
+            </div>
+
+            <div className = "row">
+                <p>As transactions take place, store owners can monitor popular bundles and overall sales via Market2U's analytics, 
+                    as well as create new bundles. This data-driven approach empowers local businesses to refine offerings and strategies, 
+                    ensuring they thrive in today's digital landscape.</p>
+
+                <div className = "screens">
+                    <img className = "desktop" src = {ownerweb} alt = "gif of business owner screens"></img>
+                </div>
+            </div>
+
+
+
+            {/* <div>
                 <p><strong>Customer Screens</strong></p>
                 <img className = "phone" src = {customerphone1} alt = "gif of customer owner phone screens"></img>
                 <img className = "phone" src = {customerphone2} alt = "gif of customer owner phone screens with recipe flow"/>
@@ -196,7 +244,7 @@ export default function Market2U(props) {
             <div>
                 <p><strong>Business Owner Screens</strong></p>
                 <img className = "desktop" src = {ownerweb} alt = "gif of business owner screens"></img>
-            </div>
+            </div> */}
             </div>
             <h2>Takeaways</h2>
             <h3>Stay Focused</h3>

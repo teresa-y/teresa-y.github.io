@@ -249,15 +249,24 @@ iframe{
        
 }
 
+.final-prototypes .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
 
+.final-prototypes .row p{
+  width: 30%;
+  padding-right: 20px;
+}
 
 .final-prototypes .desktop {
-  width: 50%;
+  width: 32em;
   padding: 0.5em;
 }
 
 .final-prototypes .phone {
-  width: 20%;
+  width: 10em;
   padding: 0.5em;
 }
 
@@ -269,6 +278,12 @@ iframe{
   .persona p{
     width: 100%;
   }
+
+  .final-prototypes .row p{
+    width: 100%;
+    padding-right: 0px;
+  }
+  
 
   .flow-images img{
     width: 100%;
@@ -309,6 +324,32 @@ iframe{
 
 .storyboards img{
   width: 50%;
+}
+
+.vagary-final .flow-images {
+  justify-content: center;
+}
+
+.vagary-final .flow-images img.phone{
+  width: 30%;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 48em){
+  .synthesis img{
+    width: 100%;
+  }
+  
+  .crazy8 img{
+    width: 100%;
+  }
+  
+  .storyboards img{
+    width: 100%;
+  }
+  .vagary-final .flow-images img.phone{
+    width: 100%;
+  }
 }
 
 
