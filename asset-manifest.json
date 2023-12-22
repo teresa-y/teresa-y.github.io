@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec8e8a6a.css",
-    "main.js": "/static/js/main.9edc9bc4.js",
+    "main.css": "/static/css/main.db06c9a6.css",
+    "main.js": "/static/js/main.cb424b00.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/ownerweb.gif": "/static/media/ownerweb.216eca7d3e2314abd422.gif",
     "static/media/customerphone2.gif": "/static/media/customerphone2.233a9b478ad7a8b46c48.gif",
@@ -25,10 +25,10 @@
     "static/media/storyboardyifei.jpg": "/static/media/storyboardyifei.1298e2db3cdfb29e57d6.jpg",
     "static/media/crazy8teresa.png": "/static/media/crazy8teresa.cb0182d1a7602326b946.png",
     "static/media/customerbundledetails.png": "/static/media/customerbundledetails.2ff7de4258aa33b6c965.png",
-    "static/media/market2u.png": "/static/media/market2u.a8b2a9b3caf43148e12e.png",
     "static/media/bizanalytics.png": "/static/media/bizanalytics.1742eaa2b620a9601548.png",
     "static/media/bizhome.png": "/static/media/bizhome.1172b73526a1548209ed.png",
-    "static/media/vagary.png": "/static/media/vagary.923a998023a6c8d9d6af.png",
+    "static/media/market2u.png": "/static/media/market2u.067d65c5d919b9b5a9f3.png",
+    "static/media/vagary.png": "/static/media/vagary.310b780dfb80fdcbc519.png",
     "static/media/journeymap.png": "/static/media/journeymap.52677b92ae7e356e331c.png",
     "static/media/serviceprovideriterations.png": "/static/media/serviceprovideriterations.1d1552a97edcf73b1338.png",
     "static/media/customerrecipephone.png": "/static/media/customerrecipephone.1ec15e3400ad932b2f1d.png",
@@ -44,7 +44,7 @@
     "static/media/me.gif": "/static/media/me.8eb942d778ed63d511a5.gif",
     "static/media/bizactiveorders.png": "/static/media/bizactiveorders.91ef7e2042903de18415.png",
     "static/media/customerbundlesphone.png": "/static/media/customerbundlesphone.cfff14bc81789ee811e5.png",
-    "static/media/resume.pdf": "/static/media/resume.722828146b603ad80b08.pdf",
+    "static/media/maobi.png": "/static/media/maobi.d6415e08f1e88d30b018.png",
     "static/media/splivechat.png": "/static/media/splivechat.6566489497da099d69fe.png",
     "static/media/sporderstatus.png": "/static/media/sporderstatus.0388230d31dfd11418ef.png",
     "static/media/customerbundledetailsphone.png": "/static/media/customerbundledetailsphone.971892cd27338c6e28c6.png",
@@ -56,6 +56,7 @@
     "static/media/userflow.png": "/static/media/userflow.ab2b8baa5f40ebc17078.png",
     "static/media/serviceprovider.png": "/static/media/serviceprovider.8115ccdf7309614dd6af.png",
     "static/media/listview.png": "/static/media/listview.a0b52b402a85a5f5241e.png",
+    "static/media/resume.pdf": "/static/media/resume.05afa8b735cffe291e12.pdf",
     "static/media/newplan.png": "/static/media/newplan.917300d35e7c27721ad6.png",
     "static/media/toby.png": "/static/media/toby.a01dd765d3124d6095b2.png",
     "static/media/accomodation.png": "/static/media/accomodation.144ba9e682e07b97f38c.png",
@@ -67,12 +68,12 @@
     "static/media/calview2.png": "/static/media/calview2.fee09686f6b272d1bdc5.png",
     "static/media/calview3.png": "/static/media/calview3.2a2cd3036859994bb8b8.png",
     "index.html": "/index.html",
-    "main.ec8e8a6a.css.map": "/static/css/main.ec8e8a6a.css.map",
-    "main.9edc9bc4.js.map": "/static/js/main.9edc9bc4.js.map",
+    "main.db06c9a6.css.map": "/static/css/main.db06c9a6.css.map",
+    "main.cb424b00.js.map": "/static/js/main.cb424b00.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec8e8a6a.css",
-    "static/js/main.9edc9bc4.js"
+    "static/css/main.db06c9a6.css",
+    "static/js/main.cb424b00.js"
   ]
 }
