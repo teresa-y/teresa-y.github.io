@@ -9,7 +9,8 @@ h1{
 
 h2{
   font-family:'Roboto Mono', monospace;
-  margin-top: 50px;
+  font-size: 30px;
+  margin-top: 70px;
 }
 
 h3{
@@ -121,7 +122,7 @@ iframe{
   padding: 5%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-  grid-column-gap: 1rem;
+  grid-column-gap: 2rem;
   grid-row-gap: 3rem;
   justify-items: center;
   justify-content: center;
@@ -158,6 +159,12 @@ iframe{
 @media only screen and (max-width: 48em){
   .project-img img{
     max-width: 18em;
+  }
+
+  .project-card-container{
+    max-width: 18em;
+    white-space: pre-wrap;
+    word-break: break-word;
   }
 
   .project-skills{
@@ -198,7 +205,6 @@ iframe{
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 20px;
-
 }
 
 .project-page img{
@@ -260,14 +266,19 @@ iframe{
   padding-right: 20px;
 }
 
+.screens{
+  display: flex;
+  object-fit: cover;
+}
+
 .final-prototypes .desktop {
-  width: 32em;
-  padding: 0.5em;
+  max-width: 30em;
+  padding-bottom: 0.5em;
 }
 
 .final-prototypes .phone {
-  width: 10em;
-  padding: 0.5em;
+  max-width: 9em;
+  padding-bottom: 0.5em;
 }
 
 @media only screen and (max-width: 48em){

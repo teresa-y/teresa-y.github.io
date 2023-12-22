@@ -4,10 +4,18 @@ import market2u from "../images/thumbnails/market2u.png"
 import vagary from "../images/thumbnails/vagary.png"
 import toby from "../images/thumbnails/toby.png"
 import heuristicats from "../images/thumbnails/heuristicats.png"
+import maobi from "../images/thumbnails/maobi.png"
 
 
 const projectData = [
 
+  {
+    "title": "Maobi",
+    "pic": maobi,
+    "alt": "thumbnail of maobi project",
+    "skills": "product design, mobile design & development",
+    "url" : "/maobi"
+  },
 
     {
         "title": "Market2U",
@@ -26,7 +34,7 @@ const projectData = [
       },
 
       {
-        "title": "Toby",
+        "title": "TOBY",
         "pic": toby,
         "alt": "thumbnail of toby project",
         "skills": "cui design, ux design",

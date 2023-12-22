@@ -7,8 +7,6 @@ const scrollToTop = () => {
 
 export default function ProjectCard(props){
     return(
-        // todo:
-        // add hovering
         
         <div className = "project-card-container">
             <div className = "project-img">

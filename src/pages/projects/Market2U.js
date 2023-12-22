@@ -97,7 +97,9 @@ export default function Market2U(props) {
 
                <p> Participants responded positively to the bundle concept. They particularly liked the idea of specialized bundles such as a 
                 "get well soon" pack for the sick and elderly. We also realized that our bundles could go beyond just food items. 
-                For example, including recipes would not only provide added value but also foster a sense of community among our users. </p> 
+                For example, including recipes would not only provide added value but also foster a sense of community among our users. </p>
+
+                <p>Based on these insights, we developed a user flow of how our users would interact with our product.</p> 
 
                 <img src = {userflow} alt = "user flow diagram for the customer, service provider, and business owner"></img>
 

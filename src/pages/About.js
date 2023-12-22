@@ -15,7 +15,7 @@ export default function About(){
             Hi, I’m Teresa! I’m currently a student at Carnegie Mellon University studying Information Systems and 
             Human-Computer Interaction. My goal is to deliver meaningful and immersive experiences, whether it be through designing interactions, building digital spaces, or illustration. <br/><br/>
             
-            In my free time, I love drawing, watching cat videos, and playing digital games. Currently playing AI: The Somnium Files!<br/><br/>
+            In my free time, I love drawing and watching cat videos.<br/><br/>
             
             I am currently looking for full-time opportunities starting Summer/Fall 2024. Let’s connect! Feel free to contact me at tyang218@gmail.com<br/><br/>
 
