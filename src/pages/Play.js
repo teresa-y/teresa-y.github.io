@@ -1,29 +1,31 @@
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import heuristicats from "../images/thumbnails/heuristicats.png"
+import ProjectCard from "../components/ProjectCard"
+
+const projectData = [
 
 
-const pics = [
-    
-]
-
+        {
+          "title": "Heuristicats",
+          "pic": heuristicats,
+          "alt": "thumbnail of heuristicats project",
+          "skills": "cat-themed rpg that teaches ux design",
+          "url" : "/heuristicats"
+        }
+  ]
+  
+  
+  
+  const projects = projectData.map(proj => (
+      <ProjectCard key = {proj.title} pic={proj.pic} alt={proj.alt} title={proj.title} skills={proj.skills} url = {proj.url}/>
+    ));
+  
 export default function Play() {
     return (
         <>
             <h1>play</h1>
             <div className = "play-container">
-                {/* <ResponsiveMasonry columnsCountBreakPoints={{ 300: 2, 500: 3, 700: 4 }}>
-                    <Masonry>
-                        {pics.map((pic, i) => (
-                            <img
-                            key={i}
-                            src={pic}
-                            style={{width: "100%", display: "block"}}
-                            alt=""
-                            />
-                        ))}
-                    </Masonry>
-                </ResponsiveMasonry> */}
-
-                <p>Coming soon!</p>
+                {/* {projects} */}
+                <p>Coming Soon!</p>
             </div>
 
         </>

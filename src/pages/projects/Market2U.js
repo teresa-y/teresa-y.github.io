@@ -1,3 +1,5 @@
+import {useRef} from 'react'
+
 import ProjectOverview from "../../components/ProjectOverview"
 import market2u from "../../images/thumbnails/market2u.png"
 
@@ -42,9 +44,19 @@ import ownerweb from "../../images/market2u/ownerweb.gif"
 import customerweb from "../../images/market2u/customerweb.gif"
 import customerweb2 from "../../images/market2u/customerweb2.gif"
 
-
 export default function Market2U(props) {
+    const final = useRef(null);
+  
+    // Function to scroll to the referenced element
+    const scrollToElement = () => {
+    if (final.current) {
+        final.current.scrollIntoView({ behavior: 'smooth' });
+    }
+    };
+
+
     return (
+        
         <div className = "project-page">
 
             <ProjectOverview key = "Market2U" 
@@ -53,7 +65,7 @@ export default function Market2U(props) {
                             description="Market2U is a grocery shopping and delivery application that empowers local businesses by connecting them to a wider customer base while offering customers that can’t leave their homes access to fresh food directly from local stores. Designed for the Interaction Design Studio course with an emphasis on responsive web design. 
                             " 
                             info = "<strong>Role:</strong> UX/UI Design, Research <br/> <strong>Timeline:</strong> Fall 2022, 4 weeks<br/> <strong>Team:</strong> Ankitha Vasudev, Alice Nie, Parvathy Anand<br/><strong>Tools:</strong> Figma"/>
-            
+                        
             <h2>Problem</h2>
             <p>The rise of global e-commerce giants has dominated the online marketplace, often sidelining local grocery businesses. 
                 These smaller local businesses offer unique products and fresher food alternatives, which fosters community growth. 
@@ -99,16 +111,17 @@ export default function Market2U(props) {
                 "get well soon" pack for the sick and elderly. We also realized that our bundles could go beyond just food items. 
                 For example, including recipes would not only provide added value but also foster a sense of community among our users. </p>
 
+                <h2>User Flow</h2>
                 <p>Based on these insights, we developed a user flow of how our users would interact with our product.</p> 
 
-                <img src = {userflow} alt = "user flow diagram for the customer, service provider, and business owner"></img>
+<img src = {userflow} alt = "user flow diagram for the customer, service provider, and business owner"></img>
 
-            <h2>Screen Maps</h2>   
+            {/* <h2>Screen Maps</h2>   
             <p>We ideated screens specific to each of the three key stakeholders.</p>
             <p>For the <strong>customer</strong>, understanding that many often switch between devices when ordering groceries, we designed an integrated experience across both mobile and desktop platforms.</p>
             <p>For the <strong>service provider</strong>, given their on-the-move nature, we used a mobile-first approach, crafting screens optimized for quick access and ease of use while on the go.</p>
             <p>For the <strong>business owner</strong>, who primarily focuses on in-depth data and store analytics, we designed comprehensive desktop screens. These screens present large volumes of data in a cohesive and digestible manner.</p>
-
+ */}
             <h2>Style Guide</h2>
             <p>We chose a color palette of greens, pinks, and yellows—colors synonymous with health and positivity, and picked colors of varying values for contrast. 
                 We used the easily readable sans serif 'Inter' 
@@ -121,25 +134,25 @@ export default function Market2U(props) {
             <h2>Iterations</h2>
             <div className = "flow">
                 <div className = "flow-desc">
-                <p>The customer can select a store, choose and favorite bundles to add to cart, and browse through recipes for inspiration. </p>
+                <p>The customer can select a store and browse through offered bundles and recipes. </p>
                 </div>
 
                 <div className = "flow-images">
                 <img src = {customerhome} alt = "customer home screen"></img>
                     <img src = {customerbundles} alt = "customer bundles screen"></img>
                     <img src = {customerbundledetails} alt = "customer bundle details screen"></img>
-                    <img src = {customercart} alt = "customer cart screen"></img>
+                    {/* <img src = {customercart} alt = "customer cart screen"></img> */}
                     <img src = {customerrecipe} alt = "customer recipe screen"></img>
-                    <img src = {customerrecipedetails} alt = "customer recipe details screen"></img>
+                    {/* <img src = {customerrecipedetails} alt = "customer recipe details screen"></img> */}
 
                 </div>
                 <div className = "flow-images phone">
                     <img className="phone" src = {customerhomephone} alt = "customer home screen"></img>
                     <img className="phone" src = {customerbundlesphone} alt = "customer bundles screen"></img>
                     <img className="phone" src = {customerbundledetailsphone} alt = "customer bundle details screen"></img>
-                    <img className="phone" src = {customercartphone} alt = "customer cart phone screen"></img>
+                    {/* <img className="phone" src = {customercartphone} alt = "customer cart phone screen"></img> */}
                     <img className="phone" src = {customerrecipephone} alt = "customer recipe phone screen"></img>
-                    <img className="phone" src = {customerrecipedetailsphone} alt = "customer recipe details phone"></img>
+                    {/* <img className="phone" src = {customerrecipedetailsphone} alt = "customer recipe details phone"></img> */}
 
                 </div>
 
@@ -152,7 +165,7 @@ export default function Market2U(props) {
                 <div className = "flow-images">
                     <img className="phone" src = {sphome} alt = "service provider home screen"/>
                     <img className="phone" src = {sporderstatus} alt = "service provider order status screen"/>
-                    <img className="phone" src = {sporderstatus2} alt = "service provider other order status screen"/>
+                    {/* <img className="phone" src = {sporderstatus2} alt = "service provider other order status screen"/> */}
                     <img className="phone" src = {splivechat} alt = "service provider live chat screen"/>
 
 
@@ -162,7 +175,7 @@ export default function Market2U(props) {
 
             <div className = "flow">
                 <div className = "flow-desc">
-                <p>The business owner can see an overview of their store, create new bundles, observe in-depth store analytics, view active and past orders, and view active bundles and how well they’re doing.</p>
+                <p>The business owner can see an overview of their store, create new bundles, and observe in-depth store analytics.</p>
 
                 </div>
                 <div className = "flow-images">
@@ -170,8 +183,8 @@ export default function Market2U(props) {
                     <img src = {bizhome} alt = "business owner home screen"></img>
                     <img src = {bizbundlecreator} alt = "business owner bundle creator screen"/>
                     <img src = {bizanalytics} alt = "business owner analytics screen"/>
-                    <img src = {bizactiveorders} alt = "business owner active orders screen"/>
-                    <img src = {bizactivebundles} alt = "business owner active bundles screen"/>
+                    {/* <img src = {bizactiveorders} alt = "business owner active orders screen"/> */}
+                    {/* <img src = {bizactivebundles} alt = "business owner active bundles screen"/> */}
 
                 </div>
     
@@ -185,8 +198,8 @@ export default function Market2U(props) {
             <img src = {businessowneriterations} alt = "iteration on business owner screens to focus on statistics"></img>
 
             
-            <h2>Final Prototypes</h2>
-            <div className = "final-prototypes">
+            <h2 ref={final}>Final Prototypes</h2>
+            <div id = "final" className = "final-prototypes">
                 <p>Market2U brings local stores right to your fingertips. The charm of your town’s farmer’s markets and mom-and-pop shops 
                     is now accessible from the comfort of your home. Homebound customers can order specialty items or regular groceries and 
                     know that every dollar spent supports the growth and sustainability of local businesses.</p>

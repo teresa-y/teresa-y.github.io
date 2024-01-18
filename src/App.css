@@ -22,8 +22,24 @@ body{
   line-height: 1.5em;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container .item{
+  max-width: 45%;
+}
+
 iframe{
   aspect-ratio: 16 / 9;
+}
+
+@media only screen and (max-width: 48em){
+  .container .item{
+    max-width: 100%;
+  }
 }
 
 /* navbar styling */
@@ -158,11 +174,11 @@ iframe{
 
 @media only screen and (max-width: 48em){
   .project-img img{
-    max-width: 18em;
+    max-width: 21em;
   }
 
   .project-card-container{
-    max-width: 18em;
+    max-width: 21em;
     white-space: pre-wrap;
     word-break: break-word;
   }
@@ -187,6 +203,7 @@ iframe{
   display: flex;
   /* max-width: 1000px; */
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .project-desc{
@@ -197,6 +214,13 @@ iframe{
 .project-overview-pic img{
   object-fit: contain;
   width: 100%;
+}
+
+@media only screen and (max-width: 48em){
+  .project-desc{
+    max-width: 100%;
+    margin-bottom: 10%;
+  }
 }
 
 
@@ -210,6 +234,28 @@ iframe{
 .project-page img{
   width: 100%;
   /* object-fit: contain; */
+}
+
+/* maobi specific */
+.flow-lofi-images{
+  display: flex;           
+  flex-direction: row;
+  object-fit: contain;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.flow-lofi-images img{
+  margin: 10px; 
+  width: 30%;
+  height: auto;
+}
+
+@media only screen and (max-width: 48em){
+  .flow-lofi-images img{
+    width: 100%;
+    height: auto;
+  }
 }
 
 
@@ -269,6 +315,8 @@ iframe{
 .screens{
   display: flex;
   object-fit: cover;
+  flex-wrap: wrap;
+
 }
 
 .final-prototypes .desktop {
@@ -306,10 +354,12 @@ iframe{
 
   .final-prototypes .desktop {
     width: 100%;
+    max-width: 100%;
     height: auto;
   }
 
   .final-prototypes .phone {
+    max-width: 100%;
     width: 100%;
   }
 }

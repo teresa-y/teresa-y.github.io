@@ -13,7 +13,7 @@ export default function About(){
 
             <div className = "about-bio">
             Hi, I’m Teresa! I’m currently a student at Carnegie Mellon University studying Information Systems and 
-            Human-Computer Interaction. My goal is to deliver meaningful and immersive experiences, whether it be through designing interactions, building digital spaces, or illustration. <br/><br/>
+            Human-Computer Interaction with a minor in Business. My goal is to deliver meaningful and immersive experiences, and my background in human-centered design, technology, and visual arts shapes the way I design for people.<br/><br/>
             
             In my free time, I love drawing and watching cat videos.<br/><br/>
             
