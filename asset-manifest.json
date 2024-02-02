@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea536034.css",
-    "main.js": "/static/js/main.0b932af6.js",
+    "main.css": "/static/css/main.3a26782b.css",
+    "main.js": "/static/js/main.d349481e.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/ownerweb.gif": "/static/media/ownerweb.216eca7d3e2314abd422.gif",
     "static/media/customerphone2.gif": "/static/media/customerphone2.233a9b478ad7a8b46c48.gif",
@@ -16,6 +16,7 @@
     "static/media/storyboardteresa.png": "/static/media/storyboardteresa.098ebf4da3e3b1f5f955.png",
     "static/media/customerrecipedetails.png": "/static/media/customerrecipedetails.538b5f45db4218b57a11.png",
     "static/media/storyboardjessica.jpg": "/static/media/storyboardjessica.b3123710e2d68f6343c2.jpg",
+    "static/media/art.png": "/static/media/art.c20041b346996943d1eb.png",
     "static/media/customerrecipe.png": "/static/media/customerrecipe.e6a23a97aa9d3cb59684.png",
     "static/media/customerhome.png": "/static/media/customerhome.6d980fa3615449c7a021.png",
     "static/media/bizactivebundles.png": "/static/media/bizactivebundles.e0ad072e1732588f013e.png",
@@ -40,6 +41,7 @@
     "static/media/customercart.png": "/static/media/customercart.ea411b3dc432d04bb580.png",
     "static/media/customerrecipedetailsphone.png": "/static/media/customerrecipedetailsphone.1b203e9aa24d9178af77.png",
     "static/media/customerhomephone.png": "/static/media/customerhomephone.bf857725ea75173f0300.png",
+    "static/media/tca.png": "/static/media/tca.5fcdeb24a4641ed926a8.png",
     "static/media/storyboard.png": "/static/media/storyboard.133fe859c079ea036168.png",
     "static/media/bizbundlecreator.png": "/static/media/bizbundlecreator.779f27f219ad92a24bf0.png",
     "static/media/me.png": "/static/media/me.ded199c4d62f87772e2a.png",
@@ -66,8 +68,8 @@
     "static/media/listview.png": "/static/media/listview.a0b52b402a85a5f5241e.png",
     "static/media/resume.pdf": "/static/media/resume.05afa8b735cffe291e12.pdf",
     "static/media/lofi10.png": "/static/media/lofi10.c0e8d912f221da05f2df.png",
+    "static/media/lofi5.png": "/static/media/lofi5.6ce5aa68ca0e579667b6.png",
     "static/media/lofi3.png": "/static/media/lofi3.3091556a21778a2db0a8.png",
-    "static/media/lofi5.png": "/static/media/lofi5.67002b717cffc88eff2e.png",
     "static/media/newplan.png": "/static/media/newplan.917300d35e7c27721ad6.png",
     "static/media/toby.png": "/static/media/toby.a01dd765d3124d6095b2.png",
     "static/media/lofi4.png": "/static/media/lofi4.34d7aa367cf42323cca3.png",
@@ -87,12 +89,12 @@
     "static/media/hifi6.png": "/static/media/hifi6.076503d19baf45a3ad8f.png",
     "static/media/hifi4.png": "/static/media/hifi4.e95b480c49acf124f19b.png",
     "index.html": "/index.html",
-    "main.ea536034.css.map": "/static/css/main.ea536034.css.map",
-    "main.0b932af6.js.map": "/static/js/main.0b932af6.js.map",
+    "main.3a26782b.css.map": "/static/css/main.3a26782b.css.map",
+    "main.d349481e.js.map": "/static/js/main.d349481e.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea536034.css",
-    "static/js/main.0b932af6.js"
+    "static/css/main.3a26782b.css",
+    "static/js/main.d349481e.js"
   ]
 }
