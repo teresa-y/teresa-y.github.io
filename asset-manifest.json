@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3a26782b.css",
-    "main.js": "/static/js/main.d349481e.js",
+    "main.js": "/static/js/main.c8c9df2b.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/ownerweb.gif": "/static/media/ownerweb.216eca7d3e2314abd422.gif",
     "static/media/customerphone2.gif": "/static/media/customerphone2.233a9b478ad7a8b46c48.gif",
@@ -39,6 +39,7 @@
     "static/media/empathymap.png": "/static/media/empathymap.4f06197ab56ab868dc5e.png",
     "static/media/businessowneriterations.png": "/static/media/businessowneriterations.04f3f7151b591258f67d.png",
     "static/media/customercart.png": "/static/media/customercart.ea411b3dc432d04bb580.png",
+    "static/media/explanation.png": "/static/media/explanation.3eef3731be6b160b2b7e.png",
     "static/media/customerrecipedetailsphone.png": "/static/media/customerrecipedetailsphone.1b203e9aa24d9178af77.png",
     "static/media/customerhomephone.png": "/static/media/customerhomephone.bf857725ea75173f0300.png",
     "static/media/tca.png": "/static/media/tca.5fcdeb24a4641ed926a8.png",
@@ -62,6 +63,7 @@
     "static/media/datamapping.png": "/static/media/datamapping.e4ad2d53d37d1c0df300.png",
     "static/media/customercartphone.png": "/static/media/customercartphone.80b2dc7e9ba663bdc3bf.png",
     "static/media/userflow.png": "/static/media/userflow.ab2b8baa5f40ebc17078.png",
+    "static/media/design.png": "/static/media/design.6d917c860fad06d4a8f0.png",
     "static/media/lofi6.png": "/static/media/lofi6.49fca4af056f24d0c36b.png",
     "static/media/lofi8.png": "/static/media/lofi8.d6ac41a563cb7561ecde.png",
     "static/media/serviceprovider.png": "/static/media/serviceprovider.8115ccdf7309614dd6af.png",
@@ -90,11 +92,11 @@
     "static/media/hifi4.png": "/static/media/hifi4.e95b480c49acf124f19b.png",
     "index.html": "/index.html",
     "main.3a26782b.css.map": "/static/css/main.3a26782b.css.map",
-    "main.d349481e.js.map": "/static/js/main.d349481e.js.map",
+    "main.c8c9df2b.js.map": "/static/js/main.c8c9df2b.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a26782b.css",
-    "static/js/main.d349481e.js"
+    "static/js/main.c8c9df2b.js"
   ]
 }
