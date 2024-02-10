@@ -48,13 +48,13 @@ const projectData = [
       //   "skills": "ux design"
       // },
 
-      {
-        "title": "Heuristicats",
-        "pic": heuristicats,
-        "alt": "thumbnail of heuristicats project",
-        "skills": "game art, educational game design",
-        "url" : "/heuristicats"
-      }
+      // {
+      //   "title": "Heuristicats",
+      //   "pic": heuristicats,
+      //   "alt": "thumbnail of heuristicats project",
+      //   "skills": "game art, educational game design",
+      //   "url" : "/heuristicats"
+      // }
 ]
 
 

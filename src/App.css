@@ -236,6 +236,14 @@ iframe{
   /* object-fit: contain; */
 }
 
+@media only screen and (max-width: 48em){
+  .project-page{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  }
+
+
 /* maobi specific */
 .flow-lofi-images{
   display: flex;           
@@ -243,11 +251,12 @@ iframe{
   object-fit: contain;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  justify-content: center;
 }
 
 .flow-lofi-images img{
   margin: 10px; 
-  width: 30%;
+  width: 40%;
   height: auto;
 }
 
@@ -416,8 +425,26 @@ iframe{
 
 /* play styling */
 .play-container{
-  margin-left: 70px;
+  /* margin-left: 70px; */
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 3rem;
+  justify-items: center;
+  justify-content: center;
+
 }
+
+.play-container .project-title {
+  font-size: 20px;
+}
+
+/* art page styling */
+.gallery {
+  padding: 0px 70px;
+}
+
 
 /* about styling */
 .about-container{

@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Play from './pages/Play';
 import About from './pages/About';
 
+import Art from './pages/2d';
+
 import Market2U from './pages/projects/Market2U';
 import Vagary from './pages/projects/Vagary';
 import Toby from './pages/projects/Toby';
@@ -24,6 +26,8 @@ function App() {
                 <Route path = '/' element={<Home/>} />
                 <Route path = '/play' element={<Play/>} />
                 <Route path = '/about' element={<About/>} />
+
+                <Route path = '/art' element={<Art/>} />
 
                 <Route path = '/maobi' element={<Maobi/>} />
                 <Route path = '/market2u' element={<Market2U/>} />

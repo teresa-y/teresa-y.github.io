@@ -15,8 +15,10 @@ import lofi7 from "../../images/maobi/lofi7.png"
 import lofi8 from "../../images/maobi/lofi8.png"
 import lofi9 from "../../images/maobi/lofi9.png"
 import lofi10 from "../../images/maobi/lofi10.png"
+import explanation from "../../images/maobi/explanation.png"
 
 //hifi
+import design from "../../images/maobi/design.png"
 import hifi1 from "../../images/maobi/hifi1.png"
 import hifi2 from "../../images/maobi/hifi2.png"
 import hifi3 from "../../images/maobi/hifi3.png"
@@ -32,7 +34,7 @@ export default function Maobi() {
             <ProjectOverview key = "Maobi" 
             pic={maobi} 
             title="Maobi" 
-            description="Maobi is an iOS app that teaches beginners Chinese calligraphy by providing instant feedback to their work using image processing. Unlike most Chinese calligraphy apps, Maobi helps users with physical brush-writing (as opposed to using a touch screen), and displays visual feedback to show users exactly where they can improve. “Maobi” is the Chinese word for the calligraphy brush.
+            description="Maobi is an iOS app that providers instant feedback to Chinese calligraphy work by simply taking a picture. “Maobi” is the Chinese word for the calligraphy brush.
             " 
             info = "<strong>Role:</strong> UX/UI Design, Front-End Development<br/> <strong>Timeline:</strong> Fall 2023, 12 weeks<br/> <strong>Team:</strong> Dora Xiao, Lucy Yang<br/><strong>Tools:</strong> Figma, SwiftUI, Procreate"/>
             
@@ -42,33 +44,31 @@ export default function Maobi() {
             <div className = "container">
                 <div className = "item">
                     <h3>Problem</h3>
-                    <p>Chinese calligraphy classes tend to be scarce, costly, and in-person, and there’s a high time commitment to pay 
-                        for a recurring class and travel to it. There are also several challenges when learning on your own, such as lack of 
-                        immediate feedback. </p><p>We researched existing calligraphy apps, and discovered that no apps 
+                    <p>After researching existing calligraphy apps, we discovered that no apps 
                         currently educate and provide feedback on physical Chinese calligraphy work. Instead, existing apps focus on touch 
                         screen drawings with a finger, which does not represent the experience of physical Chinese calligraphy.</p> 
                 </div>
                 <div className = "item">
                     <h3>Solution</h3>
-                    <p>Maobi addresses the challenge beginners face in mastering the nuances of Chinese calligraphy without constant 
-                        expert supervision. The app leverages the mobile platform's camera capabilities to provide real-time feedback on 
-                        the user's calligraphy technique– a phone’s camera is the easiest for snapping a photo or video of calligraphy paper. 
-                        The app's use of the phone's camera and its instant feedback mechanism allows users to turn any space into a learning 
-                        environment, as opposed to struggling to get the opinions of scarce professionals, often with a language barrier or 
-                        higher cost.</p>
+                    <p>Maobi tackles the challenge of beginners mastering Chinese calligraphy without expert supervision. 
+                        Maobi utilizes a phone's camera for real-time feedback on calligraphy technique. 
+                        This approach transforms any space into a convenient learning environment, avoiding the difficulties of seeking opinions from scarce professionals with potential language barriers and higher costs.</p>
                 </div>
             </div>
-            <h2>Prototyping</h2>
+            <h2>Design Exploration</h2>
             <p>In Chinese culture, beginners are expected to learn foundational rules before they attempt artistic expression. These rules 
                 include stroke order, composition, and shape, which are ideally learned by imitating the standards set by calligraphy masters. 
                 Because Maobi is targeted towards beginners (no prior calligraphy experience), our app focuses on standard-script Chinese 
                 calligraphy. </p>
+            
 
             <p>Maobi teaches beginners the basic strokes of Chinese calligraphy before moving on to 
                 practice different characters, with a camera-based feedback at the end of each level. 
                 In each level, users take and submit a picture of their physical work, and receive a visual 
                 comparison between their work and a “correct” standardized image. The user can tap each stroke to get feedback on each stroke.
 </p>
+<img src = {explanation} alt= "user flow of user taking a photo and receiving visual feedback"/>
+
 
             <div className = "flow">
                 <div className = "flow-desc">
@@ -92,13 +92,15 @@ export default function Maobi() {
 
             <img src = {comparison} alt = "comparison between original feedback and new feedback"/>
             
-            
+            <h2>Final Prototype</h2>
+
             <p>After I created a hi-fi, interactive prototype, we conducted another round of user testing. 
                 We ended up removing the bottom navigation bar as it confused users and did not add much value to our app.</p>
 
             <p>For the hi-fi, I chose the color palette based on colors commonly associated with Chinese calligraphy while ensuring 
                 there was an adequate amount of contrast. Because the “mao” in “maobi” is similar to the word for cat in Chinese, 
                 I illustrated a cat for our logo to add some more fun into our app. </p>
+                <img src = {design} alt = "image of color palette, typography choices, and assets"/>
 
                 <div className = "flow-images">
                     <img className="phone" src = {hifi1} alt = "hifi login"/>
