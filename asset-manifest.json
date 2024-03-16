@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a6ba1dc1.css",
-    "main.js": "/static/js/main.905e75df.js",
+    "main.js": "/static/js/main.b5e920cd.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/ownerweb.gif": "/static/media/ownerweb.216eca7d3e2314abd422.gif",
     "static/media/customerphone2.gif": "/static/media/customerphone2.233a9b478ad7a8b46c48.gif",
@@ -46,7 +46,7 @@
     "static/media/empathymap.png": "/static/media/empathymap.4f06197ab56ab868dc5e.png",
     "static/media/businessowneriterations.png": "/static/media/businessowneriterations.04f3f7151b591258f67d.png",
     "static/media/customercart.png": "/static/media/customercart.ea411b3dc432d04bb580.png",
-    "static/media/explanation.png": "/static/media/explanation.3eef3731be6b160b2b7e.png",
+    "static/media/explanation.png": "/static/media/explanation.5da4764a7f5049c1cf2a.png",
     "static/media/customerrecipedetailsphone.png": "/static/media/customerrecipedetailsphone.1b203e9aa24d9178af77.png",
     "static/media/customerhomephone.png": "/static/media/customerhomephone.bf857725ea75173f0300.png",
     "static/media/tca.png": "/static/media/tca.5fcdeb24a4641ed926a8.png",
@@ -99,11 +99,11 @@
     "static/media/hifi4.png": "/static/media/hifi4.e95b480c49acf124f19b.png",
     "index.html": "/index.html",
     "main.a6ba1dc1.css.map": "/static/css/main.a6ba1dc1.css.map",
-    "main.905e75df.js.map": "/static/js/main.905e75df.js.map",
+    "main.b5e920cd.js.map": "/static/js/main.b5e920cd.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6ba1dc1.css",
-    "static/js/main.905e75df.js"
+    "static/js/main.b5e920cd.js"
   ]
 }
