@@ -74,6 +74,7 @@ export default function Market2U(props) {
                 local markets, and thus homebound individuals are unable to access their products.</p>
             
             <h2>Research</h2>
+            <h3>Discovering User Needs</h3>
             <p>We did a combination of primary and secondary research on three stakeholders– the customer, the service provider, and 
                 the business owner– to gain a deeper understanding of the user needs and pain points.</p>
                 <p>To gain the customer’s perspective, we used semi-structured interviews and observed customers at local grocery stores in
@@ -98,8 +99,10 @@ export default function Market2U(props) {
                     <p><strong>Business Owner: Maya Brooks</strong><br/>Maya is the owner of a small local farmers' market. She wants to expand her customer base and boost her store’s visibility, 
                         but it’s difficult to do so when she’s competing with so many corporate grocery chains. </p>
                 </div>
+                <br/>
 
-            <h2>Validating our Ideas</h2>
+            <h2>Narrowing it Down</h2>
+            <h3>Validating our Ideas</h3>
             <p>We developed storyboards to brainstorm and visualize ideas. One idea was about "bundles," which would contain multiple items that, 
                 when combined, could create a complete dish. We used these storyboards in a 'speed dating' exercise with potential 
                 customers to help us gauge if any of our ideas resonated with our users. Our aim was to make shopping decisions easier for 
@@ -111,7 +114,7 @@ export default function Market2U(props) {
                 "get well soon" pack for the sick and elderly. We also realized that our bundles could go beyond just food items. 
                 For example, including recipes would not only provide added value but also foster a sense of community among our users. </p>
 
-                <h2>User Flow</h2>
+                <h3>User Flow</h3>
                 <p>Based on these insights, we developed a user flow of how our users would interact with our product.</p> 
 
 <img src = {userflow} alt = "user flow diagram for the customer, service provider, and business owner"></img>
@@ -122,16 +125,18 @@ export default function Market2U(props) {
             <p>For the <strong>service provider</strong>, given their on-the-move nature, we used a mobile-first approach, crafting screens optimized for quick access and ease of use while on the go.</p>
             <p>For the <strong>business owner</strong>, who primarily focuses on in-depth data and store analytics, we designed comprehensive desktop screens. These screens present large volumes of data in a cohesive and digestible manner.</p>
  */}
-            <h2>Style Guide</h2>
+
+            <h2>Prototyping</h2>
+            <h3>Style Guide</h3>
             <p>We chose a color palette of greens, pinks, and yellows—colors synonymous with health and positivity, and picked colors of varying values for contrast. 
                 We used the easily readable sans serif 'Inter' 
                 font for both headers and body text. On the other hand, our logo and brand name use a bold serif font for differentiation. 
                 To highlight headers and price tags, we adjusted their color, size, and boldness for better user navigation 
                 and section differentiation.</p>
 
-            <img src = {styleguide} alt = "style guide"></img>
+            <img className = "design-sys" src = {styleguide} alt = "style guide"></img>
 
-            <h2>Iterations</h2>
+            <h3>Initial Designs</h3>
             <div className = "flow">
                 <div className = "flow-desc">
                 <p>The customer can select a store and browse through offered bundles and recipes. </p>
@@ -190,6 +195,9 @@ export default function Market2U(props) {
     
                 
             </div>
+
+            <h3>Iterations</h3>
+
     
             <p>Based on critique from our peers and our own discretion, we received and implemented feedback on how we organized our screens. Here are some highlights:
 </p>
@@ -198,7 +206,7 @@ export default function Market2U(props) {
             <img src = {businessowneriterations} alt = "iteration on business owner screens to focus on statistics"></img>
 
             
-            <h2 ref={final}>Final Prototypes</h2>
+            <h3 ref={final}>Final Prototypes</h3>
             <div id = "final" className = "final-prototypes">
                 <p>Market2U brings local stores right to your fingertips. The charm of your town’s farmer’s markets and mom-and-pop shops 
                     is now accessible from the comfort of your home. Homebound customers can order specialty items or regular groceries and 
@@ -207,7 +215,7 @@ export default function Market2U(props) {
                 <p>Food bundles provide a simplified shopping solution, eliminating the need to pick items individually and 
                     encouraging exploration of new food combinations.</p>
 
-                <div className = "screens">
+                <div className = "final-screens">
                     <img className = "phone" src = {customerphone1} alt = "gif of customer owner phone screens"></img>
                     <img className = "desktop" src = {customerweb} alt = "gif of customer screen desktop view"></img>
                 </div>
@@ -218,7 +226,7 @@ export default function Market2U(props) {
                 <p>Once the customer makes their order, the service provider is notified and is equipped with a detailed breakdown– 
                     where they need to pick up groceries, which ones to pick up, and how to get there and where to drop it off. </p>
 
-                <div className = "screens">
+                <div className = "final-screens">
                     <img className = "phone" src = {serviceprovidergif} alt = "gif of service provider screens"></img>
                 </div>
 
@@ -228,7 +236,7 @@ export default function Market2U(props) {
                 <p>Before their next grocery purchase on Market2U, customers can explore a variety of recipes. Each recipe is paired with a 
                     grocery bundle, allowing users to easily add all required ingredients to their cart with a single click.</p>
 
-                <div className = "screens">
+                <div className = "final-screens">
                     <img className = "phone" src = {customerphone2} alt = "gif of customer owner phone screens"></img>
                     <img className = "desktop" src = {customerweb2} alt = "gif of customer screen desktop view"></img>
                 </div>
@@ -239,7 +247,7 @@ export default function Market2U(props) {
                     as well as create new bundles. This data-driven approach empowers local businesses to refine offerings and strategies, 
                     ensuring they thrive in today's digital landscape.</p>
 
-                <div className = "screens">
+                <div className = "final-screens">
                     <img className = "desktop" src = {ownerweb} alt = "gif of business owner screens"></img>
                 </div>
             </div>
@@ -270,7 +278,7 @@ export default function Market2U(props) {
             <h3>Dynamics of Device Selection</h3>
             <p>It was important to consider the environment in which users will engage with certain content. 
                 As we decided what screens to design for, it was crucial that we think about the nuances of each 
-                situation the user could be in and what kind of screen was the best suited for it. Additionally, we spent 
+                situation the user could be in and what kind of screen was the best suited for it. I spent 
                 a lot of time thinking about how to translate a screen from one platform to another, and learned the importance of a 
                 “mobile-first” approach to create readable and clear designs. 
 </p>

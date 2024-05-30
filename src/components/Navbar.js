@@ -16,7 +16,7 @@ export default function Navbar() {
             </div>
 
             <div className = "navlinks-container">
-                <NavLink to='/' className = "navlink-left" onClick={scrollToTop}>work</NavLink>
+                <NavLink to='/' className = "navlink-left" activeClassName="nav-link-active" onClick={scrollToTop}>work</NavLink>
                 <NavLink to='/play' onClick={scrollToTop}>play</NavLink>
                 <NavLink to='/about' className = "navlink-right" onClick={scrollToTop}>about</NavLink>
             </div> 

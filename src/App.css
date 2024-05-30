@@ -2,33 +2,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Work+Sans&display=swap');
 
 h1{
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Sen", sans-serif;
   margin-left: 70px;
 
 }
 
 h2{
-  font-family:'Roboto Mono', monospace;
-  font-size: 30px;
-  margin-top: 70px;
+  font-family:"Sen", sans-serif;
+  font-size: 1.125em;
+  margin-top: 4.375em;
+  color: #1A51DE;
+  margin-bottom: 0px;
+
 }
 
 h3{
-  font-family:'Roboto Mono', monospace;
+  font-family:"Sen", sans-serif;
+  font-size: 1.75em;
+  line-height: 1em;
+  margin:  0.625em 0;
+  /* margin-top: 0.625em; */
+
+}
+
+h4{
+  font-family:"Sen", sans-serif;
+  font-size: 1.5em;
+  line-height: 1.125em;
+  margin:  0.625em 0;
+  /* margin-top: 0.625em; */
+
+}
+
+.numbered-list {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  counter-reset: list-counter;
+  list-style: none;
+  padding-left: 0;
+}
+.numbered-list li {
+  counter-increment: list-counter;
+  margin-top: 2.5em;
+  display: flex;
+  align-items: center;
+}
+.numbered-list li::before {
+  content: counter(list-counter) ". ";
+  content: counter(list-counter);
+  font-size: 40px;
+  font-weight: bold;
+  font-family:"Sen", sans-serif;
+  color: #1A51DE;
+  margin-right: 30px;
+}
+.numbered-list li p {
+  margin: 0;
 }
 
 body{
   font-family: 'Lato', sans-serif;
   line-height: 1.5em;
+  /* background-color: #FDF7F3; */
+  background-color: white;
 }
 
-.container{
+.half{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.container .item{
+.half .item{
   max-width: 45%;
 }
 
@@ -36,10 +81,49 @@ iframe{
   aspect-ratio: 16 / 9;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+  object-fit: contain;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  /* align-items: center; */
+}
+
+.description{
+  width: 30%;
+}
+
+.screens{
+  display: flex;
+  width: 65%;
+  justify-content: center;
+
+}
+
+.screens img{
+  object-fit: contain;
+  padding-bottom: 30px;
+}
+
+.screens img.phone{
+  width: 40%;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+
+}
+
 @media only screen and (max-width: 48em){
-  .container .item{
-    max-width: 100%;
+
+  .container .description{
+    width: 100%;
   }
+
+  .screens{
+    width: 100%;
+  }
+  
+
 }
 
 /* navbar styling */
@@ -51,9 +135,10 @@ iframe{
   align-items: center;
   padding: 30px 50px;
   font-size: 20px;
+  /* background-color: #FDF7F3; */
   background-color: white;
-  border-bottom: 2px solid black;
-  font-family: 'Roboto Mono', monospace;
+  /* border-bottom: 2px solid black; */
+  font-family: 'Sen', sans-serif;
   z-index: 1;
 }
 
@@ -61,6 +146,19 @@ iframe{
   text-decoration: none;
   color: black;
 }
+
+.navbar .navlinks-container a.active {
+  color: #1A51DE !important; 
+  text-decoration:none !important;
+  font-weight: 600;
+}
+
+.navbar .navlinks-container a:hover {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
 
 .navlink-left {
   margin-right: 40px;
@@ -90,12 +188,13 @@ iframe{
 
 .intro{
   padding: 5%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Sen', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  color:black;
 }
 
 .intro-pic img{
@@ -110,13 +209,14 @@ iframe{
 
 .intro .top {
     font-size: 2.5em;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.5em;
 }
 
 .intro .bottom {
   margin-top: 1.8em;
   font-size: 1.6em;
+  color:black;
 }
 
 @media only screen and (max-width: 48em){
@@ -150,11 +250,12 @@ iframe{
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 23px;
-  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-family: "Sen", sans-serif;
 }
 
 .project-skills{
-  font-family: "Roboto Mono", monospace;
+  font-family: "Sen", sans-serif;
   color:gray;
 }
 
@@ -226,8 +327,8 @@ iframe{
 
 /* project page styling */
 .project-page{
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 20px;
 }
 
@@ -245,6 +346,12 @@ iframe{
 
 
 /* maobi specific */
+ img.design-sys{
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
 .flow-lofi-images{
   display: flex;           
   flex-direction: row;
@@ -256,7 +363,7 @@ iframe{
 
 .flow-lofi-images img{
   margin: 10px; 
-  width: 40%;
+  width: 45%;
   height: auto;
 }
 
@@ -321,7 +428,7 @@ iframe{
   padding-right: 20px;
 }
 
-.screens{
+.final-screens{
   display: flex;
   object-fit: cover;
   flex-wrap: wrap;
@@ -500,6 +607,6 @@ iframe{
 }
 
 .socmed a:hover{
-  color: rgb(113, 113, 113);
+  color: #1A51DE;
   padding-left: 10px;
 }

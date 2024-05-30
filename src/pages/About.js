@@ -17,7 +17,7 @@ export default function About(){
             
             In my free time, I love drawing and watching cat videos.<br/><br/>
             
-            I am currently looking for full-time opportunities starting Summer/Fall 2024. Let’s connect! Feel free to contact me at tyang218@gmail.com<br/><br/>
+            Let’s connect! Feel free to contact me at tyang218@gmail.com<br/><br/>
 
             <a href={resume} target = "_blank" rel="noreferrer">Resume</a>
             </div>

@@ -5,6 +5,8 @@ import vagary from "../images/thumbnails/vagary.png"
 import toby from "../images/thumbnails/toby.png"
 import heuristicats from "../images/thumbnails/heuristicats.png"
 import maobi from "../images/thumbnails/maobi.png"
+import cmuiff from "../images/thumbnails/cmuiff.png"
+
 
 
 const projectData = [
@@ -25,13 +27,13 @@ const projectData = [
         "url" : "/market2u"
       },
 
-      {
-        "title": "Vagary",
-        "pic": vagary,
-        "alt": "thumbnail of vagary project",
-        "skills": "ux research, ux design",
-        "url" : "/vagary"
-      },
+      // {
+      //   "title": "Vagary",
+      //   "pic": vagary,
+      //   "alt": "thumbnail of vagary project",
+      //   "skills": "ux research, ux design",
+      //   "url" : "/vagary"
+      // },
 
       {
         "title": "TOBY",
@@ -40,6 +42,13 @@ const projectData = [
         "skills": "cui design, ux design",
         "url" : "/toby"
       },
+
+      // {
+      //   "title": "CMU International Film Festival",
+      //   "pic": cmuiff,
+      //   "alt": "thumbnail of cmu iff project",
+      //   "skills": "ux research, ux design",
+      // }
 
       // {
       //   "title": "Redesigned Internet Cookies Banner",
