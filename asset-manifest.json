@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.15804ea7.css",
-    "main.js": "/static/js/main.51235653.js",
+    "main.css": "/static/css/main.e8beac33.css",
+    "main.js": "/static/js/main.c6dfd6c8.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/ownerweb.gif": "/static/media/ownerweb.216eca7d3e2314abd422.gif",
     "static/media/customerphone2.gif": "/static/media/customerphone2.233a9b478ad7a8b46c48.gif",
     "static/media/customerphone1.gif": "/static/media/customerphone1.f4e82444d2101f19ba57.gif",
+    "static/media/camera.gif": "/static/media/camera.25b5fd7410d42869e14c.gif",
+    "static/media/learning.gif": "/static/media/learning.e425da5cfac0c6dd4f6a.gif",
     "static/media/serviceprovider.gif": "/static/media/serviceprovider.f2bb32ac9d8df3b3b719.gif",
+    "static/media/unlock.gif": "/static/media/unlock.85bbe25d4b4936bdbac2.gif",
     "static/media/customerweb.gif": "/static/media/customerweb.cad26742cb33d8b1210f.gif",
     "static/media/customerweb2.gif": "/static/media/customerweb2.aa91ecb07ff3fe4189f5.gif",
     "static/media/saturation_.png": "/static/media/saturation_.5fffc1a90a8fe750ac1e.png",
@@ -26,6 +29,7 @@
     "static/media/customerrecipe.png": "/static/media/customerrecipe.e6a23a97aa9d3cb59684.png",
     "static/media/bezold_effect.png": "/static/media/bezold_effect.488763db550e76d0a509.png",
     "static/media/Untitled_Artwork.png": "/static/media/Untitled_Artwork.66283da34be9d8b3401a.png",
+    "static/media/me.jpg": "/static/media/me.683c7ad05f2b1157bec1.jpg",
     "static/media/customerhome.png": "/static/media/customerhome.6d980fa3615449c7a021.png",
     "static/media/bizactivebundles.png": "/static/media/bizactivebundles.e0ad072e1732588f013e.png",
     "static/media/cmuiff.png": "/static/media/cmuiff.cd296fec592d264fcc2b.png",
@@ -57,7 +61,6 @@
     "static/media/storyboard.png": "/static/media/storyboard.133fe859c079ea036168.png",
     "static/media/bizbundlecreator.png": "/static/media/bizbundlecreator.779f27f219ad92a24bf0.png",
     "static/media/feedback2.png": "/static/media/feedback2.0ae13da744d27783d7af.png",
-    "static/media/me.png": "/static/media/me.ded199c4d62f87772e2a.png",
     "static/media/maobi.png": "/static/media/maobi.8046d7a95241bb49a878.png",
     "static/media/me.gif": "/static/media/me.8eb942d778ed63d511a5.gif",
     "static/media/bizactiveorders.png": "/static/media/bizactiveorders.91ef7e2042903de18415.png",
@@ -103,12 +106,12 @@
     "static/media/hifi6.png": "/static/media/hifi6.076503d19baf45a3ad8f.png",
     "static/media/hifi4.png": "/static/media/hifi4.e95b480c49acf124f19b.png",
     "index.html": "/index.html",
-    "main.15804ea7.css.map": "/static/css/main.15804ea7.css.map",
-    "main.51235653.js.map": "/static/js/main.51235653.js.map",
+    "main.e8beac33.css.map": "/static/css/main.e8beac33.css.map",
+    "main.c6dfd6c8.js.map": "/static/js/main.c6dfd6c8.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15804ea7.css",
-    "static/js/main.51235653.js"
+    "static/css/main.e8beac33.css",
+    "static/js/main.c6dfd6c8.js"
   ]
 }
