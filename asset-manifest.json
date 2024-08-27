@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.49375a88.css",
-    "main.js": "/static/js/main.fcec5d67.js",
+    "main.js": "/static/js/main.6bbed6e9.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
-    "static/media/hero.gif": "/static/media/hero.2203c2239659defc7b03.gif",
     "static/media/onboarding.gif": "/static/media/onboarding.0d3c6a9da08aaf835846.gif",
+    "static/media/hero.gif": "/static/media/hero.35feed26d524c1175c38.gif",
     "static/media/browsing.gif": "/static/media/browsing.dbc2fda81f76ee32ce8d.gif",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
     "static/media/filter.gif": "/static/media/filter.a358a03c931ede825a78.gif",
@@ -30,7 +30,6 @@
     "static/media/miku.jpg": "/static/media/miku.6c9240f04e415a5f6837.jpg",
     "static/media/storyboardstephen.png": "/static/media/storyboardstephen.92d3b1d182a0f169bdae.png",
     "static/media/adjustment.gif": "/static/media/adjustment.d05f767c39d1178fde60.gif",
-    "static/media/storyboardp2.png": "/static/media/storyboardp2.501bebdf24f0a972c52d.png",
     "static/media/intentional.png": "/static/media/intentional.ed0a82b80174a5fbdabd.png",
     "static/media/storyboardteresa.png": "/static/media/storyboardteresa.098ebf4da3e3b1f5f955.png",
     "static/media/cats.png": "/static/media/cats.02cc7475c9beacee5580.png",
@@ -50,6 +49,7 @@
     "static/media/bizactivebundles.png": "/static/media/bizactivebundles.e0ad072e1732588f013e.png",
     "static/media/prototype.png": "/static/media/prototype.5c590a31013c7b244c2f.png",
     "static/media/heuristicats.png": "/static/media/heuristicats.3de48caeceafc13d6df2.png",
+    "static/media/storyboardp2.png": "/static/media/storyboardp2.bf61262d3451391d4ed6.png",
     "static/media/customerbundles.png": "/static/media/customerbundles.ed553f9e154477211f9a.png",
     "static/media/customeriterations.png": "/static/media/customeriterations.1534027273d882f94d43.png",
     "static/media/storyboardyifei.jpg": "/static/media/storyboardyifei.1298e2db3cdfb29e57d6.jpg",
@@ -132,11 +132,11 @@
     "static/media/hifi4.png": "/static/media/hifi4.e95b480c49acf124f19b.png",
     "index.html": "/index.html",
     "main.49375a88.css.map": "/static/css/main.49375a88.css.map",
-    "main.fcec5d67.js.map": "/static/js/main.fcec5d67.js.map",
+    "main.6bbed6e9.js.map": "/static/js/main.6bbed6e9.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49375a88.css",
-    "static/js/main.fcec5d67.js"
+    "static/js/main.6bbed6e9.js"
   ]
 }
