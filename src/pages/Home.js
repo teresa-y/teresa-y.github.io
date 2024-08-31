@@ -7,8 +7,10 @@ export default function Home() {
             <div className="intro">
                 <div className="intro-words">
 
-                    <div className = "top">hi! i'm teresa </div><br/>
-                    <div className = "bottom">ux / product designer <br/><br/>  information systems + hci @ cmu </div>
+                    <div className = "top">hi! i'm teresa. </div><br/>
+                    <div className = "bottom">an interdisciplinary ux designer who builds worlds, stories, and experiences that connect with people
+
+                    </div>
 
                 </div>
                 <div className="intro-pic">

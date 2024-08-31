@@ -10,21 +10,31 @@ import cmuiff from "../images/thumbnails/cmuiff.png"
 
 
 const projectData = [
+  {
+    "title": "CMU International Film Festival",
+    "pic": cmuiff,
+    "alt": "thumbnail of cmu iff project",
+    "skills": "Capturing years of festival history through an interactive digital archive.",
+    "url" : "/cmuiff",
+    "target" : ""
+  },
 
   {
     "title": "Maobi",
     "pic": maobi,
     "alt": "thumbnail of maobi project",
-    "skills": "product design, mobile design & development",
-    "url" : "/maobi"
+    "skills": "Enhancing accessibility to Chinese calligraphy through a mobile app.",
+    "url" : "/maobi",
+    "target" : ""
   },
 
     {
         "title": "Market2U",
         "pic": market2u,
         "alt": "thumbnail of market2u project",
-        "skills": "responsive design, ux/ui design",
-        "url" : "/market2u"
+        "skills": "Improving access to local small businesses for homebound individuals.",
+        "url" : "/market2u",
+        "target" : ""
       },
 
       // {
@@ -35,21 +45,14 @@ const projectData = [
       //   "url" : "/vagary"
       // },
 
-      {
-        "title": "TOBY",
-        "pic": toby,
-        "alt": "thumbnail of toby project",
-        "skills": "cui design, ux design",
-        "url" : "/toby"
-      },
-
       // {
-      //   "title": "CMU International Film Festival",
-      //   "pic": cmuiff,
-      //   "alt": "thumbnail of cmu iff project",
-      //   "skills": "ux research, ux design",
+      //   "title": "TOBY",
+      //   "pic": toby,
+      //   "alt": "thumbnail of toby project",
+      //   "skills": "cui design, ux design",
+      //   "url" : "/toby",
+      //   "target" : ""
       // }
-
       // {
       //   "title": "Redesigned Internet Cookies Banner",
       //   "pic": market2u,
@@ -69,7 +72,7 @@ const projectData = [
 
 
 const projects = projectData.map(proj => (
-    <ProjectCard key = {proj.title} pic={proj.pic} alt={proj.alt} title={proj.title} skills={proj.skills} url = {proj.url}/>
+    <ProjectCard key = {proj.title} pic={proj.pic} alt={proj.alt} title={proj.title} skills={proj.skills} url = {proj.url} target = {proj.target}/>
   ));
 
 

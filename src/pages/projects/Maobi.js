@@ -1,5 +1,5 @@
 import ProjectOverview from "../../components/ProjectOverview"
-import maobi from "../../images/thumbnails/maobi.png"
+import maobi from "../../images/maobi/hero.gif"
 
 import poster from "../../images/maobi/poster.png"
 import datamapping from "../../images/maobi/datamapping.png"
@@ -22,6 +22,11 @@ import design from "../../images/maobi/design.png"
 import feedback1 from "../../images/maobi/feedback1.png"
 import feedback2 from "../../images/maobi/feedback2.png"
 import feedback3 from "../../images/maobi/feedback3.png"
+
+import learning from "../../images/maobi/learning.gif"
+import camera from "../../images/maobi/camera.gif"
+import unlock from "../../images/maobi/unlock.gif"
+
 
 
 // import feedback2p1 from "../../images/maobi/feedback2p1.png"
@@ -54,8 +59,11 @@ export default function Maobi() {
             <h2>Problem</h2>
             <h3>How might we provide real-time, useful feedback for beginners to learn physical Chinese calligraphy?</h3>
             <p>Chinese calligraphy classes tend to be scarce, costly, and in-person, and there’s a high time commitment to pay for a recurring class and travel to it.
-We researched several existing calligraphy apps, and discovered that no apps currently educate and provide feedback on physical Chinese calligraphy work. Instead, existing apps focus on touch screen drawings with a finger, which does not represent the experience of physical Chinese calligraphy.</p>
+            Tutorial videos online exist, yet they are not personable to the user, and if the user is doing something wrong, they cannot get any feedback on it. With this app, we aim to make learning Chinese calligraphy <strong>more accessible.</strong></p>
             
+            <h3>No apps currently educate on physical Chinese calligraphy</h3>
+            <p>We researched several existing calligraphy apps, and discovered that no apps currently educate and provide feedback on physical Chinese calligraphy work. Instead, existing apps focus on touch screen drawings with a finger, which does not represent the experience of physical Chinese calligraphy. </p>
+
             <h2>Solution</h2>
             <h3>Use the phone camera to capture images of calligraphy practice and receive instant visual feedback.</h3>
             <p>Maobi tackles the challenge of beginners mastering Chinese calligraphy without expert supervision. Maobi takes advantage of the mobile platform, and uses a phone's camera and image analysis for immediate visual feedback on calligraphy technique. This approach transforms any space into a convenient learning environment, avoiding the difficulties of seeking opinions from scarce professionals with potential language barriers and higher costs.</p>
@@ -63,7 +71,7 @@ We researched several existing calligraphy apps, and discovered that no apps cur
 
             
             <h2>Ideation & Research</h2>
-            <h3>How do people learn new skills on their own?</h3>
+            <h3>Learning new skills on your own can be challenging</h3>
             <p>Traditional classes can be costly, inaccessible, or infrequent, making it hard for continuous practice and feedback.
                  We conducted a survey with 15 CMU students interested in Chinese calligraphy about their methods of self-learning and 
                  familiarity with the practice. </p>
@@ -75,12 +83,19 @@ We researched several existing calligraphy apps, and discovered that no apps cur
                     <li><p>Many people are familiar with Chinese calligraphy materials and characters, but fewer are familiar with the different kinds of strokes and scripts.</p></li>
                 </ul>
 
+            <h3>An app made for beginners</h3>
+            <p>Because our user research showed how much beginners struggled with self-learning new skills and the lack of personable options to them, we believed beginners would benefit the most from a learning app. Given their lack of prior experience, we decided to focus on teaching standard-script calligraphy, with features tailored to support novices in their learning journey.</p>
+
             <h2>Design Explorations</h2>
             <h3>Considering the Mobile Mindset</h3>
             <p>After gathering the above insights, we considered ways to provide immediate feedback to self-learners, and how to keep them motivated to continue learning.</p>
-            <p>Maobi leverages the mobile platform's camera capabilities to provide real-time feedback on the user's calligraphy technique. A phone’s camera is the easiest for snapping a photo or video of calligraphy paper.</p>
+            <p>Maobi leverages the mobile platform's camera capabilities with image processing code to provide real-time feedback on the user's calligraphy technique. A phone’s camera is the easiest for snapping a photo or video of calligraphy paper.</p>
 
             <img src = {explanation} alt= "user flow of user taking a photo and receiving visual feedback"/>
+
+            <p>Our research indicated that beginners are often unable to recognize mistakes when learning a new skill on their own, so through our core visual feedback feature, we wanted to visually show users <strong>exactly where they could improve</strong>.
+            </p>
+
 
             <h3>Lo-fi Wireframes</h3>
 
@@ -101,10 +116,11 @@ The flow for one character level is as follows: </p>
                         <img className="phone" src = {lofi10} alt = "new coins wireframe"/>
                 </div>
             </div>
+
             
             <h3>Usability Testing Results</h3>
-            <p>We conducted 6 usability tests using think-aloud protocols and semi-structured interviews; we asked each participant to navigate through one character level. We gained the following insights, and I adjusted the screens accordingly.</p>
-
+            <p>We conducted 6 usability tests with calligraphy beginners, using think-aloud protocols and semi-structured interviews. We asked each participant to navigate through one character level. </p>
+            <p>Our goal was to understand if the user found value in our app’s features. We gained the following insights, and I adjusted the screens accordingly.</p>
             <br/>
 
             <div className = "container">
@@ -121,7 +137,7 @@ The flow for one character level is as follows: </p>
                 </div>
             </div>
 
-            <div className = "container">
+            <div className = "container reverse">
 
                 <div className = "screens">
                     <img src = {feedback2} alt= "new daily challenge screens"/>
@@ -154,16 +170,13 @@ The flow for one character level is as follows: </p>
 
 
             
-            <h2>Final Prototype</h2>
+            <h2>Final Design</h2>
             <h3>Style Guide</h3>
             <p>As we transitioned into hi-fi, I chose the color palette based on colors commonly associated with Chinese calligraphy while 
                 ensuring there was an adequate amount of contrast. Because the “mao” in “maobi” is similar to the word for cat in Chinese, 
                 I illustrated a cat for our logo to add some more fun into our app. </p>
                 <img src = {design} className = "design-sys" alt = "image of color palette, typography choices, and assets"/>
             <h3>Your Personal Calligraphy Coach</h3>
-
-        <img src = {poster} alt = "promotional poster of maobi"></img> 
-
 
             {/* <div className = "container">
                 <div className = "description">
@@ -173,39 +186,41 @@ The flow for one character level is as follows: </p>
                 <div className = "screens">
 
                 </div>
-            </div>
+            </div> */}
 
-            <div className = "container">
+            <div className = "container one-phone">
                 <div className = "description">
                     <h4>Learn fundamentals</h4>
                     <p>Users can learn and practice basic Chinese calligraphy strokes, then progress to simple characters and themed packs. Each character level begins by teaching the stroke order.</p>
                 </div>
                 <div className = "screens">
+                    <img className = "phone" src={learning} alt="learning characters screens"/>
 
                 </div>
             </div>
 
-            <div className = "container">
+            <div className = "container one-phone">
                 <div className = "description">
                     <h4>Get instant feedback</h4>
-                    <p>Within each level, users can take a picture of their physical calligraphy work. Maobi will analyze it and provide immediate visual feedback, highlighting any mistakes.</p>
+                    <p>Within each level, users can take a picture of their physical calligraphy work. Maobi will analyze it and provide visual feedback, highlighting any mistakes.</p>
                 </div>
                 <div className = "screens">
+                    <img className = "phone" src={camera} alt="camera feedback screens"/>
 
                 </div>
             </div>
 
-            <div className = "container">
+            <div className = "container one-phone">
                 <div className = "description">
                     <h4>Use stars to unlock more</h4>
                     <p>With the stars accumulated each level, users can use these stars as currency to unlock more character levels, serving as motivation to keep going. </p>
                 </div>
                 <div className = "screens">
-
+                    <img className = "phone" src={unlock} alt="unlocking characters screens"/>
                 </div>
             </div>
 
-            <div className = "container">
+            {/* <div className = "container">
                 <div className = "description">
                     <h4>A new challenge everyday</h4>
                     <p>Users can complete a daily challenge everyday, unlocking the respective character once completed. </p>
@@ -214,7 +229,6 @@ The flow for one character level is as follows: </p>
 
                 </div>
             </div> */}
-
 
 
 
@@ -238,16 +252,16 @@ The flow for one character level is as follows: </p>
             <br/>
 
             <h3>Navigating Technical Challenges</h3>
-            <div className = "container">
+            <div className = "container one-phone">
 
             <div className = "description">
                 <p>During implementation, we encountered issues with the image analysis for our camera feedback feature. Initially, we planned to scan calligraphy work like CamScanner and compare it to a template image for feedback. However, our code couldn’t adjust angled images or recognize characters accurately.
 
-                </p><p>To resolve this, we added a screen allowing users to <strong>rotate, move, and resize</strong> their work to fit an overlay of the template image, ensuring proper image analysis to provide feedback.</p>
+                </p><p>To resolve this, we added a screen allowing users to <strong>rotate, move, and resize</strong> their work to fit an overlay of the template image, ensuring our image processing algorithm could recognize the submitted image to provide feedback.</p>
             </div>
 
             <div className = "screens">
-                <img className = "phone" src={adjustment} alt="adjusting taken photo"/>
+                <img className = "phone shadow" src={adjustment} alt="adjusting taken photo"/>
 
             </div>
             </div>
@@ -257,10 +271,10 @@ The flow for one character level is as follows: </p>
 
             {/* <p>Below is a demo video of how our app looked after being developed in SwiftUI.</p>
 
-            <iframe width = "100%" src="https://drive.google.com/file/d/1Ya0dvYiQsKLBRYcu5Uv4t4tpsFUdK09M/preview" title="drive video"></iframe>
+            <iframe width = "100%" src="https://drive.google.com/file/d/1Ya0dvYiQsKLBRYcu5Uv4t4tpsFUdK09M/preview" title="drive video"></iframe> */}
             
-            <p>We presented an 8-minute pitch to Capital One employees, and I created a promotional video and poster for our app.</p>
-            <img src = {poster} alt = "promotional poster of maobi"></img> */}
+            <p>In addition to coding the app in SwiftUI, we presented an 8-minute pitch to Capital One employees, and I designed a promotional poster for Maobi.</p>
+            <img src = {poster} alt = "promotional poster of maobi"></img>
 
             <h2>Reflection</h2>
 

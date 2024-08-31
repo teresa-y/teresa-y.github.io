@@ -1,25 +1,26 @@
 import resume from '../resume.pdf';
-import me from '../images/other/me.png'
+import me from '../images/other/me.jpg'
 
 export default function About(){
     return(
         <>
-        <h1>about</h1>
         <div className = "about-container">
             <div className = "about-img">
-                <img src={me} alt="drawing of teresa yang"></img>
+                <img src={me} alt="picture of teresa yang"></img>
 
             </div>
 
             <div className = "about-bio">
-            Hi, I’m Teresa! I’m currently a student at Carnegie Mellon University studying Information Systems and 
-            Human-Computer Interaction with a minor in Business. My goal is to deliver meaningful and immersive experiences, and my background in human-centered design, technology, and visual arts shapes the way I design for people.<br/><br/>
+            <p>Hi, I’m Teresa! I’m a recent graduate from Carnegie Mellon University, where I studied Information Systems and 
+            Human-Computer Interaction with a minor in Business. I think people are inspiring, so I strive to understand them better.
+         A lover of all things creative, I want to uplift human experiences through my creations and build things that people not only can use, but will enjoy using. My background in human-centered design, technology, and product strategy shapes the way I solve problems and design for people.</p>
+            <p>In my free time, I love drawing and watching cat videos.</p>
+            <hr/>
+            <p>Resume available upon request. Feel free to contact me at <a href="mailto:tyang218@gmail.com">tyang218@gmail.com</a>!</p>
+           
             
-            In my free time, I love drawing and watching cat videos.<br/><br/>
-            
-            Let’s connect! Feel free to contact me at tyang218@gmail.com<br/><br/>
+            {/* Resume available upon request. Feel free to contact me at tyang218@gmail.com.<br/><br/> */}
 
-            <a href={resume} target = "_blank" rel="noreferrer">Resume</a>
             </div>
 
         </div>

@@ -223,8 +223,8 @@ export default function Market2U(props) {
             </div>
 
             <div className = "row">
-                <p>Once the customer makes their order, the service provider is notified and is equipped with a detailed breakdown– 
-                    where they need to pick up groceries, which ones to pick up, and how to get there and where to drop it off. </p>
+                <p>Once the customer makes their order, the service provider is notified and is given a detailed breakdown– 
+                    where to pick up groceries, which ones to pick up, how to get there, and where to drop it off. </p>
 
                 <div className = "final-screens">
                     <img className = "phone" src = {serviceprovidergif} alt = "gif of service provider screens"></img>
@@ -233,7 +233,7 @@ export default function Market2U(props) {
             </div>
 
             <div className = "row">
-                <p>Before their next grocery purchase on Market2U, customers can explore a variety of recipes. Each recipe is paired with a 
+                <p>Before their next purchase, customers can explore a variety of recipes. Each recipe is paired with a 
                     grocery bundle, allowing users to easily add all required ingredients to their cart with a single click.</p>
 
                 <div className = "final-screens">
@@ -243,8 +243,8 @@ export default function Market2U(props) {
             </div>
 
             <div className = "row">
-                <p>As transactions take place, store owners can monitor popular bundles and overall sales via Market2U's analytics, 
-                    as well as create new bundles. This data-driven approach empowers local businesses to refine offerings and strategies, 
+                <p>As transactions take place, store owners can monitor popular bundles and overall sales, 
+                    as well as create new bundles. This empowers local businesses to refine offerings and strategies, 
                     ensuring they thrive in today's digital landscape.</p>
 
                 <div className = "final-screens">

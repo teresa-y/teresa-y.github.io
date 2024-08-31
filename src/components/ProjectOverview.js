@@ -18,7 +18,7 @@ export default function ProjectOverview(props) {
                     {props.description}
                 </div>
 
-                <div dangerouslySetInnerHTML={{__html: props.info}}>
+                <div className = "project-info" dangerouslySetInnerHTML={{__html: props.info}}>
                 </div>
 
             </div>
