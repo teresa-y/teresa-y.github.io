@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.49375a88.css",
-    "main.js": "/static/js/main.6bbed6e9.js",
+    "main.css": "/static/css/main.fee1a6cc.css",
+    "main.js": "/static/js/main.e953aa82.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/onboarding.gif": "/static/media/onboarding.0d3c6a9da08aaf835846.gif",
-    "static/media/hero.gif": "/static/media/hero.35feed26d524c1175c38.gif",
+    "static/media/hero.gif": "/static/media/hero.071d322d29b1f6b2a8d1.gif",
     "static/media/browsing.gif": "/static/media/browsing.dbc2fda81f76ee32ce8d.gif",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
     "static/media/filter.gif": "/static/media/filter.a358a03c931ede825a78.gif",
@@ -44,7 +44,6 @@
     "static/media/me.jpg": "/static/media/me.683c7ad05f2b1157bec1.jpg",
     "static/media/tca.gif": "/static/media/tca.010aec93508b2777b77b.gif",
     "static/media/currentissues.png": "/static/media/currentissues.c079edef1aeb67dc5560.png",
-    "static/media/cmuiff.png": "/static/media/cmuiff.5102845120d724e23d5f.png",
     "static/media/customerhome.png": "/static/media/customerhome.6d980fa3615449c7a021.png",
     "static/media/bizactivebundles.png": "/static/media/bizactivebundles.e0ad072e1732588f013e.png",
     "static/media/prototype.png": "/static/media/prototype.5c590a31013c7b244c2f.png",
@@ -52,6 +51,7 @@
     "static/media/storyboardp2.png": "/static/media/storyboardp2.bf61262d3451391d4ed6.png",
     "static/media/customerbundles.png": "/static/media/customerbundles.ed553f9e154477211f9a.png",
     "static/media/customeriterations.png": "/static/media/customeriterations.1534027273d882f94d43.png",
+    "static/media/cmuiff.png": "/static/media/cmuiff.00f5ffcaba4aa72484f2.png",
     "static/media/storyboardyifei.jpg": "/static/media/storyboardyifei.1298e2db3cdfb29e57d6.jpg",
     "static/media/crazy8teresa.png": "/static/media/crazy8teresa.cb0182d1a7602326b946.png",
     "static/media/browsefilmsquickly.png": "/static/media/browsefilmsquickly.bae53ae1377e7ebc1c96.png",
@@ -78,12 +78,12 @@
     "static/media/customerhomephone.png": "/static/media/customerhomephone.bf857725ea75173f0300.png",
     "static/media/moreautonomy.png": "/static/media/moreautonomy.890cd0d202bac781c9b9.png",
     "static/media/improvednav.png": "/static/media/improvednav.dbae1e9dfb4d7f2ef41c.png",
-    "static/media/feedback3.png": "/static/media/feedback3.ad5c6de3b62dee8d57ba.png",
+    "static/media/feedback3.png": "/static/media/feedback3.722b71b11965e1bb1333.png",
+    "static/media/maobi.png": "/static/media/maobi.7d9e366a913494143f9f.png",
     "static/media/feedback1.png": "/static/media/feedback1.d60f9ccd8aa831450659.png",
     "static/media/storyboard.png": "/static/media/storyboard.133fe859c079ea036168.png",
     "static/media/bizbundlecreator.png": "/static/media/bizbundlecreator.779f27f219ad92a24bf0.png",
     "static/media/feedback2.png": "/static/media/feedback2.0ae13da744d27783d7af.png",
-    "static/media/maobi.png": "/static/media/maobi.8046d7a95241bb49a878.png",
     "static/media/me.gif": "/static/media/me.8eb942d778ed63d511a5.gif",
     "static/media/bizactiveorders.png": "/static/media/bizactiveorders.91ef7e2042903de18415.png",
     "static/media/customerbundlesphone.png": "/static/media/customerbundlesphone.cfff14bc81789ee811e5.png",
@@ -131,12 +131,12 @@
     "static/media/hifi6.png": "/static/media/hifi6.076503d19baf45a3ad8f.png",
     "static/media/hifi4.png": "/static/media/hifi4.e95b480c49acf124f19b.png",
     "index.html": "/index.html",
-    "main.49375a88.css.map": "/static/css/main.49375a88.css.map",
-    "main.6bbed6e9.js.map": "/static/js/main.6bbed6e9.js.map",
+    "main.fee1a6cc.css.map": "/static/css/main.fee1a6cc.css.map",
+    "main.e953aa82.js.map": "/static/js/main.e953aa82.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49375a88.css",
-    "static/js/main.6bbed6e9.js"
+    "static/css/main.fee1a6cc.css",
+    "static/js/main.e953aa82.js"
   ]
 }
