@@ -18,7 +18,7 @@ export default function About(){
 
             <div className = "about-bio">
             <p>Hi, I’m Teresa! I’m a recent graduate from Carnegie Mellon University, where I studied Information Systems and 
-            Human-Computer Interaction with a minor in Business. I think people are inspiring, so I strive to understand them better.</p><p>
+            Human-Computer Interaction with a minor in Business.</p><p>
          A lover of all things creative, I want to uplift human experiences through my creations and build things that people not only can use, but will enjoy using. I'm particularly interested in gamification techniques and persuasive design. My background in human-centered design, technology, and business thinking shapes the way I solve problems and design for people.</p>
             <p>In my free time, I enjoy <NavLink to='/play' onClick={scrollToTop}>drawing</NavLink> and watching cat videos.</p>
             <hr/>
