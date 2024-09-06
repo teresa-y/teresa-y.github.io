@@ -49,7 +49,7 @@ export default function Maobi() {
             <ProjectOverview key = "Maobi" 
             pic={maobi} 
             title="Maobi" 
-            description="Maobi is an iOS app that providers instant feedback to Chinese calligraphy work by simply taking a picture. “Maobi” is the Chinese word for the calligraphy brush.
+            description="Maobi is an iOS app that provides instant feedback to Chinese calligraphy work by simply taking a picture. “Maobi” is the Chinese word for the calligraphy brush.
             " 
             info = "<strong>Role:</strong> UX/UI Design, Front-End Development<br/> <strong>Timeline:</strong> Fall 2023, 12 weeks<br/> <strong>Team:</strong> Dora Xiao, Lucy Yang<br/><strong>Tools:</strong> Figma, SwiftUI, Procreate"/>
             

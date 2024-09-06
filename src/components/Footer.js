@@ -10,7 +10,8 @@ export default function Footer(){
         <div className = "footer-container">
 
             <div className = "copyright">
-                &copy; Coded with React by Teresa Yang.
+                &copy; 2024 Teresa Yang <br/>
+                This website was coded by hand in React ₍ᐢ. ̫.ᐢ₎
             </div>
 
             <div className = "socmed">

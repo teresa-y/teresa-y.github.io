@@ -10,16 +10,26 @@ export default function ProjectCard(props){
         
         <div className = "project-card-container">
             <div className = "project-img">
-                <NavLink to={props.url} onClick={props.target ? () => {} : scrollToTop} target = {props.target ? props.target : ""}><img className="img-fluid" src= {props.pic} alt={props.alt}/></NavLink>
+                <NavLink to={props.url} onClick={props.target ? () => {} : scrollToTop} target = {props.target ? props.target : ""}><img src= {props.pic} alt={props.alt}/></NavLink>
             </div>
 
-            <div className = "project-title">
-                {props.title}
+            <div className = "project-card-info">
+
+                <div className = "project-title">
+                    {props.title}
+                </div>
+
+                <div className = "project-card-desc">
+                    <NavLink to={props.url} onClick={props.target ? () => {} : scrollToTop} target = {props.target ? props.target : ""}>{props.desc}</NavLink>
+                </div>
+
+                <div className = "project-skills">
+                    {props.skills}
+                </div>
+
+
             </div>
 
-            <div className = "project-skills">
-                {props.skills}
-            </div>
         </div>
 
     );

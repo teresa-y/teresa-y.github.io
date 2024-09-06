@@ -14,7 +14,8 @@ const projectData = [
     "title": "CMU International Film Festival",
     "pic": cmuiff,
     "alt": "thumbnail of cmu iff project",
-    "skills": "Capturing years of festival history through an interactive digital archive.",
+    "desc": "Capturing years of festival history in an interactive digital archive.",
+    "skills": "product design, ux research, prototyping, client work",
     "url" : "/cmuiff",
     "target" : ""
   },
@@ -23,19 +24,20 @@ const projectData = [
     "title": "Maobi",
     "pic": maobi,
     "alt": "thumbnail of maobi project",
-    "skills": "Enhancing accessibility to Chinese calligraphy through a mobile app.",
+    "desc": "A personal calligraphy coach in a mobile app.",
+    "skills": "mobile design, prototyping, ios development",
     "url" : "/maobi",
     "target" : ""
   },
 
-    {
-        "title": "Market2U",
-        "pic": market2u,
-        "alt": "thumbnail of market2u project",
-        "skills": "Improving access to local small businesses for homebound individuals.",
-        "url" : "/market2u",
-        "target" : ""
-      },
+    // {
+    //     "title": "Market2U",
+    //     "pic": market2u,
+    //     "alt": "thumbnail of market2u project",
+    //     "skills": "Improving access to local small businesses for homebound individuals.",
+    //     "url" : "/market2u",
+    //     "target" : ""
+    //   },
 
       // {
       //   "title": "Vagary",
@@ -64,7 +66,8 @@ const projectData = [
       //   "title": "Heuristicats",
       //   "pic": heuristicats,
       //   "alt": "thumbnail of heuristicats project",
-      //   "skills": "game art, educational game design",
+      //   "desc": "A cat-themed role-playing game that teaches UX design principles.",
+      //   "skills": "educational game design, illustration, 2d animation",
       //   "url" : "/heuristicats"
       // }
 ]
@@ -72,7 +75,7 @@ const projectData = [
 
 
 const projects = projectData.map(proj => (
-    <ProjectCard key = {proj.title} pic={proj.pic} alt={proj.alt} title={proj.title} skills={proj.skills} url = {proj.url} target = {proj.target}/>
+    <ProjectCard key = {proj.title} pic={proj.pic} alt={proj.alt} title={proj.title} desc={proj.desc} skills={proj.skills} url = {proj.url} target = {proj.target}/>
   ));
 
 
