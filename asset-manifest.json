@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b337df73.css",
-    "main.js": "/static/js/main.074baf33.js",
+    "main.css": "/static/css/main.1777437c.css",
+    "main.js": "/static/js/main.1e9ac74b.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/onboarding.gif": "/static/media/onboarding.0d3c6a9da08aaf835846.gif",
     "static/media/hero.gif": "/static/media/hero.071d322d29b1f6b2a8d1.gif",
@@ -40,7 +40,6 @@
     "static/media/customerrecipe.png": "/static/media/customerrecipe.e6a23a97aa9d3cb59684.png",
     "static/media/tgcf.jpg": "/static/media/tgcf.3a1816b3fe494033ab67.jpg",
     "static/media/bezold_effect.png": "/static/media/bezold_effect.488763db550e76d0a509.png",
-    "static/media/lofibooth.png": "/static/media/lofibooth.d2cfd5f45c85a73b83a9.png",
     "static/media/me.jpg": "/static/media/me.683c7ad05f2b1157bec1.jpg",
     "static/media/tca.gif": "/static/media/tca.010aec93508b2777b77b.gif",
     "static/media/currentissues.png": "/static/media/currentissues.c079edef1aeb67dc5560.png",
@@ -56,6 +55,7 @@
     "static/media/crazy8teresa.png": "/static/media/crazy8teresa.cb0182d1a7602326b946.png",
     "static/media/browsefilmsquickly.png": "/static/media/browsefilmsquickly.bae53ae1377e7ebc1c96.png",
     "static/media/customerbundledetails.png": "/static/media/customerbundledetails.2ff7de4258aa33b6c965.png",
+    "static/media/lofibooth.png": "/static/media/lofibooth.b69a163be3a43aac3a1e.png",
     "static/media/bizanalytics.png": "/static/media/bizanalytics.1742eaa2b620a9601548.png",
     "static/media/bizhome.png": "/static/media/bizhome.1172b73526a1548209ed.png",
     "static/media/market2u.png": "/static/media/market2u.067d65c5d919b9b5a9f3.png",
@@ -89,7 +89,6 @@
     "static/media/customerbundlesphone.png": "/static/media/customerbundlesphone.cfff14bc81789ee811e5.png",
     "static/media/datamapping.png": "/static/media/datamapping.f84786fc9bc119354a32.png",
     "static/media/splivechat.png": "/static/media/splivechat.6566489497da099d69fe.png",
-    "static/media/lofiscreens.png": "/static/media/lofiscreens.994027da96a60afd4187.png",
     "static/media/sporderstatus.png": "/static/media/sporderstatus.0388230d31dfd11418ef.png",
     "static/media/customerbundledetailsphone.png": "/static/media/customerbundledetailsphone.971892cd27338c6e28c6.png",
     "static/media/customer.png": "/static/media/customer.f1a90826d928086a83a7.png",
@@ -99,6 +98,7 @@
     "static/media/lofi7.png": "/static/media/lofi7.b020155366f7b6d3344b.png",
     "static/media/lofi9.png": "/static/media/lofi9.89eaa91637cd9ec9dbd6.png",
     "static/media/businessowner.png": "/static/media/businessowner.7c87c3ac1a666157f0ce.png",
+    "static/media/lofiscreens.png": "/static/media/lofiscreens.efdb1d882054edc6e6f5.png",
     "static/media/midfispinglobe.png": "/static/media/midfispinglobe.202f19c4ad48ed5114c0.png",
     "static/media/customercartphone.png": "/static/media/customercartphone.80b2dc7e9ba663bdc3bf.png",
     "static/media/userflow.png": "/static/media/userflow.f58526d37abc56305383.png",
@@ -131,12 +131,12 @@
     "static/media/hifi6.png": "/static/media/hifi6.076503d19baf45a3ad8f.png",
     "static/media/hifi4.png": "/static/media/hifi4.e95b480c49acf124f19b.png",
     "index.html": "/index.html",
-    "main.b337df73.css.map": "/static/css/main.b337df73.css.map",
-    "main.074baf33.js.map": "/static/js/main.074baf33.js.map",
+    "main.1777437c.css.map": "/static/css/main.1777437c.css.map",
+    "main.1e9ac74b.js.map": "/static/js/main.1e9ac74b.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b337df73.css",
-    "static/js/main.074baf33.js"
+    "static/css/main.1777437c.css",
+    "static/js/main.1e9ac74b.js"
   ]
 }
