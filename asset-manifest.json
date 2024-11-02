@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.1777437c.css",
-    "main.js": "/static/js/main.9cdc98a2.js",
+    "main.js": "/static/js/main.24dea84f.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
-    "static/media/onboarding.gif": "/static/media/onboarding.0d3c6a9da08aaf835846.gif",
-    "static/media/hero.gif": "/static/media/hero.071d322d29b1f6b2a8d1.gif",
+    "static/media/onboarding.gif": "/static/media/onboarding.9bfffdc31c74eebc8b6b.gif",
     "static/media/browsing.gif": "/static/media/browsing.dbc2fda81f76ee32ce8d.gif",
     "static/media/visualinterest.png": "/static/media/visualinterest.5fdbac2acc3b684cec0b.png",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
@@ -18,6 +17,7 @@
     "static/media/camera.gif": "/static/media/camera.ddac3c8d96a5eb2e2c6c.gif",
     "static/media/customerweb.gif": "/static/media/customerweb.cad26742cb33d8b1210f.gif",
     "static/media/learning.gif": "/static/media/learning.c9f93b14016dc203e9d8.gif",
+    "static/media/hero.gif": "/static/media/hero.060650f7d42ddc12df13.gif",
     "static/media/customerweb2.gif": "/static/media/customerweb2.aa91ecb07ff3fe4189f5.gif",
     "static/media/crazy8yifei.jpg": "/static/media/crazy8yifei.e6fdca5ef671446c9b88.jpg",
     "static/media/optical_mixing.png": "/static/media/optical_mixing.9e644d1bf0e328b9fbe5.png",
@@ -97,10 +97,10 @@
     "static/media/sporderstatus2.png": "/static/media/sporderstatus2.add8202f67f06d39d1e8.png",
     "static/media/comparison.png": "/static/media/comparison.613135a776a06abcb046.png",
     "static/media/styleguide.png": "/static/media/styleguide.fc9bbafab28f0e0db64c.png",
+    "static/media/lofiscreens.png": "/static/media/lofiscreens.9ea8feb204e420b6cd81.png",
     "static/media/lofi7.png": "/static/media/lofi7.b020155366f7b6d3344b.png",
     "static/media/lofi9.png": "/static/media/lofi9.89eaa91637cd9ec9dbd6.png",
     "static/media/businessowner.png": "/static/media/businessowner.7c87c3ac1a666157f0ce.png",
-    "static/media/lofiscreens.png": "/static/media/lofiscreens.efdb1d882054edc6e6f5.png",
     "static/media/midfispinglobe.png": "/static/media/midfispinglobe.202f19c4ad48ed5114c0.png",
     "static/media/customercartphone.png": "/static/media/customercartphone.80b2dc7e9ba663bdc3bf.png",
     "static/media/userflow.png": "/static/media/userflow.f58526d37abc56305383.png",
@@ -134,11 +134,11 @@
     "static/media/hifi4.png": "/static/media/hifi4.e95b480c49acf124f19b.png",
     "index.html": "/index.html",
     "main.1777437c.css.map": "/static/css/main.1777437c.css.map",
-    "main.9cdc98a2.js.map": "/static/js/main.9cdc98a2.js.map",
+    "main.24dea84f.js.map": "/static/js/main.24dea84f.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1777437c.css",
-    "static/js/main.9cdc98a2.js"
+    "static/js/main.24dea84f.js"
   ]
 }
