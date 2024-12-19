@@ -5,7 +5,15 @@ export default function ProjectOverview(props) {
         <div className = "project-overview-container">
 
             <div className = "project-overview-pic">
-               <img src = {props.pic} alt = {props.alt}/>
+            <video
+                src={props.pic}
+                type="video/webm"
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ pointerEvents: 'none' }}
+      />
             </div>
 
             <div className = "project-overview-title">

@@ -1,14 +1,15 @@
 import ProjectOverview from "../../components/ProjectOverview"
-import maobi from "../../images/maobi/hero.gif"
+import NextProject from "../../components/NextProject"
+import maobi from "../../images/maobi/hero.webm"
 
 import poster from "../../images/maobi/poster.png"
 import datamapping from "../../images/maobi/datamapping.png"
 import comparison from "../../images/maobi/comparison.png"
 // lofi
-import lofi1 from "../../images/maobi/lofi1.png"
-import lofi2 from "../../images/maobi/lofi2.png"
-import lofi3 from "../../images/maobi/lofi3.png"
-import lofi4 from "../../images/maobi/lofi4.png"
+// import lofi1 from "../../images/maobi/lofi1.png"
+// import lofi2 from "../../images/maobi/lofi2.png"
+// import lofi3 from "../../images/maobi/lofi3.png"
+// import lofi4 from "../../images/maobi/lofi4.png"
 import lofi5 from "../../images/maobi/lofi5.png"
 import lofi6 from "../../images/maobi/lofi6.png"
 import lofi7 from "../../images/maobi/lofi7.png"
@@ -32,12 +33,12 @@ import unlock from "../../images/maobi/unlock.gif"
 // import feedback2p1 from "../../images/maobi/feedback2p1.png"
 // import feedback2p2 from "../../images/maobi/feedback2p2.png"
 // import feedback2p3 from "../../images/maobi/feedback2p3.png"
-import hifi1 from "../../images/maobi/hifi1.png"
-import hifi2 from "../../images/maobi/hifi2.png"
-import hifi3 from "../../images/maobi/hifi3.png"
-import hifi4 from "../../images/maobi/hifi4.png"
-import hifi5 from "../../images/maobi/hifi5.png"
-import hifi6 from "../../images/maobi/hifi6.png"
+// import hifi1 from "../../images/maobi/hifi1.png"
+// import hifi2 from "../../images/maobi/hifi2.png"
+// import hifi3 from "../../images/maobi/hifi3.png"
+// import hifi4 from "../../images/maobi/hifi4.png"
+// import hifi5 from "../../images/maobi/hifi5.png"
+// import hifi6 from "../../images/maobi/hifi6.png"
 
 import adjustment from "../../images/maobi/adjustment.gif"
 
@@ -45,35 +46,36 @@ import adjustment from "../../images/maobi/adjustment.gif"
 
 export default function Maobi() {
     return(
+        <>
         <div className = "project-page">
             <ProjectOverview key = "Maobi" 
             pic={maobi} 
             title="Maobi" 
-            description="Maobi is an iOS app that provides instant feedback to Chinese calligraphy work by simply taking a picture. “Maobi” is the Chinese word for the calligraphy brush.
+            description="Maobi is an iOS app that provides instant feedback to Chinese calligraphy work by simply taking a picture. “Maobi” is the Chinese word for the calligraphy brush. 
             " 
-            info = "<strong>Role:</strong> UX/UI Design, Front-End Development<br/> <strong>Timeline:</strong> Fall 2023, 12 weeks<br/> <strong>Team:</strong> Dora Xiao, Lucy Yang<br/><strong>Tools:</strong> Figma, SwiftUI, Procreate"/>
+            info = "<strong>Role:</strong> UX/UI Design, Front-End Development<br/> <strong>Timeline: </strong>12 weeks<br/> <strong>Team:</strong> Dora Xiao, Lucy Yang<br/><strong>Tools:</strong> Figma, SwiftUI, Procreate"/>
             
             <br/>
             <p><i>Created for the Mobile Application Design & Development course, which is sponsored by Capital One and concludes with a cash prize competition. In 12 weeks, we were challenged to ideate a unique product, develop a hi-fi prototype, and code a functional iOS app in SwiftUI.  </i></p><p><i>Capital One awarded our team the 2nd place prize. </i></p>
 
             <h2>Problem</h2>
-            <h3>How might we provide real-time, useful feedback for beginners to learn physical Chinese calligraphy?</h3>
+            <h3>How might we provide instant, useful feedback for beginners to learn Chinese calligraphy?</h3>
             <p>Chinese calligraphy classes tend to be scarce, costly, and in-person, and there’s a high time commitment to pay for a recurring class and travel to it.
-            Tutorial videos online exist, yet they are not personable to the user, and if the user is doing something wrong, they cannot get any feedback on it. With this app, we aim to make learning Chinese calligraphy <strong>more accessible.</strong></p>
+            Tutorial videos online exist, yet they aren't personalized to the user, and if the user is doing something wrong, they can't get any feedback on it. With this app, we aim to make learning Chinese calligraphy <strong>more accessible.</strong></p>
             
             <h3>No apps currently educate on physical Chinese calligraphy</h3>
             <p>We researched several existing calligraphy apps, and discovered that no apps currently educate and provide feedback on physical Chinese calligraphy work. Instead, existing apps focus on touch screen drawings with a finger, which does not represent the experience of physical Chinese calligraphy. </p>
 
             <h2>Solution</h2>
-            <h3>Use the phone camera to capture images of calligraphy practice and receive instant visual feedback.</h3>
-            <p>Maobi tackles the challenge of beginners mastering Chinese calligraphy without expert supervision. Maobi takes advantage of the mobile platform, and uses a phone's camera and image analysis for immediate visual feedback on calligraphy technique. This approach transforms any space into a convenient learning environment, avoiding the difficulties of seeking opinions from scarce professionals with potential language barriers and higher costs.</p>
+            <h3>Take a picture of your calligraphy work and receive instant visual feedback.</h3>
+            <p>Maobi tackles the challenge of beginners mastering Chinese calligraphy without expert supervision. Maobi takes advantage of the mobile platform, and uses a phone's camera and image analysis for immediate visual feedback on calligraphy technique. This approach transforms any space into a convenient learning environment.</p>
             <iframe width = "100%" src="https://www.youtube.com/embed/oPhMj68tpb0?si=v4gGJJOri7wU6ggQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             
             <h2>Ideation & Research</h2>
             <h3>Learning new skills on your own can be challenging</h3>
             <p>Traditional classes can be costly, inaccessible, or infrequent, making it hard for continuous practice and feedback.
-                 We conducted a survey with 15 CMU students interested in Chinese calligraphy about their methods of self-learning and 
+                 We conducted a survey with 15 students interested in Chinese calligraphy about their methods of self-learning and 
                  familiarity with the practice. </p>
 
                  <ul class="numbered-list">
@@ -84,12 +86,12 @@ export default function Maobi() {
                 </ul>
 
             <h3>An app made for beginners</h3>
-            <p>Because our user research showed how much beginners struggled with self-learning new skills and the lack of personable options to them, we believed beginners would benefit the most from a learning app. Given their lack of prior experience, we decided to focus on teaching standard-script calligraphy, with features tailored to support novices in their learning journey.</p>
+            <p>Because our user research showed how much beginners struggled with self-learning new skills, we believed beginners would benefit the most from a learning app. Given their lack of prior experience, we decided to focus on teaching standard-script calligraphy, with features tailored to support novices in their learning journey.</p>
 
             <h2>Design Explorations</h2>
             <h3>Considering the Mobile Mindset</h3>
             <p>After gathering the above insights, we considered ways to provide immediate feedback to self-learners, and how to keep them motivated to continue learning.</p>
-            <p>Maobi leverages the mobile platform's camera capabilities with image processing code to provide real-time feedback on the user's calligraphy technique. A phone’s camera is the easiest for snapping a photo or video of calligraphy paper.</p>
+            <p>Maobi leverages the mobile platform's camera capabilities with image processing code to provide real-time feedback on the user's calligraphy work. A phone’s camera is the easiest for snapping a photo of calligraphy work.</p>
 
             <img src = {explanation} alt= "user flow of user taking a photo and receiving visual feedback"/>
 
@@ -126,7 +128,7 @@ The flow for one character level is as follows: </p>
             <div className = "container">
                 <div className = "description">
                     <h4>Feedback Screen Feels Discouraging</h4>
-                    <p>Participants found the percentage score <strong>confusing, vague, and intimidating</strong>. Additionally, many didn't realize that earned coins unlocked new levels.
+                    <p>Participants found the percentage score <strong>vague and intimidating</strong>. Also, many didn't realize that earned coins unlocked new levels.
 
                     </p><p>In response, we adopted a <strong>three-star rating system</strong> similar to Cut the Rope, allowing users to accumulate stars and receive <strong>qualitative</strong> feedback instead of percentages.</p>
                 </div>
@@ -145,7 +147,7 @@ The flow for one character level is as follows: </p>
 
                 </div>
                 <div className = "description">
-                    <h4>Requires too much effort to unlock new characters</h4>
+                    <h4>Too hard to unlock new characters</h4>
 
                     <p>Users felt it was too difficult to unlock new characters, <strong>reducing their incentive</strong> to continue using the app.
 
@@ -157,7 +159,7 @@ The flow for one character level is as follows: </p>
             <div className = "container">
                 <div className = "description">
                     <h4>Confusing Menu</h4>
-                    <p>Participants were confused by the “person” icon in the navigation bar, which a menu with only sign-out and onboarding
+                    <p>Participants were confused by the “person” icon in the navigation bar, which had a menu with only sign-out and onboarding
                          options. It <strong>didn’t seem significant</strong> enough for its own page.</p>
                     <p>We removed the bottom bar and moved this information and the “materials” section to a hamburger menu at the top, which also reduced clutter and created a <strong>cleaner design.</strong></p>     
                 </div>
@@ -255,9 +257,9 @@ The flow for one character level is as follows: </p>
             <div className = "container one-phone">
 
             <div className = "description">
-                <p>During implementation, we encountered issues with the image analysis for our camera feedback feature. Initially, we planned to scan calligraphy work like CamScanner and compare it to a template image for feedback. However, our code couldn’t adjust angled images or recognize characters accurately.
+                <p>In our initial designs, we planned to scan calligraphy work like CamScanner and compare it to a template image for feedback. However, our code couldn’t adjust angled images or recognize characters accurately.
 
-                </p><p>To resolve this, we added a screen allowing users to <strong>rotate, move, and resize</strong> their work to fit an overlay of the template image, ensuring our image processing algorithm could recognize the submitted image to provide feedback.</p>
+                </p><p>To resolve this, we revised it to be a screen where users can <strong>rotate, move, and resize</strong> their work to fit an overlay of the template image, ensuring our image processing code could recognize the submitted image to provide feedback.</p>
             </div>
 
             <div className = "screens">
@@ -278,21 +280,26 @@ The flow for one character level is as follows: </p>
 
             <h2>Reflection</h2>
 
-            <h3>A Role on Both Sides</h3>
-            <p>As the sole UX/UI designer on the team, it was important that I communicated effectively with my teammates, who were 
-                mainly developers. I focused on ensuring consistency in user flow and design vision throughout iterations. This project was especially valuable to me because
-                I had the opportunity to take on both the role of a designer and a developer, which gave me insights 
-                into both the design and technical aspects of creating an app. I really enjoyed this dual-role experience-- I got to
-                understand how my designs would translate into the development side, and it also improved my technical proficiency in Swift/XCode and 
+            <h3>Working with Developers</h3>
+            <p>I was the only designer on the team, so it was important that I communicated effectively with my team of developers. This project was especially valuable to me because
+                I got to work as both a designer and a developer. I saw how my designs would translate into the development side, and I improved my technical proficiency in iOS development and 
                 collaboration through GitHub.</p>
 
-            <h3>Adapting to Limits</h3>
+            <h3>Understanding What's Feasible</h3>
             <p>As we began coding out the app, I discovered that many design decisions I made in our prototype were not entirely feasible 
-                due to iOS and Swift/Xcode limitations or because of time constraints. We ended up having to adapt and change our initial 
-                plans for our features during the development process. This experience underscored the importance of understanding 
-                technical limitations early in the design process, and I am sure to keep in mind the technology and structural elements when designing 
-                for development in the future.</p>
+                due to iOS and Swift/Xcode limitations. We ended up having to adapt and change our initial 
+                plans for our features during the development process. In the future, I am sure to keep in mind the technology and its limits.</p>
+
+                <h3>The Power of Rapid Iteration</h3>
+            <p>This project was done with the agile work process in a series of sprints. As a result, I was able to experiment a lot with what worked and what didn't by testing and refining ideas quickly.</p>
         </div>
+
+        <NextProject key = "CMUIFF"
+                        url = "/cmuiff"
+                        title = "International 'Faces' Film Festival"
+                        />
+
+        </>
 
     );
 }

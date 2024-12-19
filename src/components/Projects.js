@@ -11,24 +11,24 @@ import cmuiff from "../images/thumbnails/cmuiff.png"
 
 const projectData = [
   {
-    "title": "CMU International Film Festival",
-    "pic": cmuiff,
-    "alt": "thumbnail of cmu iff project",
-    "desc": "Capturing years of festival history in an interactive digital archive.",
-    "skills": "product design, ux research, prototyping, client work",
-    "url" : "/cmuiff",
-    "target" : ""
-  },
-
-  {
     "title": "Maobi",
     "pic": maobi,
     "alt": "thumbnail of maobi project",
-    "desc": "A personal calligraphy coach in a mobile app.",
+    "desc": "Helping users learn physical calligraphy through digital means.",
     "skills": "mobile design, prototyping, ios development",
     "url" : "/maobi",
     "target" : ""
   },
+
+  {
+    "title": "International 'Faces' Film Festival",
+    "pic": cmuiff,
+    "alt": "thumbnail of cmu iff project",
+    "desc": "Connecting with festival attendees with an interactive digital archive.",
+    "skills": "client work, product design, ux research, prototyping",
+    "url" : "/cmuiff",
+    "target" : ""
+  }
 
     // {
     //     "title": "Market2U",

@@ -28,7 +28,7 @@ export default function Play() {
         <>
             <div className = "play-container">
                 {/* {projects} */}
-                <h3 style={{marginTop: "0"}}>art & games & merch & experiments & etc.</h3>
+                <h3 style={{marginTop: "0", marginBottom: "0.625em"}}>art & games & merch & experiments & etc.</h3>
                 <ResponsiveMasonry
         columnsCountBreakPoints={{ 480: 2, 768: 3 }}
       >
