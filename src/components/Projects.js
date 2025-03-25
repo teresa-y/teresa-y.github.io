@@ -14,8 +14,8 @@ const projectData = [
     "title": "Maobi",
     "pic": maobi,
     "alt": "thumbnail of maobi project",
-    "desc": "Helping users learn physical calligraphy through digital means.",
-    "skills": "mobile design, prototyping, ios development",
+    "desc": "Improving calligraphy skills through personalized feedback.",
+    "skills": "mobile design, prototyping, ios development, full-stack",
     "url" : "/maobi",
     "target" : ""
   },
@@ -24,11 +24,11 @@ const projectData = [
     "title": "International 'Faces' Film Festival",
     "pic": cmuiff,
     "alt": "thumbnail of cmu iff project",
-    "desc": "Connecting with festival attendees with an interactive digital archive.",
+    "desc": "Connecting with festival attendees in an interactive digital archive.",
     "skills": "client work, product design, ux research, prototyping",
     "url" : "/cmuiff",
     "target" : ""
-  }
+  },
 
     // {
     //     "title": "Market2U",
@@ -62,14 +62,14 @@ const projectData = [
       //   "skills": "ux design"
       // },
 
-      // {
-      //   "title": "Heuristicats",
-      //   "pic": heuristicats,
-      //   "alt": "thumbnail of heuristicats project",
-      //   "desc": "A cat-themed role-playing game that teaches UX design principles.",
-      //   "skills": "educational game design, illustration, 2d animation",
-      //   "url" : "/heuristicats"
-      // }
+      {
+        "title": "Heuristicats",
+        "pic": heuristicats,
+        "alt": "thumbnail of heuristicats project",
+        "desc": "Redefining UX design education through gamification.",
+        "skills": "educational game design, ui illustration, 2d animation",
+        "url" : "/heuristicats"
+      }
 ]
 
 

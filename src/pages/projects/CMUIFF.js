@@ -63,7 +63,7 @@ export default function CMUIFF() {
 
             <h2>What makes the IFF so special?</h2>
             <h3>Understanding the IFF's Operations  </h3>
-            <p>With the objective of learning more about the festival and understanding what exactly the IFF’s identity is, we investigated the following research questions:</p>
+            <p>Through our research, we sought to find out what the archive meant for different stakeholders and who would be likely to interact with it the most.</p>
             <ul class="numbered-list">
                     <li><p>How can the identity of the film festival and those involved be represented in an archive?</p></li>
                     <li><p>How do you create intrigue circulating the archive and festival?</p></li>
@@ -73,16 +73,8 @@ export default function CMUIFF() {
             {/* <h3>Competitive Analysis</h3>
             <p>To discover potential design opportunities and gaps, we observed the archives of other film festivals to understand how they expressed themselves in an archive. This included the Criterion Collection, Three Rivers Film Festival, and ReelAbilities. We also looked into websites of prominent CMU organizations due to the IFF wanting to highlight them being student-run. This included Lunar Gala, Activities Board, and Buggy. </p> */}
 
-
-            <h3>The current archive fails to capture the IFF's appeal</h3>
-            <p>We held 8 interviews with different stakeholders, including interns, sponsors, advancement staff, and long-time attendees. Through our research, we sought to find out what the archive meant for different stakeholders and who would be likely to interact with it the most.</p>
-
-            <p>Attendees participated in a think-aloud protocol, where they narrated their navigation of the IFF’s current archive. This helped us identify opportunities for improvement, such as featuring critic reviews and adding a filter to see films by region.</p>
-            
-            <img src={currentissues} alt="issues with the IFF's current archive"/>
-
             <h3>Choosing to focus on attendees</h3>
-            <p>We synthesized our findings through affinity diagramming and identified four key insights. 
+            <p>We held 8 interviews with different stakeholders, including interns, sponsors, advancement staff, and long-time attendees. We synthesized our findings through affinity diagramming and identified four key insights. 
 </p>
             <div className = "quarter">
                 <div className = "item">
@@ -105,6 +97,12 @@ export default function CMUIFF() {
             </div>
 
             <p>From these insights, we saw that a film archive would benefit attendees the most while still addressing our client's desire in communicating the IFF's identity and the team behind it. Thus, we narrowed our focus to the <strong>first two insights centered on attendees</strong>.</p>
+            <h3>The current archive fails to capture the IFF's appeal</h3>
+            <p>Attendees participated in a think-aloud protocol, where they narrated their navigation of the IFF’s current archive. This helped us identify opportunities for improvement, such as featuring critic reviews and adding a filter to see films by region.</p>
+            
+            <img src={currentissues} alt="issues with the IFF's current archive"/>
+
+            
             <h2>Reframing the Problem</h2>
             <h3>How might we increase attendees’ awareness of the festival’s multicultural emphasis and showcase film events in an engaging way?</h3>
             <p>Reflecting on our research, we developed the following goals as we moved on to the visioning stage.</p>
@@ -130,10 +128,10 @@ export default function CMUIFF() {
             </div>
 
             <p>We visualized our most promising ideas through storyboarding; we speed dated these storyboards, and gained some valuable findings.</p>
-            <img src={storyboardp1} alt = "speed dating findings"></img>
+            {/* <img src={storyboardp1} alt = "speed dating findings"></img>
             <p>However, when sketching lo-fi wireframes, we realized our scope during storyboarding was too broad, and we needed more context and details for clarity.</p> 
-
-            <h3>Taking a Step Back...</h3>
+ */}
+            {/* <h3>Taking a Step Back...</h3>
             <p>In drawing our storyboards, we overemphasized the "interactive" aspect to make it interesting, but lost sight of the "archive" aspect. Each team member had different ideas of what an archive should be. Consequently, we settled on a <strong>single definition</strong> of an archive to guide our visioning process.</p>
 
             <img style={{width:"70%",   margin: "auto", display: "block"}} src={archivedef} alt = "definition of archive as Consists of films (titles, trailers, genre, and synopsis), directors, sponsors, interns, special guests, caterers, critic reviews, discussion notes, workshop description, graphics/logos, event photos."></img>
@@ -144,7 +142,7 @@ export default function CMUIFF() {
                 <li><p><strong>Users need to become more aware of one of the festival’s greatest values: its multicultural emphasis</strong></p></li>
             </ul>
 
-            <p>From there, we storyboarded more ideas, where we also thought about how someone might come across the archive to begin with.</p>
+            <p>From there, we storyboarded more ideas, where we also thought about how someone might come across the archive to begin with.</p> */}
 
             <h3>A game-like experience with a form of outreach</h3>
                     <p>Many participants, as well as our client, resonated with a <strong>gamified archive and booth concept</strong> because of its potential for <strong>publicity</strong>. </p><p>Interviewees also mentioned that check-in lines can get long. The booth could be something that <strong>attendees could interact with as they wait.</strong> </p>
@@ -208,7 +206,7 @@ export default function CMUIFF() {
                 </div>
             </div>
 
-            <div className = "container reverse">
+            {/* <div className = "container reverse">
                 <div className = "screens">
                     <img src={visualinterest} alt="new large visual on film list screens"/>
 
@@ -218,7 +216,7 @@ export default function CMUIFF() {
                     <h4>More Visual Interest</h4>
                     <p>Additional visual elements further immerse the user, such as a large GIF that simulates a movie screen upon entering the archive.</p>
                 </div>
-            </div>
+            </div> */}
 
             <div className = "container">
                 <div className = "description">
@@ -387,9 +385,9 @@ export default function CMUIFF() {
 
 
         </div>
-                                <NextProject key = "maobi"
-                        url = "/maobi"
-                        title = "Maobi"
+                                <NextProject key = "heuristicats"
+                        url = "/heuristicats"
+                        title = "Heuristicats"
                         />
 
         

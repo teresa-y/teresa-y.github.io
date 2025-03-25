@@ -5,6 +5,10 @@ import maobi from "../../images/maobi/hero.webm"
 import poster from "../../images/maobi/poster.png"
 import datamapping from "../../images/maobi/datamapping.png"
 import comparison from "../../images/maobi/comparison.png"
+
+import familiarity from "../../images/maobi/familiarity.jpg"
+import selflearningchallenges from "../../images/maobi/selflearningchallenges.jpg"
+
 // lofi
 // import lofi1 from "../../images/maobi/lofi1.png"
 // import lofi2 from "../../images/maobi/lofi2.png"
@@ -77,13 +81,25 @@ export default function Maobi() {
             <p>Traditional classes can be costly, inaccessible, or infrequent, making it hard for continuous practice and feedback.
                  We conducted a survey with 15 students interested in Chinese calligraphy about their methods of self-learning and 
                  familiarity with the practice. </p>
+                 <div className = "half">
+                    <div className = "item">
+                        <p><strong>Many beginners have only some experience with Chinese characters.</strong></p>
+                        <img src = {familiarity} alt = "pie chart showing people's familiarity with Chinese"></img>
+                    </div>
 
-                 <ul class="numbered-list">
+                    <div className = "item">
+                        <p><strong>And they anticipate several challenges learning on their own.</strong></p>
+                        <img src = {selflearningchallenges} alt = "bar graph showing what people struggle most with self-learning"/>
+                    </div>
+                 </div>
+                 
+
+                 {/* <ul class="numbered-list">
                     <li><p>Many beginners are unable to recognize mistakes when learning a new skill on their own.</p></li>
                     <li><p>Most people use video tutorials online to learn new skills, but these aren’t personable to the user, and the <strong>lack of feedback</strong> makes it challenging.</p></li>
                     <li><p>It can be <strong>hard to stay motivated</strong> when teaching yourself a new skill.</p></li>
                     <li><p>Many people are familiar with Chinese calligraphy materials and characters, but fewer are familiar with the different kinds of strokes and scripts.</p></li>
-                </ul>
+                </ul> */}
 
             <h3>An app made for beginners</h3>
             <p>Because our user research showed how much beginners struggled with self-learning new skills, we believed beginners would benefit the most from a learning app. Given their lack of prior experience, we decided to focus on teaching standard-script calligraphy, with features tailored to support novices in their learning journey.</p>
@@ -122,7 +138,7 @@ The flow for one character level is as follows: </p>
             
             <h3>Usability Testing Results</h3>
             <p>We conducted 6 usability tests with calligraphy beginners, using think-aloud protocols and semi-structured interviews. We asked each participant to navigate through one character level. </p>
-            <p>Our goal was to understand if the user found value in our app’s features. We gained the following insights, and I adjusted the screens accordingly.</p>
+            <p>Our goal was to understand if the user found value in our app’s features.</p>
             <br/>
 
             <div className = "container">
@@ -130,7 +146,7 @@ The flow for one character level is as follows: </p>
                     <h4>Feedback Screen Feels Discouraging</h4>
                     <p>Participants found the percentage score <strong>vague and intimidating</strong>. Also, many didn't realize that earned coins unlocked new levels.
 
-                    </p><p>In response, we adopted a <strong>three-star rating system</strong> similar to Cut the Rope, allowing users to accumulate stars and receive <strong>qualitative</strong> feedback instead of percentages.</p>
+                    </p><p>In response, I designed a <strong>three-star rating system</strong> similar to Cut the Rope, allowing users to accumulate stars and receive <strong>qualitative</strong> feedback instead of percentages.</p>
                 </div>
 
                 <div className = "screens">
@@ -158,10 +174,9 @@ The flow for one character level is as follows: </p>
 
             <div className = "container">
                 <div className = "description">
-                    <h4>Confusing Menu</h4>
-                    <p>Participants were confused by the “person” icon in the navigation bar, which had a menu with only sign-out and onboarding
-                         options. It <strong>didn’t seem significant</strong> enough for its own page.</p>
-                    <p>We removed the bottom bar and moved this information and the “materials” section to a hamburger menu at the top, which also reduced clutter and created a <strong>cleaner design.</strong></p>     
+                <h4>Confusing Hierarchy</h4>
+                    <p>Some elements were emphasized too strongly despite not being too significant to the app’s main purpose, such as “Materials.” Also the bottom navigation bar, which was a way to sign out, added confusion.</p>
+                    <p>I moved this information to a hamburger menu. Removing the bottom bar reduced clutter and reated a <strong>cleaner design.</strong></p>     
                 </div>
 
                 <div className = "screens">
@@ -257,9 +272,9 @@ The flow for one character level is as follows: </p>
             <div className = "container one-phone">
 
             <div className = "description">
-                <p>In our initial designs, we planned to scan calligraphy work like CamScanner and compare it to a template image for feedback. However, our code couldn’t adjust angled images or recognize characters accurately.
+                <p>I initially designed Maobi to transform the perspective of the paper after taking a picture (similar to paper scanning apps like CamScanner). However, our code couldn’t adjust angled images or recognize characters accurately.
 
-                </p><p>To resolve this, we revised it to be a screen where users can <strong>rotate, move, and resize</strong> their work to fit an overlay of the template image, ensuring our image processing code could recognize the submitted image to provide feedback.</p>
+                </p><p>To resolve this, I re-designed the screen so users can <strong>rotate, move, and resize</strong> their work to fit an overlay of the template image, ensuring our image processing code could recognize the submitted image to provide feedback.</p>
             </div>
 
             <div className = "screens">
