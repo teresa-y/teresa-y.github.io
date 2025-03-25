@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.da960df0.css",
-    "main.js": "/static/js/main.adcd10ff.js",
+    "main.js": "/static/js/main.b9615ccd.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/visualinterest.png": "/static/media/visualinterest.5fdbac2acc3b684cec0b.png",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
@@ -31,6 +31,7 @@
     "static/media/browsing.mp4": "/static/media/browsing.c4b615f12776848b7a8e.mp4",
     "static/media/insp.svg": "/static/media/insp.071b0c704761346897aa509393374c45.svg",
     "static/media/intentional.png": "/static/media/intentional.ed0a82b80174a5fbdabd.png",
+    "static/media/heuristicats.webm": "/static/media/heuristicats.c1a14a3acc42df3c7d6f.webm",
     "static/media/storyboardteresa.png": "/static/media/storyboardteresa.098ebf4da3e3b1f5f955.png",
     "static/media/hero.webm": "/static/media/hero.6bb2ea1edf956706df26.webm",
     "static/media/cats.png": "/static/media/cats.02cc7475c9beacee5580.png",
@@ -58,6 +59,7 @@
     "static/media/learningscience.svg": "/static/media/learningscience.44c23bb14cd6d81e46b978dec9a80f3b.svg",
     "static/media/crazy8teresa.png": "/static/media/crazy8teresa.cb0182d1a7602326b946.png",
     "static/media/customerbundledetails.png": "/static/media/customerbundledetails.2ff7de4258aa33b6c965.png",
+    "static/media/catatouille.gif": "/static/media/catatouille.3336550c68084b71792a.gif",
     "static/media/newpromotion2.png": "/static/media/newpromotion2.6fccaba5aec7b90d9578.png",
     "static/media/lofibooth.png": "/static/media/lofibooth.b69a163be3a43aac3a1e.png",
     "static/media/bizanalytics.png": "/static/media/bizanalytics.1742eaa2b620a9601548.png",
@@ -77,7 +79,9 @@
     "static/media/empathymap.png": "/static/media/empathymap.4f06197ab56ab868dc5e.png",
     "static/media/storyboardp1.png": "/static/media/storyboardp1.2e105437a7d1a8c6b346.png",
     "static/media/insights.svg": "/static/media/insights.d79555d275808e1891e90b9693b43b36.svg",
+    "static/media/enemy.jpg": "/static/media/enemy.efaa23a3245539ce3a69.jpg",
     "static/media/explanation.png": "/static/media/explanation.61c1e3c1f9cbd200249e.png",
+    "static/media/cateye.gif": "/static/media/cateye.cfc1495ebd75480a4882.gif",
     "static/media/customercart.png": "/static/media/customercart.ea411b3dc432d04bb580.png",
     "static/media/businessowneriterations.png": "/static/media/businessowneriterations.3850088c32ae9713e16b.png",
     "static/media/customerrecipedetailsphone.png": "/static/media/customerrecipedetailsphone.1b203e9aa24d9178af77.png",
@@ -86,6 +90,7 @@
     "static/media/improvednav.png": "/static/media/improvednav.dbae1e9dfb4d7f2ef41c.png",
     "static/media/browsefilmsquickly2.png": "/static/media/browsefilmsquickly2.e087b0d8b3ce3f53a6fc.png",
     "static/media/feedback3.png": "/static/media/feedback3.722b71b11965e1bb1333.png",
+    "static/media/villagers.jpg": "/static/media/villagers.b479a13764ebf3b54bc6.jpg",
     "static/media/maobi.png": "/static/media/maobi.7d9e366a913494143f9f.png",
     "static/media/feedback1.png": "/static/media/feedback1.d60f9ccd8aa831450659.png",
     "static/media/selflearningchallenges.jpg": "/static/media/selflearningchallenges.722dcc9eaeb11da987d6.jpg",
@@ -96,6 +101,7 @@
     "static/media/feedback2.png": "/static/media/feedback2.0ae13da744d27783d7af.png",
     "static/media/me.gif": "/static/media/me.8eb942d778ed63d511a5.gif",
     "static/media/bizactiveorders.png": "/static/media/bizactiveorders.91ef7e2042903de18415.png",
+    "static/media/arcatect.gif": "/static/media/arcatect.865b96527a046051aa4c.gif",
     "static/media/customerbundlesphone.png": "/static/media/customerbundlesphone.cfff14bc81789ee811e5.png",
     "static/media/datamapping.png": "/static/media/datamapping.f84786fc9bc119354a32.png",
     "static/media/splivechat.png": "/static/media/splivechat.6566489497da099d69fe.png",
@@ -135,11 +141,11 @@
     "static/media/calview3.png": "/static/media/calview3.2a2cd3036859994bb8b8.png",
     "index.html": "/index.html",
     "main.da960df0.css.map": "/static/css/main.da960df0.css.map",
-    "main.adcd10ff.js.map": "/static/js/main.adcd10ff.js.map",
+    "main.b9615ccd.js.map": "/static/js/main.b9615ccd.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da960df0.css",
-    "static/js/main.adcd10ff.js"
+    "static/js/main.b9615ccd.js"
   ]
 }
