@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.da960df0.css",
-    "main.js": "/static/js/main.b9615ccd.js",
+    "main.js": "/static/js/main.c5977aa2.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/visualinterest.png": "/static/media/visualinterest.5fdbac2acc3b684cec0b.png",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
@@ -29,7 +29,6 @@
     "static/media/adjustment.gif": "/static/media/adjustment.d05f767c39d1178fde60.gif",
     "static/media/newpromotion.png": "/static/media/newpromotion.9f93c415e2e833f679c5.png",
     "static/media/browsing.mp4": "/static/media/browsing.c4b615f12776848b7a8e.mp4",
-    "static/media/insp.svg": "/static/media/insp.071b0c704761346897aa509393374c45.svg",
     "static/media/intentional.png": "/static/media/intentional.ed0a82b80174a5fbdabd.png",
     "static/media/heuristicats.webm": "/static/media/heuristicats.c1a14a3acc42df3c7d6f.webm",
     "static/media/storyboardteresa.png": "/static/media/storyboardteresa.098ebf4da3e3b1f5f955.png",
@@ -47,16 +46,16 @@
     "static/media/tca.gif": "/static/media/tca.010aec93508b2777b77b.gif",
     "static/media/currentissues.png": "/static/media/currentissues.c079edef1aeb67dc5560.png",
     "static/media/customerhome.png": "/static/media/customerhome.6d980fa3615449c7a021.png",
+    "static/media/insp.png": "/static/media/insp.7651a1c6bdeeb6b671e0.png",
     "static/media/bizactivebundles.png": "/static/media/bizactivebundles.e0ad072e1732588f013e.png",
-    "static/media/styleinsp.svg": "/static/media/styleinsp.f3797a889b32ba245b00463209f08b52.svg",
     "static/media/prototype.png": "/static/media/prototype.5c590a31013c7b244c2f.png",
     "static/media/storyboardp2.png": "/static/media/storyboardp2.bf61262d3451391d4ed6.png",
+    "static/media/styleinsp.png": "/static/media/styleinsp.d540f0ec7f6d0686d135.png",
     "static/media/customerbundles.png": "/static/media/customerbundles.ed553f9e154477211f9a.png",
     "static/media/customeriterations.png": "/static/media/customeriterations.1534027273d882f94d43.png",
     "static/media/cmuiff.png": "/static/media/cmuiff.00f5ffcaba4aa72484f2.png",
     "static/media/onboarding.webm": "/static/media/onboarding.21863b4db562d0ab3064.webm",
     "static/media/storyboardyifei.jpg": "/static/media/storyboardyifei.1298e2db3cdfb29e57d6.jpg",
-    "static/media/learningscience.svg": "/static/media/learningscience.44c23bb14cd6d81e46b978dec9a80f3b.svg",
     "static/media/crazy8teresa.png": "/static/media/crazy8teresa.cb0182d1a7602326b946.png",
     "static/media/customerbundledetails.png": "/static/media/customerbundledetails.2ff7de4258aa33b6c965.png",
     "static/media/catatouille.gif": "/static/media/catatouille.3336550c68084b71792a.gif",
@@ -66,7 +65,6 @@
     "static/media/bizhome.png": "/static/media/bizhome.1172b73526a1548209ed.png",
     "static/media/market2u.png": "/static/media/market2u.067d65c5d919b9b5a9f3.png",
     "static/media/vagary.png": "/static/media/vagary.310b780dfb80fdcbc519.png",
-    "static/media/learninggoals.svg": "/static/media/learninggoals.757c32093d2f2c79ecb0d7b0ce0747a5.svg",
     "static/media/colorchange.png": "/static/media/colorchange.7dbd7b7c8b92af6e0299.png",
     "static/media/journeymap.png": "/static/media/journeymap.52677b92ae7e356e331c.png",
     "static/media/midfifilms.png": "/static/media/midfifilms.314c2b02353856f986e1.png",
@@ -81,6 +79,7 @@
     "static/media/insights.svg": "/static/media/insights.d79555d275808e1891e90b9693b43b36.svg",
     "static/media/enemy.jpg": "/static/media/enemy.efaa23a3245539ce3a69.jpg",
     "static/media/explanation.png": "/static/media/explanation.61c1e3c1f9cbd200249e.png",
+    "static/media/learningscience.png": "/static/media/learningscience.b90b78221d38a3948c58.png",
     "static/media/cateye.gif": "/static/media/cateye.cfc1495ebd75480a4882.gif",
     "static/media/customercart.png": "/static/media/customercart.ea411b3dc432d04bb580.png",
     "static/media/businessowneriterations.png": "/static/media/businessowneriterations.3850088c32ae9713e16b.png",
@@ -99,6 +98,7 @@
     "static/media/bizbundlecreator.png": "/static/media/bizbundlecreator.779f27f219ad92a24bf0.png",
     "static/media/coreloop.png": "/static/media/coreloop.149a727b79de201914d4.png",
     "static/media/feedback2.png": "/static/media/feedback2.0ae13da744d27783d7af.png",
+    "static/media/learninggoals.png": "/static/media/learninggoals.7cdccd3c4577cb0bd221.png",
     "static/media/me.gif": "/static/media/me.8eb942d778ed63d511a5.gif",
     "static/media/bizactiveorders.png": "/static/media/bizactiveorders.91ef7e2042903de18415.png",
     "static/media/arcatect.gif": "/static/media/arcatect.865b96527a046051aa4c.gif",
@@ -141,11 +141,11 @@
     "static/media/calview3.png": "/static/media/calview3.2a2cd3036859994bb8b8.png",
     "index.html": "/index.html",
     "main.da960df0.css.map": "/static/css/main.da960df0.css.map",
-    "main.b9615ccd.js.map": "/static/js/main.b9615ccd.js.map",
+    "main.c5977aa2.js.map": "/static/js/main.c5977aa2.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da960df0.css",
-    "static/js/main.b9615ccd.js"
+    "static/js/main.c5977aa2.js"
   ]
 }
