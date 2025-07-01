@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.31d57efd.css",
-    "main.js": "/static/js/main.9724c49f.js",
+    "main.css": "/static/css/main.65372082.css",
+    "main.js": "/static/js/main.10d24664.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/visualinterest.png": "/static/media/visualinterest.5fdbac2acc3b684cec0b.png",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
@@ -58,7 +58,7 @@
     "static/media/styleinsp.png": "/static/media/styleinsp.d540f0ec7f6d0686d135.png",
     "static/media/customerbundles.png": "/static/media/customerbundles.ed553f9e154477211f9a.png",
     "static/media/customeriterations.png": "/static/media/customeriterations.1534027273d882f94d43.png",
-    "static/media/cmuiff.png": "/static/media/cmuiff.00f5ffcaba4aa72484f2.png",
+    "static/media/cmuiff.png": "/static/media/cmuiff.20de985f0b8e837f304d.png",
     "static/media/onboarding.webm": "/static/media/onboarding.21863b4db562d0ab3064.webm",
     "static/media/storyboardyifei.jpg": "/static/media/storyboardyifei.1298e2db3cdfb29e57d6.jpg",
     "static/media/crazy8teresa.png": "/static/media/crazy8teresa.cb0182d1a7602326b946.png",
@@ -88,6 +88,7 @@
     "static/media/cateye.gif": "/static/media/cateye.cfc1495ebd75480a4882.gif",
     "static/media/customercart.png": "/static/media/customercart.ea411b3dc432d04bb580.png",
     "static/media/businessowneriterations.png": "/static/media/businessowneriterations.3850088c32ae9713e16b.png",
+    "static/media/pams.png": "/static/media/pams.7840e47682ab11069c6c.png",
     "static/media/customerrecipedetailsphone.png": "/static/media/customerrecipedetailsphone.1b203e9aa24d9178af77.png",
     "static/media/customerhomephone.png": "/static/media/customerhomephone.bf857725ea75173f0300.png",
     "static/media/moreautonomy.png": "/static/media/moreautonomy.890cd0d202bac781c9b9.png",
@@ -95,9 +96,10 @@
     "static/media/browsefilmsquickly2.png": "/static/media/browsefilmsquickly2.e087b0d8b3ce3f53a6fc.png",
     "static/media/feedback3.png": "/static/media/feedback3.722b71b11965e1bb1333.png",
     "static/media/villagers.jpg": "/static/media/villagers.b479a13764ebf3b54bc6.jpg",
-    "static/media/maobi.png": "/static/media/maobi.7d9e366a913494143f9f.png",
+    "static/media/maobi.png": "/static/media/maobi.eaae809a3a090412108c.png",
     "static/media/feedback1.png": "/static/media/feedback1.d60f9ccd8aa831450659.png",
     "static/media/selflearningchallenges.jpg": "/static/media/selflearningchallenges.722dcc9eaeb11da987d6.jpg",
+    "static/media/tp.png": "/static/media/tp.c3b1abf267008d112a2f.png",
     "static/media/storyboard.png": "/static/media/storyboard.133fe859c079ea036168.png",
     "static/media/familiarity.jpg": "/static/media/familiarity.c85de3d716832c24e0de.jpg",
     "static/media/bizbundlecreator.png": "/static/media/bizbundlecreator.779f27f219ad92a24bf0.png",
@@ -146,12 +148,12 @@
     "static/media/calview2.png": "/static/media/calview2.fee09686f6b272d1bdc5.png",
     "static/media/calview3.png": "/static/media/calview3.2a2cd3036859994bb8b8.png",
     "index.html": "/index.html",
-    "main.31d57efd.css.map": "/static/css/main.31d57efd.css.map",
-    "main.9724c49f.js.map": "/static/js/main.9724c49f.js.map",
+    "main.65372082.css.map": "/static/css/main.65372082.css.map",
+    "main.10d24664.js.map": "/static/js/main.10d24664.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d57efd.css",
-    "static/js/main.9724c49f.js"
+    "static/css/main.65372082.css",
+    "static/js/main.10d24664.js"
   ]
 }
