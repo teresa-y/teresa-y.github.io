@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.65372082.css",
-    "main.js": "/static/js/main.e3a7c362.js",
+    "main.js": "/static/js/main.6252a80b.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/visualinterest.png": "/static/media/visualinterest.5fdbac2acc3b684cec0b.png",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
@@ -19,6 +19,7 @@
     "static/media/crazy8yifei.jpg": "/static/media/crazy8yifei.e6fdca5ef671446c9b88.jpg",
     "static/media/optical_mixing.png": "/static/media/optical_mixing.9e644d1bf0e328b9fbe5.png",
     "static/media/unlock.gif": "/static/media/unlock.c0c5898fff6aa918aba6.gif",
+    "static/media/bloom.gif": "/static/media/bloom.46bd98430d9c438a7451.gif",
     "static/media/different_process.png": "/static/media/different_process.8b218ff2d93a8e7a9d3d.png",
     "static/media/crazy8jessica.png": "/static/media/crazy8jessica.fe0c85ea38173abd83a3.png",
     "static/media/catsreal.jpg": "/static/media/catsreal.917d2346f0a1852ff4c9.jpg",
@@ -28,9 +29,11 @@
     "static/media/filter.mp4": "/static/media/filter.620575883cb58a52147c.mp4",
     "static/media/hue_as_value.png": "/static/media/hue_as_value.e8cdf239a92e338cc91b.png",
     "static/media/poster.png": "/static/media/poster.23cac50fd0b65dbbc55e.png",
+    "static/media/maobi.png": "/static/media/maobi.eaae809a3a090412108c.png",
     "static/media/miku.jpg": "/static/media/miku.6c9240f04e415a5f6837.jpg",
     "static/media/storyboardstephen.png": "/static/media/storyboardstephen.92d3b1d182a0f169bdae.png",
     "static/media/adjustment.gif": "/static/media/adjustment.d05f767c39d1178fde60.gif",
+    "static/media/greenops.png": "/static/media/greenops.d1184dd97016b20881b3.png",
     "static/media/newpromotion.png": "/static/media/newpromotion.9f93c415e2e833f679c5.png",
     "static/media/browsing.mp4": "/static/media/browsing.c4b615f12776848b7a8e.mp4",
     "static/media/intentional.png": "/static/media/intentional.ed0a82b80174a5fbdabd.png",
@@ -42,6 +45,7 @@
     "static/media/customerrecipedetails.png": "/static/media/customerrecipedetails.538b5f45db4218b57a11.png",
     "static/media/storyboardjessica.jpg": "/static/media/storyboardjessica.b3123710e2d68f6343c2.jpg",
     "static/media/sgdlr.jpg": "/static/media/sgdlr.86d5c241cfa511667340.jpg",
+    "static/media/cream.png": "/static/media/cream.225c09721664b93d8cd4.png",
     "static/media/customerrecipe.png": "/static/media/customerrecipe.e6a23a97aa9d3cb59684.png",
     "static/media/heuristicats.png": "/static/media/heuristicats.3751b850042e8d0cd1fa.png",
     "static/media/tgcf.jpg": "/static/media/tgcf.3a1816b3fe494033ab67.jpg",
@@ -82,6 +86,7 @@
     "static/media/empathymap.png": "/static/media/empathymap.4f06197ab56ab868dc5e.png",
     "static/media/storyboardp1.png": "/static/media/storyboardp1.2e105437a7d1a8c6b346.png",
     "static/media/insights.svg": "/static/media/insights.d79555d275808e1891e90b9693b43b36.svg",
+    "static/media/cddf1.png": "/static/media/cddf1.6ddea66b898c599e3af0.png",
     "static/media/enemy.jpg": "/static/media/enemy.efaa23a3245539ce3a69.jpg",
     "static/media/explanation.png": "/static/media/explanation.61c1e3c1f9cbd200249e.png",
     "static/media/learningscience.png": "/static/media/learningscience.b90b78221d38a3948c58.png",
@@ -95,8 +100,8 @@
     "static/media/improvednav.png": "/static/media/improvednav.dbae1e9dfb4d7f2ef41c.png",
     "static/media/browsefilmsquickly2.png": "/static/media/browsefilmsquickly2.e087b0d8b3ce3f53a6fc.png",
     "static/media/feedback3.png": "/static/media/feedback3.722b71b11965e1bb1333.png",
+    "static/media/slos_orig.png": "/static/media/slos_orig.e59ebca72737916bc9d4.png",
     "static/media/villagers.jpg": "/static/media/villagers.b479a13764ebf3b54bc6.jpg",
-    "static/media/maobi.png": "/static/media/maobi.eaae809a3a090412108c.png",
     "static/media/feedback1.png": "/static/media/feedback1.d60f9ccd8aa831450659.png",
     "static/media/selflearningchallenges.jpg": "/static/media/selflearningchallenges.722dcc9eaeb11da987d6.jpg",
     "static/media/tp.png": "/static/media/tp.c3b1abf267008d112a2f.png",
@@ -149,11 +154,11 @@
     "static/media/calview3.png": "/static/media/calview3.2a2cd3036859994bb8b8.png",
     "index.html": "/index.html",
     "main.65372082.css.map": "/static/css/main.65372082.css.map",
-    "main.e3a7c362.js.map": "/static/js/main.e3a7c362.js.map",
+    "main.6252a80b.js.map": "/static/js/main.6252a80b.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65372082.css",
-    "static/js/main.e3a7c362.js"
+    "static/js/main.6252a80b.js"
   ]
 }
