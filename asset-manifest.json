@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.65372082.css",
-    "main.js": "/static/js/main.6252a80b.js",
+    "main.css": "/static/css/main.bdb3b4c8.css",
+    "main.js": "/static/js/main.14682833.js",
     "static/js/787.7b63f85e.chunk.js": "/static/js/787.7b63f85e.chunk.js",
     "static/media/visualinterest.png": "/static/media/visualinterest.5fdbac2acc3b684cec0b.png",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
@@ -57,7 +57,6 @@
     "static/media/insp.png": "/static/media/insp.7651a1c6bdeeb6b671e0.png",
     "static/media/bizactivebundles.png": "/static/media/bizactivebundles.e0ad072e1732588f013e.png",
     "static/media/prototype.png": "/static/media/prototype.5c590a31013c7b244c2f.png",
-    "static/media/me.jpg": "/static/media/me.7f35b5b603068dc2bb6a.jpg",
     "static/media/storyboardp2.png": "/static/media/storyboardp2.bf61262d3451391d4ed6.png",
     "static/media/styleinsp.png": "/static/media/styleinsp.d540f0ec7f6d0686d135.png",
     "static/media/customerbundles.png": "/static/media/customerbundles.ed553f9e154477211f9a.png",
@@ -81,6 +80,7 @@
     "static/media/applyknowledge.png": "/static/media/applyknowledge.e1c80d97ed8ad61bdd89.png",
     "static/media/customerrecipephone.png": "/static/media/customerrecipephone.1ec15e3400ad932b2f1d.png",
     "static/media/browsefilmsquickly.png": "/static/media/browsefilmsquickly.d94ec20a6b4903699631.png",
+    "static/media/m2.jpg": "/static/media/m2.4b02ef7840d35a140286.jpg",
     "static/media/initialbooth.png": "/static/media/initialbooth.51221263ec44900734d5.png",
     "static/media/affinitydiagram.png": "/static/media/affinitydiagram.f183feceece28b594095.png",
     "static/media/empathymap.png": "/static/media/empathymap.4f06197ab56ab868dc5e.png",
@@ -127,6 +127,7 @@
     "static/media/lofiscreens.png": "/static/media/lofiscreens.d9df276f533848cfd71b.png",
     "static/media/lofi7.png": "/static/media/lofi7.b020155366f7b6d3344b.png",
     "static/media/lofi9.png": "/static/media/lofi9.89eaa91637cd9ec9dbd6.png",
+    "static/media/Teresa_Yang_Resume_2025.pdf": "/static/media/Teresa_Yang_Resume_2025.e3b74b7f7154299608ed.pdf",
     "static/media/businessowner.png": "/static/media/businessowner.7c87c3ac1a666157f0ce.png",
     "static/media/midfispinglobe.png": "/static/media/midfispinglobe.202f19c4ad48ed5114c0.png",
     "static/media/customercartphone.png": "/static/media/customercartphone.80b2dc7e9ba663bdc3bf.png",
@@ -153,12 +154,12 @@
     "static/media/calview2.png": "/static/media/calview2.fee09686f6b272d1bdc5.png",
     "static/media/calview3.png": "/static/media/calview3.2a2cd3036859994bb8b8.png",
     "index.html": "/index.html",
-    "main.65372082.css.map": "/static/css/main.65372082.css.map",
-    "main.6252a80b.js.map": "/static/js/main.6252a80b.js.map",
+    "main.bdb3b4c8.css.map": "/static/css/main.bdb3b4c8.css.map",
+    "main.14682833.js.map": "/static/js/main.14682833.js.map",
     "787.7b63f85e.chunk.js.map": "/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65372082.css",
-    "static/js/main.6252a80b.js"
+    "static/css/main.bdb3b4c8.css",
+    "static/js/main.14682833.js"
   ]
 }
