@@ -20,7 +20,7 @@ import lofi7 from "../../images/maobi/lofi7.png"
 import lofi8 from "../../images/maobi/lofi8.png"
 import lofi9 from "../../images/maobi/lofi9.png"
 import lofi10 from "../../images/maobi/lofi10.png"
-import explanation from "../../images/maobi/explanation.png"
+import explanation from "../../images/maobi/explanation.jpg"
 
 //hifi
 import design from "../../images/maobi/design.png"
@@ -57,29 +57,33 @@ export default function Maobi() {
             title="Maobi" 
             description="Maobi is an iOS app that provides instant feedback to Chinese calligraphy work by simply taking a picture. “Maobi” is the Chinese word for the calligraphy brush. 
             " 
-            info = "<strong>Role:</strong> UX/UI Design, Front-End Development<br/> <strong>Timeline: </strong>12 weeks<br/> <strong>Team:</strong> Dora Xiao, Lucy Yang<br/><strong>Tools:</strong> Figma, SwiftUI, Procreate"/>
+            timeline="September 2023 - December 2023"
+            role={"Lead Product Designer\nFront-End Engineer"}
+            team={"2 Engineers\n1 Designer (Me)"}
+            tools={"Figma\nSwiftUI\nProcreate"}/>
             
             <br/>
             <p><i>Created for the Mobile Application Design & Development course, which is sponsored by Capital One and concludes with a cash prize competition. In 12 weeks, we were challenged to ideate a unique product, develop a hi-fi prototype, and code a functional iOS app in SwiftUI.  </i></p><p><i>Capital One awarded our team the 2nd place prize. </i></p>
 
             <h2>Problem</h2>
-            <h3>How might we provide instant, useful feedback for beginners to learn Chinese calligraphy?</h3>
-            <p>Chinese calligraphy classes tend to be scarce, costly, and in-person, and there’s a high time commitment to pay for a recurring class and travel to it.
-            Tutorial videos online exist, yet they aren't personalized to the user, and if the user is doing something wrong, they can't get any feedback on it. With this app, we aim to make learning Chinese calligraphy <strong>more accessible.</strong></p>
+            <h3>How might we provide <i style={{color:'#A67344'}}>instant, useful feedback</i> for beginners to learn Chinese calligraphy?</h3>
+            {/* <p>Chinese calligraphy classes tend to be scarce, costly, and in-person, and there’s a high time commitment to pay for a recurring class and travel to it.
+            Online tutorials aren't personalized to the user, and if the user is doing something wrong, they can't get any feedback on it. With this app, we aim to make learning Chinese calligraphy <strong>more accessible.</strong></p> */}
             
+            <p>Classes can be costly and difficult to access, while tutorials can't tell learners when they're making mistakes. We saw an opportunity to make independent practice more useful by giving beginners immediate, personalized feedback.</p>
             <h3>No apps currently educate on physical Chinese calligraphy</h3>
-            <p>We researched several existing calligraphy apps, and discovered that no apps currently educate and provide feedback on physical Chinese calligraphy work. Instead, existing apps focus on touch screen drawings with a finger, which does not represent the experience of physical Chinese calligraphy. </p>
+            <p>At the time of this project, no apps educate and provide feedback on physical Chinese calligraphy work. Instead, existing apps focus on touch screen drawings with a finger, which does not represent the experience of physical Chinese calligraphy. </p>
 
             <h2>Solution</h2>
-            <h3>Take a picture of your calligraphy work and receive instant visual feedback.</h3>
+            <h3>Take a picture of your calligraphy work and receive instant visual feedback</h3>
             <p>Maobi tackles the challenge of beginners mastering Chinese calligraphy without expert supervision. Maobi takes advantage of the mobile platform, and uses a phone's camera and image analysis for immediate visual feedback on calligraphy technique. This approach transforms any space into a convenient learning environment.</p>
             <iframe width = "100%" src="https://www.youtube.com/embed/oPhMj68tpb0?si=v4gGJJOri7wU6ggQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             
             <h2>Ideation & Research</h2>
-            <h3>Learning new skills on your own can be challenging</h3>
+            <h3>Learning calligraphy alone makes it hard to know what you're doing wrong.</h3>
             <p>Traditional classes can be costly, inaccessible, or infrequent, making it hard for continuous practice and feedback.
-                 We conducted a survey with 15 students interested in Chinese calligraphy about their methods of self-learning and 
+                 I conducted a survey with 15 students interested in Chinese calligraphy about their methods of self-learning and 
                  familiarity with the practice. </p>
                  <div className = "half">
                     <div className = "item">
@@ -101,28 +105,18 @@ export default function Maobi() {
                     <li><p>Many people are familiar with Chinese calligraphy materials and characters, but fewer are familiar with the different kinds of strokes and scripts.</p></li>
                 </ul> */}
 
-            <h3>An app made for beginners</h3>
-            <p>Because our user research showed how much beginners struggled with self-learning new skills, we believed beginners would benefit the most from a learning app. Given their lack of prior experience, we decided to focus on teaching standard-script calligraphy, with features tailored to support novices in their learning journey.</p>
-
             <h2>Design Explorations</h2>
-            <h3>Considering the Mobile Mindset</h3>
-            <p>After gathering the above insights, we considered ways to provide immediate feedback to self-learners, and how to keep them motivated to continue learning.</p>
-            <p>Maobi leverages the mobile platform's camera capabilities with image processing code to provide real-time feedback on the user's calligraphy work. A phone’s camera is the easiest for snapping a photo of calligraphy work.</p>
+            <h3>What if your phone could become your calligraphy coach?</h3>
+            <p>Survey results indicated that beginners are often unable to recognize mistakes when learning a new skill on their own, so 
+            I designed Maobi's core feedback experience around something most people always have on hand: a phone camera. Users take a picture of their calligraphy, and Maobi analyzes the taken image to visually highlight where they can improve.</p>
+            {/* <p>Maobi takes advantage of the mobile platform's camera capabilities with image processing code to provide real-time feedback on the user's calligraphy work. A phone’s camera is the easiest for snapping a photo of calligraphy work.</p> */}
 
             <img src = {explanation} alt= "user flow of user taking a photo and receiving visual feedback"/>
 
-            <p>Our research indicated that beginners are often unable to recognize mistakes when learning a new skill on their own, so through our core visual feedback feature, we wanted to visually show users <strong>exactly where they could improve</strong>.
-            </p>
-
-
             <h3>Lo-fi Wireframes</h3>
 
-            <p>In Chinese culture, beginners are expected to learn foundational rules before they attempt artistic expression. These rules include <strong> basic strokes, stroke order, and composition</strong>, which are learned by imitating standards set by calligraphy masters. Our survey results 
-                also indicated few were familiar with the different strokes, so we focused on teaching these.  </p>
-            
-            <p>Because Maobi is targeted towards <strong>beginners</strong> (no prior calligraphy experience), our app focuses on standard-script Chinese calligraphy.
-The flow for one character level is as follows: </p>
-
+            <p>Because Maobi is designed for beginners, we focused the initial experience on foundational strokes, stroke order, and simple characters.  </p>
+        
 
             <div className = "flow">
                 <div className = "flow-lofi-images">
@@ -136,15 +130,15 @@ The flow for one character level is as follows: </p>
             </div>
 
             
-            <h3>Usability Testing Results</h3>
+            <h3>Feedback should help users improve, not make them feel like they're failing</h3>
             <p>We conducted 6 usability tests with calligraphy beginners, using think-aloud protocols and semi-structured interviews. We asked each participant to navigate through one character level. </p>
             <p>Our goal was to understand if the user found value in our app’s features.</p>
             <br/>
 
             <div className = "container">
                 <div className = "description">
-                    <h4>Feedback Screen Feels Discouraging</h4>
-                    <p>Participants found the percentage score <strong>vague and intimidating</strong>. Also, many didn't realize that earned coins unlocked new levels.
+                    <h4>Feedback Feels Discouraging</h4>
+                    <p>Participants found the percentage score <strong>vague and intimidating</strong>.
 
                     </p><p>In response, I designed a <strong>three-star rating system</strong> similar to Cut the Rope, allowing users to accumulate stars and receive <strong>qualitative</strong> feedback instead of percentages.</p>
                 </div>
@@ -167,7 +161,7 @@ The flow for one character level is as follows: </p>
 
                     <p>Users felt it was too difficult to unlock new characters, <strong>reducing their incentive</strong> to continue using the app.
 
-                        </p><p>To address this, we introduced a “daily challenge” feature, allowing users to unlock a free character if completed and <strong>encouraging consistent app use</strong>.</p>
+                        </p><p>To encourage <strong>consistent app use,</strong> I came up with a “daily challenge” feature allows users to unlock a free character if completed.</p>
                 </div>
 
             </div>
@@ -176,7 +170,7 @@ The flow for one character level is as follows: </p>
                 <div className = "description">
                 <h4>Confusing Hierarchy</h4>
                     <p>Some elements were emphasized too strongly despite not being too significant to the app’s main purpose, such as “Materials.” Also the bottom navigation bar, which was a way to sign out, added confusion.</p>
-                    <p>I moved this information to a hamburger menu. Removing the bottom bar reduced clutter and reated a <strong>cleaner design.</strong></p>     
+                    <p>I moved this information to a hamburger menu. Removing the bottom bar reduced clutter and created a <strong>cleaner design.</strong></p>     
                 </div>
 
                 <div className = "screens">
@@ -251,12 +245,12 @@ The flow for one character level is as follows: </p>
 
             <h2>Development</h2>
 
-            <h3>From Design to Code</h3>
+            {/* <h3>From Design to Code</h3> */}
 
-            <div className = "container">
+            {/* <div className = "container">
 
                 <div className = "description">
-                    <p>As we transitioned from design to coding, we documented the API calls and data flow between objects to understand how information would move through the app.
+                    <p>In transitioning from design to code, we documented the API calls and data flow between objects to understand how information would move through the app.
                     </p><p>I identified the essential features for our MVP: app onboarding, levels for basic strokes and characters, and the camera feedback function. We spent two weeks developing the MVP, conducted another round of user testing, and then spent two more weeks making final adjustments.</p>
                 </div>
 
@@ -264,15 +258,13 @@ The flow for one character level is as follows: </p>
                     <img src={datamapping} alt = "data mapping"/>
                 </div>
                 
-            </div>
+            </div> */}
 
-            <br/>
-
-            <h3>Navigating Technical Challenges</h3>
+            <h3>When our initial image-processing approach didn't work, I redesigned the interaction.</h3>
             <div className = "container one-phone">
 
             <div className = "description">
-                <p>I initially designed Maobi to transform the perspective of the paper after taking a picture (similar to paper scanning apps like CamScanner). However, our code couldn’t adjust angled images or recognize characters accurately.
+                <p>I initially designed Maobi to transform the perspective of the paper after taking a picture (similar to paper scanning apps like <a href="https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783" target="_blank">CamScanner</a>). However, our code couldn’t adjust angled images or recognize characters accurately.
 
                 </p><p>To resolve this, I re-designed the screen so users can <strong>rotate, move, and resize</strong> their work to fit an overlay of the template image, ensuring our image processing code could recognize the submitted image to provide feedback.</p>
             </div>
@@ -290,15 +282,11 @@ The flow for one character level is as follows: </p>
 
             <iframe width = "100%" src="https://drive.google.com/file/d/1Ya0dvYiQsKLBRYcu5Uv4t4tpsFUdK09M/preview" title="drive video"></iframe> */}
             
-            <p>In addition to coding the app in SwiftUI, we presented an 8-minute pitch to Capital One employees, and I designed a promotional poster for Maobi.</p>
-            <img src = {poster} alt = "promotional poster of maobi"></img>
-
+            <p>In addition to coding the app in SwiftUI, we presented an 8-minute pitch to Capital One employees, and they awarded us the 2nd place prize out of 19 teams.</p>
             <h2>Reflection</h2>
 
             <h3>Working with Developers</h3>
-            <p>I was the only designer on the team, so it was important that I communicated effectively with my team of developers. This project was especially valuable to me because
-                I got to work as both a designer and a developer. I saw how my designs would translate into the development side, and I improved my technical proficiency in iOS development and 
-                collaboration through GitHub.</p>
+            <p>This project was especially valuable to me because I got to work as both a designer and a developer. I was the only designer on the team, so it was important that I communicated effectively with my team of developers. My Information Systems background helped me to collaborate well with my team, since I understood the technical sides of implementing a design.</p>
 
             <h3>Understanding What's Feasible</h3>
             <p>As we began coding out the app, I discovered that many design decisions I made in our prototype were not entirely feasible 
@@ -309,10 +297,10 @@ The flow for one character level is as follows: </p>
             <p>This project was done with the agile work process in a series of sprints. As a result, I was able to experiment a lot with what worked and what didn't by testing and refining ideas quickly.</p>
         </div>
 
-        <NextProject key = "CMUIFF"
-                        url = "/cmuiff"
-                        title = "International 'Faces' Film Festival"
-                        />
+        {/* <NextProject key = "Bridge"
+                        url = "/bridge"
+                        title = "Bridge"
+                        /> */}
 
         </>
 

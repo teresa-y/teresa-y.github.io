@@ -148,35 +148,34 @@ export default function Heuristicats() {
                 
 
             <h2>Reflection</h2> 
+
+            <h3>Making an Educational Game</h3>
+            <p>This was my first time designing a game, and I had a lot of fun designing game elements and crafting a storyline. People loved the cats and narrative, and thought of them as a tutor that they would want to listen to. It was also very cool to learn about the psychology behind learning and how to make it more fun while designing this game.</p>
+    
+            <h3>Constant Communication</h3>
+            <p>With some working on backgrounds, others programming, and myself character design and art, we were all working on multiple tasks at the same time. In-person work sessions, bouncing ideas off each other, and providing constant updates helped keep us all on the same track. </p>
+
             <h3>Potential Improvements</h3>
-            <h4>Slower Progression of Battles</h4>
+           <strong>Slower Progression of Battles</strong>
                 <ul>
                     <li>First battle can start with a simpler interface so players are more gradually introduced to the system and have more time to interact with learning concepts.</li>
                     <li>Animating the UI/UX changes during battles can help draw attention to the changes happening and their results.</li>
-                </ul>
+                </ul><br/>
             
-            <h4>Make "Fixed UX" Version More Entertaining</h4>
+            <strong>Make "Fixed UX" Version More Entertaining</strong>
 
                 <ul>
                     <li>Playtesters thought the “bad usability version” of the bath minigame was more entertaining than the fixed UX version.</li>
                     <li>Adding game elements unrelated to the UX fixes (ex: making players remove clean cats from the bath) can make sure the game stays entertaining after usability issues are fixed.</li>
                 </ul>
 
-
-            <h3>Takeaways</h3>  
-            <h4>Making an Educational Game</h4>
-            <p>People loved the cats and narrative, and thought of them as a tutor that they would want to listen to. It was also very cool to learn about the psychology behind learning and how to make it more fun while designing this game.</p>
-    
-            <h4>Constant Communication</h4>
-            <p>With some working on backgrounds, others programming, and myself character design and art, we were all working on multiple tasks at the same time. In-person work sessions, bouncing ideas off each other, and providing constant updates helped keep us all on the same track. </p>
-
         </div>
 
         </div>
 
-                                        <NextProject key = "maobi"
-                                url = "/maobi"
-                                title = "Maobi"
+                                        <NextProject key = "cmuiff"
+                                url = "/cmuiff"
+                                title = "International 'Faces' Film Festival"
                                 />
         </>
         

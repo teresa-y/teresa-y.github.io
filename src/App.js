@@ -4,7 +4,10 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Play from './pages/Play';
 import About from './pages/About';
+import Dev from './pages/Dev';
+import Graphics from './pages/Graphics';
 
+import Bridge from './pages/projects/Bridge';
 import CMUIFF from './pages/projects/CMUIFF';
 import Market2U from './pages/projects/Market2U';
 import Vagary from './pages/projects/Vagary';
@@ -19,7 +22,7 @@ import ReactGA from 'react-ga4';
 
 function App() {
   ReactGA.initialize('G-YXZB7R7KK2');
-
+//test
   return (
     <>
       <Router basename="/">
@@ -28,7 +31,10 @@ function App() {
                 <Route path = '/' element={<Home/>} />
                 <Route path = '/play' element={<Play/>} />
                 <Route path = '/about' element={<About/>} />
+                <Route path = '/dev' element={<Dev/>} />
+                <Route path = '/graphics' element={<Graphics/>} />
 
+                <Route path = '/bridge' element={<Bridge/>} />
                 <Route path = '/cmuiff' element={<CMUIFF/>} />
                 <Route path = '/maobi' element={<Maobi/>} />
                 <Route path = '/market2u' element={<Market2U/>} />

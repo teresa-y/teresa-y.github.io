@@ -12,13 +12,13 @@ export default function Navbar() {
         <div className = "navbar">
             
             <div className = "logo">
-                <NavLink to='/' onClick={scrollToTop}>teresa yang</NavLink>
+                <NavLink to='/' onClick={scrollToTop}>Teresa Yang</NavLink>
             </div>
 
             <div className = "navlinks-container">
-                <NavLink to='/' className = "navlink-left" onClick={scrollToTop}>work</NavLink>
-                <NavLink to='/play' onClick={scrollToTop}>play</NavLink>
-                <NavLink to='/about' className = "navlink-right" onClick={scrollToTop}>about</NavLink>
+                <NavLink to='/' className = "navlink-left" onClick={scrollToTop}>Work</NavLink>
+                <NavLink to='/play' onClick={scrollToTop}>Play</NavLink>
+                <NavLink to='/about' className = "navlink-right" onClick={scrollToTop}>About</NavLink>
             </div> 
 
         </div>

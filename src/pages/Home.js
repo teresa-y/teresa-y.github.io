@@ -1,7 +1,6 @@
 import Projects from "../components/Projects";
-import me from "../images/other/me.gif"
-import fish from "../images/other/fish.png"
-
+// import me from "../images/other/me.gif"
+import Play from "./Play"
 
 export default function Home() {
     return (
@@ -11,22 +10,20 @@ export default function Home() {
 
                     <div className = "top">
                         {/* <img style={{ height: "1.5em", verticalAlign: "middle" }} src={fish} alt="fish" />  */}
-                         Hi! I'm Teresa. </div>
-                    <div className = "bottom"><p>I am an interdisciplinary UX designer who builds worlds, stories, and experiences that connect with people.</p>
-                        
-                    </div>
+                         ✿˖° Teresa Yang is a product designer with a technical and visual background in front-end code, product thinking, and illustration.  </div>
 
                 </div>
-                <div className="intro-pic">
+                {/* <div className="intro-pic">
 
                     <img src={me} alt="drawing of teresa yang" ></img>
 
-                </div>
+                </div> */}
             </div>
 
             {/* project list */}
             
             <Projects />
+
         </>
     );
 }
