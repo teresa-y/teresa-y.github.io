@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0867887e.css",
-    "main.js": "/static/js/main.2ea54150.js",
+    "main.css": "/static/css/main.03d57e63.css",
+    "main.js": "/static/js/main.cd5dd6fd.js",
     "static/js/453.b360f362.chunk.js": "/static/js/453.b360f362.chunk.js",
     "static/media/visualinterest.png": "/static/media/visualinterest.5fdbac2acc3b684cec0b.png",
     "static/media/heuristicatsbath.gif": "/static/media/heuristicatsbath.b80feafab923015f486e.gif",
@@ -71,12 +71,15 @@
     "static/media/lofibooth.png": "/static/media/lofibooth.b69a163be3a43aac3a1e.png",
     "static/media/bizanalytics.png": "/static/media/bizanalytics.1742eaa2b620a9601548.png",
     "static/media/bizhome.png": "/static/media/bizhome.1172b73526a1548209ed.png",
+    "static/media/bridgeredesign.jpg": "/static/media/bridgeredesign.770d45d0c1427f2feca3.jpg",
+    "static/media/admindeals.jpg": "/static/media/admindeals.b85019b824b4ecaaec44.jpg",
     "static/media/market2u.png": "/static/media/market2u.067d65c5d919b9b5a9f3.png",
     "static/media/vagary.png": "/static/media/vagary.310b780dfb80fdcbc519.png",
     "static/media/colorchange.png": "/static/media/colorchange.4b9aa9e42c7663a13eed.png",
     "static/media/journeymap.png": "/static/media/journeymap.52677b92ae7e356e331c.png",
     "static/media/midfifilms.png": "/static/media/midfifilms.314c2b02353856f986e1.png",
     "static/media/serviceprovideriterations.png": "/static/media/serviceprovideriterations.24e1fcc08d4eb8f6f464.png",
+    "static/media/bridgepo.jpg": "/static/media/bridgepo.9477e4abe189e7792d74.jpg",
     "static/media/applyknowledge.png": "/static/media/applyknowledge.e1c80d97ed8ad61bdd89.png",
     "static/media/customerrecipephone.png": "/static/media/customerrecipephone.1ec15e3400ad932b2f1d.png",
     "static/media/browsefilmsquickly.png": "/static/media/browsefilmsquickly.d94ec20a6b4903699631.png",
@@ -152,12 +155,12 @@
     "static/media/calview3.png": "/static/media/calview3.2a2cd3036859994bb8b8.png",
     "static/media/bridge.png": "/static/media/bridge.6ff816bba022d1eb88e1.png",
     "index.html": "/index.html",
-    "main.0867887e.css.map": "/static/css/main.0867887e.css.map",
-    "main.2ea54150.js.map": "/static/js/main.2ea54150.js.map",
+    "main.03d57e63.css.map": "/static/css/main.03d57e63.css.map",
+    "main.cd5dd6fd.js.map": "/static/js/main.cd5dd6fd.js.map",
     "453.b360f362.chunk.js.map": "/static/js/453.b360f362.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0867887e.css",
-    "static/js/main.2ea54150.js"
+    "static/css/main.03d57e63.css",
+    "static/js/main.cd5dd6fd.js"
   ]
 }
