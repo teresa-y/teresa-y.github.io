@@ -14,7 +14,7 @@ p{
   margin-bottom: 30px;
   color:#727272;
   font-size:15px;
-  line-height:23px;
+  line-height:18px;
 }
 
 h1{
@@ -304,6 +304,11 @@ iframe{
   color:black;
 }
 
+.intro .top{
+  width:65%;
+  
+}
+
 
 .intro-pic img{
   width: auto;
@@ -334,10 +339,12 @@ iframe{
     /* margin: 10% 5%; */
     justify-content: space-between;
     /* flex-wrap: wrap; */
+
   }
 
   .intro .top{
     font-size: 20px;
+    width:100%;
   }
 
   .intro .bottom{

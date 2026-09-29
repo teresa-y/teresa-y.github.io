@@ -19,7 +19,6 @@ const projectData = [
     // "skills": "zero-to-one, product design",
     "url" : "/bridge",
     "target" : "",
-    "comingSoon": true // 
   },
 
   {

@@ -1,11 +1,30 @@
 
 
 export default function ProjectOverview(props) {
+    
     return (
         <div className = "project-overview-container">
 
             <div className = "project-overview-pic">
-            <video
+
+                                {/\.(webm|mp4|mov)$/i.test(props.pic) ? (
+                    <video
+                        src={props.pic}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        style={{ pointerEvents: 'none' }}
+                    />
+                ) : (
+                    <img
+                        src={props.pic}
+                        alt={props.title}
+                        style={{ pointerEvents: 'none' }}
+                    />
+                )}
+
+            {/* <video
                 src={props.pic}
                 type="video/webm"
                 autoPlay
@@ -13,7 +32,7 @@ export default function ProjectOverview(props) {
                 muted
                 playsInline
                 style={{ pointerEvents: 'none' }}
-      />
+      /> */}
             </div>
 
             <div className = "project-overview-title">
